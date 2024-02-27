@@ -14,11 +14,65 @@
     <managingEditor>krishnannavadia@gmail.com (g4nd1v)</managingEditor>
     <webMaster>krishnannavadia@gmail.com (g4nd1v)</webMaster>
     <copyright>©2024, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 25 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Feb 2024 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://g4nd1v.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>Hydra</title>
+        <link>https://g4nd1v.github.io/tags/hydra/</link>
+        <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        
+        <guid>https://g4nd1v.github.io/tags/hydra/</guid>
+        <description></description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Python-Library-Hijacking</title>
+        <link>https://g4nd1v.github.io/tags/python-library-hijacking/</link>
+        <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        
+        <guid>https://g4nd1v.github.io/tags/python-library-hijacking/</guid>
+        <description></description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>TryHackMe</title>
+        <link>https://g4nd1v.github.io/tags/tryhackme/</link>
+        <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        
+        <guid>https://g4nd1v.github.io/tags/tryhackme/</guid>
+        <description></description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>cronjob</title>
@@ -45,24 +99,6 @@
         <author>krishnannavadia@gmail.com (g4nd1v)</author>
         
         <guid>https://g4nd1v.github.io/tags/pyjail/</guid>
-        <description></description>
-        
-        <dc:creator>g4nd1v</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>TryHackMe</title>
-        <link>https://g4nd1v.github.io/tags/tryhackme/</link>
-        <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
-        <author>krishnannavadia@gmail.com (g4nd1v)</author>
-        
-        <guid>https://g4nd1v.github.io/tags/tryhackme/</guid>
         <description></description>
         
         <dc:creator>g4nd1v</dc:creator>
@@ -153,42 +189,6 @@
         <author>krishnannavadia@gmail.com (g4nd1v)</author>
         
         <guid>https://g4nd1v.github.io/tags/john-the-ripper/</guid>
-        <description></description>
-        
-        <dc:creator>g4nd1v</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Shellshock</title>
-        <link>https://g4nd1v.github.io/tags/shellshock/</link>
-        <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
-        <author>krishnannavadia@gmail.com (g4nd1v)</author>
-        
-        <guid>https://g4nd1v.github.io/tags/shellshock/</guid>
-        <description></description>
-        
-        <dc:creator>g4nd1v</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>index</title>
-        <link>https://g4nd1v.github.io/tags/index/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        <author>krishnannavadia@gmail.com (g4nd1v)</author>
-        
-        <guid>https://g4nd1v.github.io/tags/index/</guid>
         <description></description>
         
         <dc:creator>g4nd1v</dc:creator>
