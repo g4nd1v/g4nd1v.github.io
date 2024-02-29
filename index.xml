@@ -14,7 +14,7 @@
     <managingEditor>krishnannavadia@gmail.com (g4nd1v)</managingEditor>
     <webMaster>krishnannavadia@gmail.com (g4nd1v)</webMaster>
     <copyright>©2024, All Rights Reserved</copyright>
-    <lastBuildDate>Wed, 28 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Feb 2024 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://g4nd1v.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -40,6 +40,60 @@
         
       
 
+      
+      <item>
+        <title>TryHackMe Writeup - Agent Sudo Room</title>
+        <link>https://g4nd1v.github.io/posts/tryhackme-agentsudo/</link>
+        <pubDate>Thu, 29 Feb 2024 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        <atom:modified>Thu, 29 Feb 2024 00:00:00 +0000</atom:modified>
+        <guid>https://g4nd1v.github.io/posts/tryhackme-agentsudo/</guid>
+        <description>Title https://tryhackme.com/room/agentsudoctf Description You found a secret server located under the deep sea. Your task is to hack inside the server and reveal the truth. Difficulty Easy Maker https://tryhackme.com/p/DesKel Nmap 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 └─$ nmap -sC -sV -oA nmap/agentsudo 10.10.235.44 Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-02-29 15:57 EST Nmap scan report for 10.10.235.44 Host is up (0.</description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        <media:content url="https://g4nd1v.github.ioimages/AgentSudo/banner.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>TryHackMe</category>
+            
+          
+            
+              <category>Bruteforce</category>
+            
+          
+            
+              <category>FTP</category>
+            
+          
+            
+              <category>Hydra</category>
+            
+          
+            
+              <category>CVE</category>
+            
+          
+            
+              <category>Steganography</category>
+            
+          
+        
+        
+          
+            
+              <category>TryHackMe</category>
+            
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+      </item>
       
       <item>
         <title>TryHackMe Writeup - Blueprint Room</title>

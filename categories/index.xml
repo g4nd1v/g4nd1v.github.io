@@ -14,16 +14,34 @@
     <managingEditor>krishnannavadia@gmail.com (g4nd1v)</managingEditor>
     <webMaster>krishnannavadia@gmail.com (g4nd1v)</webMaster>
     <copyright>©2024, All Rights Reserved</copyright>
-    <lastBuildDate>Wed, 28 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Feb 2024 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://g4nd1v.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
+        <title>Linux</title>
+        <link>https://g4nd1v.github.io/categories/linux/</link>
+        <pubDate>Thu, 29 Feb 2024 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        
+        <guid>https://g4nd1v.github.io/categories/linux/</guid>
+        <description></description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
         <title>TryHackMe</title>
         <link>https://g4nd1v.github.io/categories/tryhackme/</link>
-        <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 29 Feb 2024 00:00:00 +0000</pubDate>
         <author>krishnannavadia@gmail.com (g4nd1v)</author>
         
         <guid>https://g4nd1v.github.io/categories/tryhackme/</guid>
@@ -45,24 +63,6 @@
         <author>krishnannavadia@gmail.com (g4nd1v)</author>
         
         <guid>https://g4nd1v.github.io/categories/windows/</guid>
-        <description></description>
-        
-        <dc:creator>g4nd1v</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Linux</title>
-        <link>https://g4nd1v.github.io/categories/linux/</link>
-        <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
-        <author>krishnannavadia@gmail.com (g4nd1v)</author>
-        
-        <guid>https://g4nd1v.github.io/categories/linux/</guid>
         <description></description>
         
         <dc:creator>g4nd1v</dc:creator>

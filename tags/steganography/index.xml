@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>Hydra on g4nd1v</title>
-    <link>https://g4nd1v.github.io/tags/hydra/</link>
-    <description>Recent content in Hydra on g4nd1v</description>
+    <title>Steganography on g4nd1v</title>
+    <link>https://g4nd1v.github.io/tags/steganography/</link>
+    <description>Recent content in Steganography on g4nd1v</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>krishnannavadia@gmail.com (g4nd1v)</managingEditor>
@@ -16,7 +16,7 @@
     <copyright>©2024, All Rights Reserved</copyright>
     <lastBuildDate>Thu, 29 Feb 2024 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://g4nd1v.github.io/tags/hydra/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://g4nd1v.github.io/tags/steganography/index.xml" rel="self" type="application/rss+xml" />
     
 
       
@@ -57,48 +57,6 @@
           
             
               <category>Steganography</category>
-            
-          
-        
-        
-          
-            
-              <category>TryHackMe</category>
-            
-          
-            
-              <category>Linux</category>
-            
-          
-        
-        
-      </item>
-      
-      <item>
-        <title>TryHackMe Writeup - Library Room</title>
-        <link>https://g4nd1v.github.io/posts/tryhackme-library/</link>
-        <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
-        <author>krishnannavadia@gmail.com (g4nd1v)</author>
-        <atom:modified>Tue, 27 Feb 2024 00:00:00 +0000</atom:modified>
-        <guid>https://g4nd1v.github.io/posts/tryhackme-library/</guid>
-        <description>Title https://tryhackme.com/room/bsidesgtlibrary Description boot2root machine for FIT and bsides guatemala CTF Difficulty Easy Maker https://tryhackme.com/p/stuxnet Nmap 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 └─$ nmap -sC -sV -oA nmap/library 10.10.157.19 Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-02-27 11:55 EST Nmap scan report for 10.10.157.19 Host is up (0.10s latency). Not shown: 998 closed tcp ports (conn-refused) PORT STATE SERVICE VERSION 22/tcp open ssh OpenSSH 7.</description>
-        
-        <dc:creator>g4nd1v</dc:creator>
-        <media:content url="https://g4nd1v.github.ioimages/Library/banner.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>TryHackMe</category>
-            
-          
-            
-              <category>Hydra</category>
-            
-          
-            
-              <category>Python-Library-Hijacking</category>
             
           
         
