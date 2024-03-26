@@ -14,19 +14,19 @@
     <managingEditor>krishnannavadia@gmail.com (g4nd1v)</managingEditor>
     <webMaster>krishnannavadia@gmail.com (g4nd1v)</webMaster>
     <copyright>©2024, All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 29 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 26 Mar 2024 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://g4nd1v.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
-        <title>Bruteforce</title>
-        <link>https://g4nd1v.github.io/tags/bruteforce/</link>
-        <pubDate>Thu, 29 Feb 2024 00:00:00 +0000</pubDate>
+        <title>CVE</title>
+        <link>https://g4nd1v.github.io/tags/cve/</link>
+        <pubDate>Tue, 26 Mar 2024 00:00:00 +0000</pubDate>
         <author>krishnannavadia@gmail.com (g4nd1v)</author>
         
-        <guid>https://g4nd1v.github.io/tags/bruteforce/</guid>
+        <guid>https://g4nd1v.github.io/tags/cve/</guid>
         <description></description>
         
         <dc:creator>g4nd1v</dc:creator>
@@ -39,12 +39,30 @@
       </item>
       
       <item>
-        <title>CVE</title>
-        <link>https://g4nd1v.github.io/tags/cve/</link>
+        <title>HackTheBox</title>
+        <link>https://g4nd1v.github.io/tags/hackthebox/</link>
+        <pubDate>Tue, 26 Mar 2024 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        
+        <guid>https://g4nd1v.github.io/tags/hackthebox/</guid>
+        <description></description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Bruteforce</title>
+        <link>https://g4nd1v.github.io/tags/bruteforce/</link>
         <pubDate>Thu, 29 Feb 2024 00:00:00 +0000</pubDate>
         <author>krishnannavadia@gmail.com (g4nd1v)</author>
         
-        <guid>https://g4nd1v.github.io/tags/cve/</guid>
+        <guid>https://g4nd1v.github.io/tags/bruteforce/</guid>
         <description></description>
         
         <dc:creator>g4nd1v</dc:creator>
@@ -171,24 +189,6 @@
         <author>krishnannavadia@gmail.com (g4nd1v)</author>
         
         <guid>https://g4nd1v.github.io/tags/cronjob/</guid>
-        <description></description>
-        
-        <dc:creator>g4nd1v</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>pyjail</title>
-        <link>https://g4nd1v.github.io/tags/pyjail/</link>
-        <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
-        <author>krishnannavadia@gmail.com (g4nd1v)</author>
-        
-        <guid>https://g4nd1v.github.io/tags/pyjail/</guid>
         <description></description>
         
         <dc:creator>g4nd1v</dc:creator>
