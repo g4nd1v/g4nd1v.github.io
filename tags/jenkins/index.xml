@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>HackTheBox on g4nd1v</title>
-    <link>https://g4nd1v.github.io/categories/hackthebox/</link>
-    <description>Recent content in HackTheBox on g4nd1v</description>
+    <title>Jenkins on g4nd1v</title>
+    <link>https://g4nd1v.github.io/tags/jenkins/</link>
+    <description>Recent content in Jenkins on g4nd1v</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>krishnannavadia@gmail.com (g4nd1v)</managingEditor>
@@ -16,7 +16,7 @@
     <copyright>©2024, All Rights Reserved</copyright>
     <lastBuildDate>Sun, 19 May 2024 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://g4nd1v.github.io/categories/hackthebox/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://g4nd1v.github.io/tags/jenkins/index.xml" rel="self" type="application/rss+xml" />
     
 
       
@@ -45,44 +45,6 @@
           
             
               <category>Jenkins</category>
-            
-          
-        
-        
-          
-            
-              <category>HackTheBox</category>
-            
-          
-            
-              <category>Linux</category>
-            
-          
-        
-        
-      </item>
-      
-      <item>
-        <title>HackTheBox Writeup - Analytics Room</title>
-        <link>https://g4nd1v.github.io/posts/hackthebox-analytics/</link>
-        <pubDate>Tue, 26 Mar 2024 00:00:00 +0000</pubDate>
-        <author>krishnannavadia@gmail.com (g4nd1v)</author>
-        <atom:modified>Tue, 26 Mar 2024 00:00:00 +0000</atom:modified>
-        <guid>https://g4nd1v.github.io/posts/hackthebox-analytics/</guid>
-        <description>Title Analytics Description Analytics is HackTheBox Easy Linux Based Machine. Difficulty Easy Maker 7u9y and TheCyberGeek Nmap 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 └─$ nmap -sC -sV -oA nmap/analytics 10.10.11.233 Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-03-25 20:13 EDT Nmap scan report for 10.10.11.233 Host is up (0.038s latency). Not shown: 998 closed tcp ports (conn-refused) PORT STATE SERVICE VERSION 22/tcp open ssh OpenSSH 8.</description>
-        
-        <dc:creator>g4nd1v</dc:creator>
-        <media:content url="https://g4nd1v.github.ioimages/Analytics/banner.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>HackTheBox</category>
-            
-          
-            
-              <category>CVE</category>
             
           
         
