@@ -48,7 +48,7 @@
         <author>krishnannavadia@gmail.com (g4nd1v)</author>
         <atom:modified>Sun, 19 May 2024 00:00:00 +0000</atom:modified>
         <guid>https://g4nd1v.github.io/posts/hackthebox-builder/</guid>
-        <description>Title https://app.hackthebox.com/machines/Builder Description Builder is HackTheBox Medium Linux Based Machine. Difficulty Medium Maker https://app.hackthebox.com/users/159204https://app.hackthebox.com/users/123322 Nmap 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 └─$ nmap -sC -sV -oA nmap/builder 10.10.11.10 Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-05-18 22:59 EDT Nmap scan report for 10.10.11.10 Host is up (0.055s latency). Not shown: 998 closed tcp ports (conn-refused) PORT STATE SERVICE VERSION 22/tcp open ssh OpenSSH 8.</description>
+        <description>Title Builder Description Builder is HackTheBox Medium Linux Based Machine. Difficulty Medium Maker polarbearer and amra13579 Nmap 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 └─$ nmap -sC -sV -oA nmap/builder 10.10.11.10 Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-05-18 22:59 EDT Nmap scan report for 10.10.11.10 Host is up (0.055s latency). Not shown: 998 closed tcp ports (conn-refused) PORT STATE SERVICE VERSION 22/tcp open ssh OpenSSH 8.</description>
         
         <dc:creator>g4nd1v</dc:creator>
         <media:content url="https://g4nd1v.github.ioimages/Builder/banner.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
