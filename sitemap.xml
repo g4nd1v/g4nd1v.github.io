@@ -3,33 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://g4nd1v.github.io/</loc>
-    <lastmod>2024-05-19T00:00:00+00:00</lastmod>
+    <lastmod>2024-05-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://g4nd1v.github.io/categories/</loc>
-    <lastmod>2024-05-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://g4nd1v.github.io/tags/cve/</loc>
-    <lastmod>2024-05-19T00:00:00+00:00</lastmod>
+    <lastmod>2024-05-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://g4nd1v.github.io/tags/hackthebox/</loc>
-    <lastmod>2024-05-19T00:00:00+00:00</lastmod>
+    <lastmod>2024-05-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://g4nd1v.github.io/categories/hackthebox/</loc>
+    <lastmod>2024-05-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/posts/hackthebox-monitored/</loc>
+    <lastmod>2024-05-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/categories/linux/</loc>
+    <lastmod>2024-05-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/nagios/</loc>
+    <lastmod>2024-05-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/posts/</loc>
+    <lastmod>2024-05-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/snmp/</loc>
+    <lastmod>2024-05-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/</loc>
+    <lastmod>2024-05-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/cve/</loc>
     <lastmod>2024-05-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://g4nd1v.github.io/posts/hackthebox-builder/</loc>
     <lastmod>2024-05-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://g4nd1v.github.io/tags/jenkins/</loc>
-    <lastmod>2024-05-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://g4nd1v.github.io/categories/linux/</loc>
-    <lastmod>2024-05-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://g4nd1v.github.io/posts/</loc>
-    <lastmod>2024-05-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://g4nd1v.github.io/tags/</loc>
     <lastmod>2024-05-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://g4nd1v.github.io/posts/hackthebox-analytics/</loc>
