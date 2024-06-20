@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>TryHackMe/Linux on g4nd1v</title>
+    <link>https://g4nd1v.github.io/categories/tryhackme/linux/</link>
+    <description>Recent content in TryHackMe/Linux on g4nd1v</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>krishnannavadia@gmail.com (g4nd1v)</managingEditor>
+    <webMaster>krishnannavadia@gmail.com (g4nd1v)</webMaster>
+    <copyright>©2024, All Rights Reserved</copyright>
+    
+        <atom:link href="https://g4nd1v.github.io/categories/tryhackme/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>TryHackMe Writeup - CyberLens Room</title>
+        <link>https://g4nd1v.github.io/posts/tryhackme-cyberlens/</link>
+        <pubDate>Wed, 19 Jun 2024 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        <atom:modified>Wed, 19 Jun 2024 00:00:00 +0000</atom:modified>
+        <guid>https://g4nd1v.github.io/posts/tryhackme-cyberlens/</guid>
+        <description>mkingdom Title CyberLens Description Can you exploit the CyberLens web server and discover the hidden flags? Difficulty Easy Maker TeneBrae93 and tgreenMWR Nmap [└─$ nmap -sC -sV -oA nmap/mkingdom 10.10.0.63# Nmap 7.94SVN scan initiated Tue Jun 18 11:40:55 2024 as: nmap -sC -sV -oA nmap/mkingdom 10.10.0.63Nmap scan report for 10.10.0.63Host is up (0.10s latency).Not shown: 999 closed tcp ports (conn-refused)PORT STATE SERVICE VERSION85/tcp open http Apache httpd 2.</description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        <media:content url="https://g4nd1v.github.ioimages/CyberLens/banner.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>TryHackMe</category>
+            
+          
+            
+              <category>CVE-2018-1335</category>
+            
+          
+            
+              <category>Metasploit</category>
+            
+          
+        
+        
+          
+            
+              <category>TryHackMe</category>
+            
+          
+            
+              <category>TryHackMe/Linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>TryHackMe Writeup - CyberLens Room</title>
+        <link>https://g4nd1v.github.io/posts/tryhackme-cyberlens/</link>
+        <pubDate>Wed, 19 Jun 2024 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        <atom:modified>Wed, 19 Jun 2024 00:00:00 +0000</atom:modified>
+        <guid>https://g4nd1v.github.io/posts/tryhackme-cyberlens/</guid>
+        <description>mkingdom Title CyberLens Description Can you exploit the CyberLens web server and discover the hidden flags? Difficulty Easy Maker TeneBrae93 and tgreenMWR Nmap [└─$ nmap -sC -sV -oA nmap/mkingdom 10.10.0.63# Nmap 7.94SVN scan initiated Tue Jun 18 11:40:55 2024 as: nmap -sC -sV -oA nmap/mkingdom 10.10.0.63Nmap scan report for 10.10.0.63Host is up (0.10s latency).Not shown: 999 closed tcp ports (conn-refused)PORT STATE SERVICE VERSION85/tcp open http Apache httpd 2.</description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        <media:content url="https://g4nd1v.github.ioimages/CyberLens/banner.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>TryHackMe</category>
+            
+          
+            
+              <category>CVE-2018-1335</category>
+            
+          
+            
+              <category>Metasploit</category>
+            
+          
+        
+        
+          
+            
+              <category>TryHackMe</category>
+            
+          
+            
+              <category>TryHackMe/Linux</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

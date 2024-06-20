@@ -14,11 +14,65 @@
     <managingEditor>krishnannavadia@gmail.com (g4nd1v)</managingEditor>
     <webMaster>krishnannavadia@gmail.com (g4nd1v)</webMaster>
     <copyright>©2024, All Rights Reserved</copyright>
-    <lastBuildDate>Tue, 21 May 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Jun 2024 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://g4nd1v.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>CVE-2018-1335</title>
+        <link>https://g4nd1v.github.io/tags/cve-2018-1335/</link>
+        <pubDate>Wed, 19 Jun 2024 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        
+        <guid>https://g4nd1v.github.io/tags/cve-2018-1335/</guid>
+        <description></description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Metasploit</title>
+        <link>https://g4nd1v.github.io/tags/metasploit/</link>
+        <pubDate>Wed, 19 Jun 2024 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        
+        <guid>https://g4nd1v.github.io/tags/metasploit/</guid>
+        <description></description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>TryHackMe</title>
+        <link>https://g4nd1v.github.io/tags/tryhackme/</link>
+        <pubDate>Wed, 19 Jun 2024 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        
+        <guid>https://g4nd1v.github.io/tags/tryhackme/</guid>
+        <description></description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>HackTheBox</title>
@@ -135,60 +189,6 @@
         <author>krishnannavadia@gmail.com (g4nd1v)</author>
         
         <guid>https://g4nd1v.github.io/tags/ftp/</guid>
-        <description></description>
-        
-        <dc:creator>g4nd1v</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Hydra</title>
-        <link>https://g4nd1v.github.io/tags/hydra/</link>
-        <pubDate>Thu, 29 Feb 2024 00:00:00 +0000</pubDate>
-        <author>krishnannavadia@gmail.com (g4nd1v)</author>
-        
-        <guid>https://g4nd1v.github.io/tags/hydra/</guid>
-        <description></description>
-        
-        <dc:creator>g4nd1v</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Steganography</title>
-        <link>https://g4nd1v.github.io/tags/steganography/</link>
-        <pubDate>Thu, 29 Feb 2024 00:00:00 +0000</pubDate>
-        <author>krishnannavadia@gmail.com (g4nd1v)</author>
-        
-        <guid>https://g4nd1v.github.io/tags/steganography/</guid>
-        <description></description>
-        
-        <dc:creator>g4nd1v</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>TryHackMe</title>
-        <link>https://g4nd1v.github.io/tags/tryhackme/</link>
-        <pubDate>Thu, 29 Feb 2024 00:00:00 +0000</pubDate>
-        <author>krishnannavadia@gmail.com (g4nd1v)</author>
-        
-        <guid>https://g4nd1v.github.io/tags/tryhackme/</guid>
         <description></description>
         
         <dc:creator>g4nd1v</dc:creator>
