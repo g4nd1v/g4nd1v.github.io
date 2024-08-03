@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Tool/gobuster on g4nd1v</title>
+    <link>https://g4nd1v.github.io/tags/tool/gobuster/</link>
+    <description>Recent content in Tool/gobuster on g4nd1v</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>krishnannavadia@gmail.com (g4nd1v)</managingEditor>
+    <webMaster>krishnannavadia@gmail.com (g4nd1v)</webMaster>
+    <copyright>©2024, All Rights Reserved</copyright>
+    
+        <atom:link href="https://g4nd1v.github.io/tags/tool/gobuster/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>HackTheBox Writeup - IClean Room</title>
+        <link>https://g4nd1v.github.io/posts/hackthebox-iclean/</link>
+        <pubDate>Sat, 03 Aug 2024 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        <atom:modified>Sat, 03 Aug 2024 00:00:00 +0000</atom:modified>
+        <guid>https://g4nd1v.github.io/posts/hackthebox-iclean/</guid>
+        <description>Title IClean Description IClean is a medium-difficulty Linux machine featuring a website for a cleaning services company. The website contains a form where users can request a quote, which is found to be vulnerable to Cross-Site Scripting (XSS). This vulnerability is exploited to steal an admin cookie, which is then used to access the administrator dashboard. The page is vulnerable to Server-Side Template Injection (SSTI), allowing us to obtain a reverse shell on the box.</description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        <media:content url="https://g4nd1v.github.ioimages/IClean/banner.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>HackTheBox</category>
+            
+          
+            
+              <category>Vulnerability/XSS</category>
+            
+          
+            
+              <category>Tool/gobuster</category>
+            
+          
+            
+              <category>Vulnerability/SSTI</category>
+            
+          
+            
+              <category>Application/mysql</category>
+            
+          
+        
+        
+          
+            
+              <category>HackTheBox</category>
+            
+          
+            
+              <category>HackTheBox/Linux</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

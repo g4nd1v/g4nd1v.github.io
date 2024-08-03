@@ -14,11 +14,61 @@
     <managingEditor>krishnannavadia@gmail.com (g4nd1v)</managingEditor>
     <webMaster>krishnannavadia@gmail.com (g4nd1v)</webMaster>
     <copyright>©2024, All Rights Reserved</copyright>
-    <lastBuildDate>Wed, 03 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 03 Aug 2024 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://g4nd1v.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>HackTheBox Writeup - IClean Room</title>
+        <link>https://g4nd1v.github.io/posts/hackthebox-iclean/</link>
+        <pubDate>Sat, 03 Aug 2024 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        <atom:modified>Sat, 03 Aug 2024 00:00:00 +0000</atom:modified>
+        <guid>https://g4nd1v.github.io/posts/hackthebox-iclean/</guid>
+        <description>Title IClean Description IClean is a medium-difficulty Linux machine featuring a website for a cleaning services company. The website contains a form where users can request a quote, which is found to be vulnerable to Cross-Site Scripting (XSS). This vulnerability is exploited to steal an admin cookie, which is then used to access the administrator dashboard. The page is vulnerable to Server-Side Template Injection (SSTI), allowing us to obtain a reverse shell on the box.</description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        <media:content url="https://g4nd1v.github.ioimages/IClean/banner.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>HackTheBox</category>
+            
+          
+            
+              <category>XSS</category>
+            
+          
+            
+              <category>gobuster</category>
+            
+          
+            
+              <category>SSTI</category>
+            
+          
+            
+              <category>mysql</category>
+            
+          
+        
+        
+          
+            
+              <category>HackTheBox</category>
+            
+          
+            
+              <category>HackTheBox/Linux</category>
+            
+          
+        
+        
+      </item>
       
       <item>
         <title>HackTheBox Writeup - Office Room</title>
@@ -427,48 +477,6 @@
           
             
               <category>Python-Library-Hijacking</category>
-            
-          
-        
-        
-          
-            
-              <category>TryHackMe</category>
-            
-          
-            
-              <category>Linux</category>
-            
-          
-        
-        
-      </item>
-      
-      <item>
-        <title>TryHackMe Writeup - Develpy Room</title>
-        <link>https://g4nd1v.github.io/posts/tryhackme-develpy/</link>
-        <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
-        <author>krishnannavadia@gmail.com (g4nd1v)</author>
-        <atom:modified>Sun, 25 Feb 2024 00:00:00 +0000</atom:modified>
-        <guid>https://g4nd1v.github.io/posts/tryhackme-develpy/</guid>
-        <description>Title https://tryhackme.com/room/bsidesgtdevelpy Description boot2root machine for FIT and bsides Guatemala CTF Difficulty Medium Maker https://tryhackme.com/p/stuxnet Nmap 1 2 3 4 5 6 7 8 └─$ nmap 10.10.224.39 Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-02-23 18:52 EST Nmap scan report for 10.10.224.39 Host is up (0.096s latency). Not shown: 998 closed tcp ports (conn-refused) PORT STATE SERVICE 22/tcp open ssh 10000/tcp open snet-sensor-mgmt 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 └─$ nmap -n -sV --script &amp;#34;ndmp-fs-info&amp;#34; -p 10000 10.</description>
-        
-        <dc:creator>g4nd1v</dc:creator>
-        <media:content url="https://g4nd1v.github.ioimages/Develpy/banner.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>TryHackMe</category>
-            
-          
-            
-              <category>pyjail</category>
-            
-          
-            
-              <category>cronjob</category>
             
           
         
