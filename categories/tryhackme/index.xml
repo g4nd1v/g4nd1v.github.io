@@ -14,11 +14,42 @@
     <managingEditor>krishnannavadia@gmail.com (g4nd1v)</managingEditor>
     <webMaster>krishnannavadia@gmail.com (g4nd1v)</webMaster>
     <copyright>©2024, All Rights Reserved</copyright>
-    <lastBuildDate>Wed, 19 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 26 Oct 2024 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://g4nd1v.github.io/categories/tryhackme/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>TryHackMe Writeup - The Lay of the Land</title>
+        <link>https://g4nd1v.github.io/posts/tryhackme-the-lay-of-the-land/</link>
+        <pubDate>Sat, 26 Oct 2024 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        <atom:modified>Sat, 26 Oct 2024 00:00:00 +0000</atom:modified>
+        <guid>https://g4nd1v.github.io/posts/tryhackme-the-lay-of-the-land/</guid>
+        <description>Title The Lay of the Land Description Learn about and get hands-on with common technologies and security products used in corporate environments; both host and network-based security solutions are covered. Difficulty Easy Maker tryhackme Task 1: Introduction This room introduces commonly-used concepts, technologies, and security products that we need to be aware of.
+In this room, the assumption is that we have already gained access to the machine, and we are ready to expand our knowledge more about the environment by performing enumerating for the following:</description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        <media:content url="https://g4nd1v.github.ioimages/thm-the-lay-of-the-land/banner.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>TryHackMe</category>
+            
+          
+        
+        
+          
+            
+              <category>TryHackMe</category>
+            
+          
+        
+        
+      </item>
       
       <item>
         <title>TryHackMe Writeup - CyberLens Room</title>
