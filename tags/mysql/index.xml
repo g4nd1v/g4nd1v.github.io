@@ -14,11 +14,61 @@
     <managingEditor>krishnannavadia@gmail.com (g4nd1v)</managingEditor>
     <webMaster>krishnannavadia@gmail.com (g4nd1v)</webMaster>
     <copyright>©2024, All Rights Reserved</copyright>
-    <lastBuildDate>Sat, 03 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Dec 2024 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://g4nd1v.github.io/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>HackTheBox Writeup - Busqueda Room</title>
+        <link>https://g4nd1v.github.io/posts/hackthebox-busqueda/</link>
+        <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        <atom:modified>Thu, 19 Dec 2024 00:00:00 +0000</atom:modified>
+        <guid>https://g4nd1v.github.io/posts/hackthebox-busqueda/</guid>
+        <description>Busqueda Title Busqueda Description Busqueda is an Easy Difficulty Linux machine that involves exploiting a command injection vulnerability present in a Python module. By leveraging this vulnerability, we gain user-level access to the machine. To escalate privileges to root, we discover credentials within a Git config file, allowing us to log into a local Gitea service. Additionally, we uncover that a system checkup script can be executed with root privileges by a specific user.</description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        <media:content url="https://g4nd1v.github.ioimages/Busqueda/banner.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>HackTheBox</category>
+            
+          
+            
+              <category>CVE-2023-43364</category>
+            
+          
+            
+              <category>docker</category>
+            
+          
+            
+              <category>gitea</category>
+            
+          
+            
+              <category>mysql</category>
+            
+          
+        
+        
+          
+            
+              <category>HackTheBox</category>
+            
+          
+            
+              <category>HackTheBox/Linux</category>
+            
+          
+        
+        
+      </item>
       
       <item>
         <title>HackTheBox Writeup - IClean Room</title>
