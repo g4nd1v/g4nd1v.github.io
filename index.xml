@@ -13,8 +13,8 @@
     <language>en</language>
     <managingEditor>krishnannavadia@gmail.com (g4nd1v)</managingEditor>
     <webMaster>krishnannavadia@gmail.com (g4nd1v)</webMaster>
-    <copyright>©2024, All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 19 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <copyright>©2025, All Rights Reserved</copyright>
+    <lastBuildDate>Thu, 06 Feb 2025 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://g4nd1v.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -40,6 +40,42 @@
         
       
 
+      
+      <item>
+        <title>Portswigger SQL Injection Writeups</title>
+        <link>https://g4nd1v.github.io/posts/portswigger-sql-injection/</link>
+        <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        <atom:modified>Thu, 06 Feb 2025 00:00:00 +0000</atom:modified>
+        <guid>https://g4nd1v.github.io/posts/portswigger-sql-injection/</guid>
+        <description>1. Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data This lab contains a SQL injection vulnerability in the product category filter. When the user selects a category, the application carries out a SQL query like the following:
+SELECT * FROM products WHERE category = &#39;Gifts&#39; AND released = 1
+To solve the lab, perform a SQL injection attack that causes the application to display one or more unreleased products.</description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        <media:content url="https://g4nd1v.github.ioimages/Portswigger-SQL-Injection/banner.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Portswigger</category>
+            
+          
+            
+              <category>SQL</category>
+            
+          
+        
+        
+          
+            
+              <category>Portswigger</category>
+            
+          
+        
+        
+      </item>
       
       <item>
         <title>HackTheBox Writeup - Busqueda Room</title>
@@ -448,60 +484,6 @@ In this room, the assumption is that we have already gained access to the machin
           
             
               <category>HackTheBox</category>
-            
-          
-            
-              <category>Linux</category>
-            
-          
-        
-        
-      </item>
-      
-      <item>
-        <title>TryHackMe Writeup - Agent Sudo Room</title>
-        <link>https://g4nd1v.github.io/posts/tryhackme-agentsudo/</link>
-        <pubDate>Thu, 29 Feb 2024 00:00:00 +0000</pubDate>
-        <author>krishnannavadia@gmail.com (g4nd1v)</author>
-        <atom:modified>Thu, 29 Feb 2024 00:00:00 +0000</atom:modified>
-        <guid>https://g4nd1v.github.io/posts/tryhackme-agentsudo/</guid>
-        <description>Title https://tryhackme.com/room/agentsudoctf Description You found a secret server located under the deep sea. Your task is to hack inside the server and reveal the truth. Difficulty Easy Maker https://tryhackme.com/p/DesKel Nmap 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 └─$ nmap -sC -sV -oA nmap/agentsudo 10.10.235.44 Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-02-29 15:57 EST Nmap scan report for 10.10.235.44 Host is up (0.</description>
-        
-        <dc:creator>g4nd1v</dc:creator>
-        <media:content url="https://g4nd1v.github.ioimages/AgentSudo/banner.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>TryHackMe</category>
-            
-          
-            
-              <category>Bruteforce</category>
-            
-          
-            
-              <category>FTP</category>
-            
-          
-            
-              <category>Hydra</category>
-            
-          
-            
-              <category>CVE</category>
-            
-          
-            
-              <category>Steganography</category>
-            
-          
-        
-        
-          
-            
-              <category>TryHackMe</category>
             
           
             
