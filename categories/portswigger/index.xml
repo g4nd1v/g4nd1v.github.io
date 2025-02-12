@@ -14,11 +14,49 @@
     <managingEditor>krishnannavadia@gmail.com (g4nd1v)</managingEditor>
     <webMaster>krishnannavadia@gmail.com (g4nd1v)</webMaster>
     <copyright>©2025, All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 06 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Feb 2025 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://g4nd1v.github.io/categories/portswigger/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>Portswigger XSS Writeups</title>
+        <link>https://g4nd1v.github.io/posts/portswigger-xss/</link>
+        <pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        <atom:modified>Wed, 12 Feb 2025 00:00:00 +0000</atom:modified>
+        <guid>https://g4nd1v.github.io/posts/portswigger-xss/</guid>
+        <description>1. Lab: Reflected XSS into HTML context with nothing encoded This lab contains a simple reflected cross-site scripting vulnerability in the search functionality.
+To solve the lab, perform a cross-site scripting attack that calls the alert function.
+Use generic payload to alert &amp;quot;&amp;gt;&amp;lt;script&amp;gt;alert(&amp;quot;g4nd1v&amp;quot;)&amp;lt;/script&amp;gt; in search functionality.
+2. Lab: Stored XSS into HTML context with nothing encoded This lab contains a stored cross-site scripting vulnerability in the comment functionality.
+To solve this lab, submit a comment that calls the alert function when the blog post is viewed.</description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        <media:content url="https://g4nd1v.github.ioimages/Portswigger-XSS/banner.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Portswigger</category>
+            
+          
+            
+              <category>XSS</category>
+            
+          
+        
+        
+          
+            
+              <category>Portswigger</category>
+            
+          
+        
+        
+      </item>
       
       <item>
         <title>Portswigger SQL Injection Writeups</title>
