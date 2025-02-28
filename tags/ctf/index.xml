@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>CTF on g4nd1v</title>
+    <link>https://g4nd1v.github.io/tags/ctf/</link>
+    <description>Recent content in CTF on g4nd1v</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>krishnannavadia@gmail.com (g4nd1v)</managingEditor>
+    <webMaster>krishnannavadia@gmail.com (g4nd1v)</webMaster>
+    <copyright>©2025, All Rights Reserved</copyright>
+    <lastBuildDate>Thu, 27 Feb 2025 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://g4nd1v.github.io/tags/ctf/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>MetaCTF 2025 CTF</title>
+        <link>https://g4nd1v.github.io/posts/ctf-metactf-25/</link>
+        <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        <atom:modified>Thu, 27 Feb 2025 00:00:00 +0000</atom:modified>
+        <guid>https://g4nd1v.github.io/posts/ctf-metactf-25/</guid>
+        <description>Cookie Crackdown Description We&amp;rsquo;re auditing some websites to check if they&amp;rsquo;re GDPR compliant, and I&amp;rsquo;m pretty sure this site isn&amp;rsquo;t&amp;hellip;
+Writeup When we visit the website, and when we open the devtools, we will see the flag in Cookie tab.
+Flag MetaCTF{n0nc0ns3nsu4l_c00ki3_cr4ckd0wn}
+better_eval() Description I just want to let people run python code, but they keep trying to read flag.txt. So, I made a better eval that has filters to stop this!</description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        <media:content url="https://g4nd1v.github.ioimages/MetaCTF-25/banner.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>CTF</category>
+            
+          
+        
+        
+          
+            
+              <category>CTF</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

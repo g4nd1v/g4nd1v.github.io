@@ -14,11 +14,29 @@
     <managingEditor>krishnannavadia@gmail.com (g4nd1v)</managingEditor>
     <webMaster>krishnannavadia@gmail.com (g4nd1v)</webMaster>
     <copyright>©2025, All Rights Reserved</copyright>
-    <lastBuildDate>Wed, 12 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Feb 2025 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://g4nd1v.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>CTF</title>
+        <link>https://g4nd1v.github.io/categories/ctf/</link>
+        <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        
+        <guid>https://g4nd1v.github.io/categories/ctf/</guid>
+        <description></description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>Portswigger</title>

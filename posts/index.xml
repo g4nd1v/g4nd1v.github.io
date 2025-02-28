@@ -14,11 +14,44 @@
     <managingEditor>krishnannavadia@gmail.com (g4nd1v)</managingEditor>
     <webMaster>krishnannavadia@gmail.com (g4nd1v)</webMaster>
     <copyright>©2025, All Rights Reserved</copyright>
-    <lastBuildDate>Wed, 12 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Feb 2025 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://g4nd1v.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>MetaCTF 2025 CTF</title>
+        <link>https://g4nd1v.github.io/posts/ctf-metactf-25/</link>
+        <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        <atom:modified>Thu, 27 Feb 2025 00:00:00 +0000</atom:modified>
+        <guid>https://g4nd1v.github.io/posts/ctf-metactf-25/</guid>
+        <description>Cookie Crackdown Description We&amp;rsquo;re auditing some websites to check if they&amp;rsquo;re GDPR compliant, and I&amp;rsquo;m pretty sure this site isn&amp;rsquo;t&amp;hellip;
+Writeup When we visit the website, and when we open the devtools, we will see the flag in Cookie tab.
+Flag MetaCTF{n0nc0ns3nsu4l_c00ki3_cr4ckd0wn}
+better_eval() Description I just want to let people run python code, but they keep trying to read flag.txt. So, I made a better eval that has filters to stop this!</description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        <media:content url="https://g4nd1v.github.ioimages/MetaCTF-25/banner.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>CTF</category>
+            
+          
+        
+        
+          
+            
+              <category>CTF</category>
+            
+          
+        
+        
+      </item>
       
       <item>
         <title>Portswigger XSS Writeups</title>
@@ -414,48 +447,6 @@ In this room, the assumption is that we have already gained access to the machin
           
             
               <category>nagios</category>
-            
-          
-        
-        
-          
-            
-              <category>HackTheBox</category>
-            
-          
-            
-              <category>Linux</category>
-            
-          
-        
-        
-      </item>
-      
-      <item>
-        <title>HackTheBox Writeup - Builder Room</title>
-        <link>https://g4nd1v.github.io/posts/hackthebox-builder/</link>
-        <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
-        <author>krishnannavadia@gmail.com (g4nd1v)</author>
-        <atom:modified>Sun, 19 May 2024 00:00:00 +0000</atom:modified>
-        <guid>https://g4nd1v.github.io/posts/hackthebox-builder/</guid>
-        <description>Title Builder Description Builder is HackTheBox Medium Linux Based Machine. Difficulty Medium Maker polarbearer and amra13579 Nmap 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 └─$ nmap -sC -sV -oA nmap/builder 10.10.11.10 Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-05-18 22:59 EDT Nmap scan report for 10.10.11.10 Host is up (0.055s latency). Not shown: 998 closed tcp ports (conn-refused) PORT STATE SERVICE VERSION 22/tcp open ssh OpenSSH 8.</description>
-        
-        <dc:creator>g4nd1v</dc:creator>
-        <media:content url="https://g4nd1v.github.ioimages/Builder/banner.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>HackTheBox</category>
-            
-          
-            
-              <category>CVE</category>
-            
-          
-            
-              <category>Jenkins</category>
             
           
         
