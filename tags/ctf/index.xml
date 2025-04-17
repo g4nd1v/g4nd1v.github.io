@@ -14,11 +14,42 @@
     <managingEditor>krishnannavadia@gmail.com (g4nd1v)</managingEditor>
     <webMaster>krishnannavadia@gmail.com (g4nd1v)</webMaster>
     <copyright>©2025, All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 27 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Apr 2025 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://g4nd1v.github.io/tags/ctf/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>Intigriti Writeup - hackdonalds challenge</title>
+        <link>https://g4nd1v.github.io/posts/ctf-hackdonalds/</link>
+        <pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        <atom:modified>Wed, 16 Apr 2025 00:00:00 +0000</atom:modified>
+        <guid>https://g4nd1v.github.io/posts/ctf-hackdonalds/</guid>
+        <description>Title hackdonalds Description Find the FLAG and win Intigriti swag! 🏆 Difficulty Easy Maker Bastien + CryptoCat Solution I was browsing web application and then I have checked all the endpoints in buildManifest file.
+1 &amp;#34;/&amp;#34;:[&amp;#34;static/chunks/pages/index-962b18549cc4f828.js&amp;#34;],&amp;#34;/_error&amp;#34;:[&amp;#34;static/chunks/pages/_error-8353112a01355ec2.js&amp;#34;],&amp;#34;/admin&amp;#34;:[&amp;#34;static/chunks/pages/admin-6c2dae3cae78011c.js&amp;#34;],&amp;#34;/ice-cream-detail/[id]&amp;#34;:[&amp;#34;static/chunks/pages/ice-cream-detail/[id]-b32c99038b6ec0fd.js&amp;#34;],&amp;#34;/ice-cream-machines&amp;#34;:[&amp;#34;static/chunks/pages/ice-cream-machines-b24176f8afd36ccb.js&amp;#34;],&amp;#34;/login&amp;#34;:[&amp;#34;static/chunks/pages/login-bbb35bf68527fb05.js&amp;#34;],&amp;#34;/menu&amp;#34;:[&amp;#34;static/chunks/pages/menu-52c4263910fef849.js&amp;#34;],sortedPages:[&amp;#34;/&amp;#34;,&amp;#34;/_app&amp;#34;,&amp;#34;/_error&amp;#34;,&amp;#34;/admin&amp;#34;,&amp;#34;/ice-cream-detail/[id]&amp;#34;,&amp;#34;/ice-cream-machines&amp;#34;,&amp;#34;/login&amp;#34;,&amp;#34;/menu&amp;#34;] There is a /admin page. Upon visiting this page, I am redirected to /login page. But NextJS we have CVE-2025-29927 which will bypass the authentication. Let&amp;rsquo;s try to add X-Middleware-Subrequest: middleware ad middleware and then send the request.</description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        <media:content url="https://g4nd1v.github.ioimages/HackDonalds/banner.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>CTF</category>
+            
+          
+        
+        
+          
+            
+              <category>CTF</category>
+            
+          
+        
+        
+      </item>
       
       <item>
         <title>MetaCTF 2025 CTF</title>
