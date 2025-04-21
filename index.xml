@@ -14,7 +14,7 @@
     <managingEditor>krishnannavadia@gmail.com (g4nd1v)</managingEditor>
     <webMaster>krishnannavadia@gmail.com (g4nd1v)</webMaster>
     <copyright>©2025, All Rights Reserved</copyright>
-    <lastBuildDate>Wed, 16 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 20 Apr 2025 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://g4nd1v.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -40,6 +40,39 @@
         
       
 
+      
+      <item>
+        <title>b01lers CTF 2025 writeups</title>
+        <link>https://g4nd1v.github.io/posts/ctf-b01lersc-2025/</link>
+        <pubDate>Sun, 20 Apr 2025 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        <atom:modified>Sun, 20 Apr 2025 00:00:00 +0000</atom:modified>
+        <guid>https://g4nd1v.github.io/posts/ctf-b01lersc-2025/</guid>
+        <description>web/when the sunk cost fallacy
+https://when.atreides.b01lersc.tf/
+Writeup To get the flag in this CTF challenge, we need to send a POST request to the /gamble endpoint with a specific Date header that results in the server generating a SHA-256 hash starting with two 0xFF bytes. Here&amp;rsquo;s how you can do it:
+Understanding the Vulnerability: The server uses the Date header from the request to generate a Unix timestamp. This timestamp is hashed using SHA-256, and if the first two bytes of the hash are 0xFF 0xFF, the flag is returned.</description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        <media:content url="https://g4nd1v.github.ioimages/ctf-b01lersc-2025/banner.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>CTF</category>
+            
+          
+        
+        
+          
+            
+              <category>CTF</category>
+            
+          
+        
+        
+      </item>
       
       <item>
         <title>Intigriti Writeup - hackdonalds challenge</title>
@@ -425,48 +458,6 @@ In this room, the assumption is that we have already gained access to the machin
           
             
               <category>HackTheBox/Linux</category>
-            
-          
-        
-        
-      </item>
-      
-      <item>
-        <title>TryHackMe Writeup - CyberLens Room</title>
-        <link>https://g4nd1v.github.io/posts/tryhackme-cyberlens/</link>
-        <pubDate>Wed, 19 Jun 2024 00:00:00 +0000</pubDate>
-        <author>krishnannavadia@gmail.com (g4nd1v)</author>
-        <atom:modified>Wed, 19 Jun 2024 00:00:00 +0000</atom:modified>
-        <guid>https://g4nd1v.github.io/posts/tryhackme-cyberlens/</guid>
-        <description>mkingdom Title CyberLens Description Can you exploit the CyberLens web server and discover the hidden flags? Difficulty Easy Maker TeneBrae93 and tgreenMWR Nmap [└─$ nmap -sC -sV -oA nmap/mkingdom 10.10.0.63# Nmap 7.94SVN scan initiated Tue Jun 18 11:40:55 2024 as: nmap -sC -sV -oA nmap/mkingdom 10.10.0.63Nmap scan report for 10.10.0.63Host is up (0.10s latency).Not shown: 999 closed tcp ports (conn-refused)PORT STATE SERVICE VERSION85/tcp open http Apache httpd 2.</description>
-        
-        <dc:creator>g4nd1v</dc:creator>
-        <media:content url="https://g4nd1v.github.ioimages/CyberLens/banner.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>TryHackMe</category>
-            
-          
-            
-              <category>CVE-2018-1335</category>
-            
-          
-            
-              <category>Metasploit</category>
-            
-          
-        
-        
-          
-            
-              <category>TryHackMe</category>
-            
-          
-            
-              <category>TryHackMe/Linux</category>
             
           
         
