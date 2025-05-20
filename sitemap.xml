@@ -3,24 +3,72 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://g4nd1v.github.io/</loc>
-    <lastmod>2025-04-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://g4nd1v.github.io/posts/ctf-b01lersc-2025/</loc>
-    <lastmod>2025-04-20T00:00:00+00:00</lastmod>
+    <lastmod>2025-05-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://g4nd1v.github.io/categories/</loc>
+    <lastmod>2025-05-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/command-injection/</loc>
+    <lastmod>2025-05-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/cve-2023-41425/</loc>
+    <lastmod>2025-05-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/feroxbuster/</loc>
+    <lastmod>2025-05-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/file-read/</loc>
+    <lastmod>2025-05-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/hackthebox/</loc>
+    <lastmod>2025-05-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/categories/hackthebox/</loc>
+    <lastmod>2025-05-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/posts/hackthebox-sea/</loc>
+    <lastmod>2025-05-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/hashcat/</loc>
+    <lastmod>2025-05-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/htb-sea/</loc>
+    <lastmod>2025-05-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/linpeas/</loc>
+    <lastmod>2025-05-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/posts/</loc>
+    <lastmod>2025-05-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/privilege-escalation/</loc>
+    <lastmod>2025-05-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/reverse-shell/</loc>
+    <lastmod>2025-05-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/ssh/</loc>
+    <lastmod>2025-05-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/</loc>
+    <lastmod>2025-05-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/tunneling/</loc>
+    <lastmod>2025-05-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/wondercms/</loc>
+    <lastmod>2025-05-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/xss/</loc>
+    <lastmod>2025-05-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/posts/ctf-b01lersc-2025/</loc>
     <lastmod>2025-04-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://g4nd1v.github.io/tags/ctf/</loc>
     <lastmod>2025-04-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://g4nd1v.github.io/categories/ctf/</loc>
-    <lastmod>2025-04-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://g4nd1v.github.io/posts/</loc>
-    <lastmod>2025-04-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://g4nd1v.github.io/tags/</loc>
     <lastmod>2025-04-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://g4nd1v.github.io/posts/ctf-hackdonalds/</loc>
@@ -38,9 +86,6 @@
     <loc>https://g4nd1v.github.io/posts/portswigger-xss/</loc>
     <lastmod>2025-02-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://g4nd1v.github.io/tags/xss/</loc>
-    <lastmod>2025-02-12T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://g4nd1v.github.io/posts/portswigger-sql-injection/</loc>
     <lastmod>2025-02-06T00:00:00+00:00</lastmod>
   </url><url>
@@ -54,12 +99,6 @@
     <lastmod>2024-12-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://g4nd1v.github.io/tags/gitea/</loc>
-    <lastmod>2024-12-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://g4nd1v.github.io/tags/hackthebox/</loc>
-    <lastmod>2024-12-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://g4nd1v.github.io/categories/hackthebox/</loc>
     <lastmod>2024-12-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://g4nd1v.github.io/posts/hackthebox-busqueda/</loc>
