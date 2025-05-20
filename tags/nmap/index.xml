@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>nmap on g4nd1v</title>
+    <link>https://g4nd1v.github.io/tags/nmap/</link>
+    <description>Recent content in nmap on g4nd1v</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>krishnannavadia@gmail.com (g4nd1v)</managingEditor>
+    <webMaster>krishnannavadia@gmail.com (g4nd1v)</webMaster>
+    <copyright>©2025, All Rights Reserved</copyright>
+    <lastBuildDate>Tue, 20 May 2025 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://g4nd1v.github.io/tags/nmap/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>HackTheBox Writeup - Markup Room</title>
+        <link>https://g4nd1v.github.io/posts/hackthebox-markup/</link>
+        <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        <atom:modified>Tue, 20 May 2025 00:00:00 +0000</atom:modified>
+        <guid>https://g4nd1v.github.io/posts/hackthebox-markup/</guid>
+        <description>Markup Title Markup Description Walkthrough of the &amp;ldquo;Markup&amp;rdquo; machine on HackTheBox, featuring enumeration, XML external entity (XXE) injection to gain a user shell, and privilege escalation via writable batch script to SYSTEM. Difficulty Very Easy Maker MrR3boot Enumeration Nmap 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 └─$ nmap -sC -sV 10.</description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        <media:content url="https://g4nd1v.github.ioimages/Markup/banner.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>HackTheBox</category>
+            
+          
+            
+              <category>htb-markup</category>
+            
+          
+            
+              <category>nmap</category>
+            
+          
+            
+              <category>xxe</category>
+            
+          
+            
+              <category>winbox</category>
+            
+          
+            
+              <category>xml-injection</category>
+            
+          
+            
+              <category>apache</category>
+            
+          
+            
+              <category>php</category>
+            
+          
+            
+              <category>ssh</category>
+            
+          
+            
+              <category>privilege-escalation</category>
+            
+          
+            
+              <category>batch-replacement</category>
+            
+          
+            
+              <category>reverse-shell</category>
+            
+          
+        
+        
+          
+            
+              <category>HackTheBox</category>
+            
+          
+            
+              <category>HackTheBox/Windows</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
