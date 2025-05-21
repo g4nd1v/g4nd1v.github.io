@@ -14,19 +14,19 @@
     <managingEditor>krishnannavadia@gmail.com (g4nd1v)</managingEditor>
     <webMaster>krishnannavadia@gmail.com (g4nd1v)</webMaster>
     <copyright>©2025, All Rights Reserved</copyright>
-    <lastBuildDate>Tue, 20 May 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 May 2025 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://g4nd1v.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
-        <title>apache</title>
-        <link>https://g4nd1v.github.io/tags/apache/</link>
-        <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
+        <title>bash-script</title>
+        <link>https://g4nd1v.github.io/tags/bash-script/</link>
+        <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
         <author>krishnannavadia@gmail.com (g4nd1v)</author>
         
-        <guid>https://g4nd1v.github.io/tags/apache/</guid>
+        <guid>https://g4nd1v.github.io/tags/bash-script/</guid>
         <description></description>
         
         <dc:creator>g4nd1v</dc:creator>
@@ -39,12 +39,12 @@
       </item>
       
       <item>
-        <title>batch-replacement</title>
-        <link>https://g4nd1v.github.io/tags/batch-replacement/</link>
-        <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
+        <title>cms</title>
+        <link>https://g4nd1v.github.io/tags/cms/</link>
+        <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
         <author>krishnannavadia@gmail.com (g4nd1v)</author>
         
-        <guid>https://g4nd1v.github.io/tags/batch-replacement/</guid>
+        <guid>https://g4nd1v.github.io/tags/cms/</guid>
         <description></description>
         
         <dc:creator>g4nd1v</dc:creator>
@@ -57,12 +57,30 @@
       </item>
       
       <item>
-        <title>gpp-password</title>
-        <link>https://g4nd1v.github.io/tags/gpp-password/</link>
-        <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
+        <title>CTF</title>
+        <link>https://g4nd1v.github.io/tags/ctf/</link>
+        <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
         <author>krishnannavadia@gmail.com (g4nd1v)</author>
         
-        <guid>https://g4nd1v.github.io/tags/gpp-password/</guid>
+        <guid>https://g4nd1v.github.io/tags/ctf/</guid>
+        <description></description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>file-upload</title>
+        <link>https://g4nd1v.github.io/tags/file-upload/</link>
+        <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        
+        <guid>https://g4nd1v.github.io/tags/file-upload/</guid>
         <description></description>
         
         <dc:creator>g4nd1v</dc:creator>
@@ -77,7 +95,7 @@
       <item>
         <title>HackTheBox</title>
         <link>https://g4nd1v.github.io/tags/hackthebox/</link>
-        <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
+        <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
         <author>krishnannavadia@gmail.com (g4nd1v)</author>
         
         <guid>https://g4nd1v.github.io/tags/hackthebox/</guid>
@@ -93,12 +111,12 @@
       </item>
       
       <item>
-        <title>htb-active</title>
-        <link>https://g4nd1v.github.io/tags/htb-active/</link>
-        <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
+        <title>htb-nibbles</title>
+        <link>https://g4nd1v.github.io/tags/htb-nibbles/</link>
+        <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
         <author>krishnannavadia@gmail.com (g4nd1v)</author>
         
-        <guid>https://g4nd1v.github.io/tags/htb-active/</guid>
+        <guid>https://g4nd1v.github.io/tags/htb-nibbles/</guid>
         <description></description>
         
         <dc:creator>g4nd1v</dc:creator>
@@ -111,12 +129,12 @@
       </item>
       
       <item>
-        <title>htb-markup</title>
-        <link>https://g4nd1v.github.io/tags/htb-markup/</link>
-        <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
+        <title>metasploit</title>
+        <link>https://g4nd1v.github.io/tags/metasploit/</link>
+        <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
         <author>krishnannavadia@gmail.com (g4nd1v)</author>
         
-        <guid>https://g4nd1v.github.io/tags/htb-markup/</guid>
+        <guid>https://g4nd1v.github.io/tags/metasploit/</guid>
         <description></description>
         
         <dc:creator>g4nd1v</dc:creator>
@@ -129,12 +147,12 @@
       </item>
       
       <item>
-        <title>impacket</title>
-        <link>https://g4nd1v.github.io/tags/impacket/</link>
-        <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
+        <title>nibbleblog</title>
+        <link>https://g4nd1v.github.io/tags/nibbleblog/</link>
+        <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
         <author>krishnannavadia@gmail.com (g4nd1v)</author>
         
-        <guid>https://g4nd1v.github.io/tags/impacket/</guid>
+        <guid>https://g4nd1v.github.io/tags/nibbleblog/</guid>
         <description></description>
         
         <dc:creator>g4nd1v</dc:creator>
@@ -147,12 +165,12 @@
       </item>
       
       <item>
-        <title>kerberoasting</title>
-        <link>https://g4nd1v.github.io/tags/kerberoasting/</link>
-        <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
+        <title>privilege-escalation</title>
+        <link>https://g4nd1v.github.io/tags/privilege-escalation/</link>
+        <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
         <author>krishnannavadia@gmail.com (g4nd1v)</author>
         
-        <guid>https://g4nd1v.github.io/tags/kerberoasting/</guid>
+        <guid>https://g4nd1v.github.io/tags/privilege-escalation/</guid>
         <description></description>
         
         <dc:creator>g4nd1v</dc:creator>
@@ -165,30 +183,12 @@
       </item>
       
       <item>
-        <title>kerberos</title>
-        <link>https://g4nd1v.github.io/tags/kerberos/</link>
-        <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
+        <title>reverse-shell</title>
+        <link>https://g4nd1v.github.io/tags/reverse-shell/</link>
+        <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
         <author>krishnannavadia@gmail.com (g4nd1v)</author>
         
-        <guid>https://g4nd1v.github.io/tags/kerberos/</guid>
-        <description></description>
-        
-        <dc:creator>g4nd1v</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>ldap</title>
-        <link>https://g4nd1v.github.io/tags/ldap/</link>
-        <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
-        <author>krishnannavadia@gmail.com (g4nd1v)</author>
-        
-        <guid>https://g4nd1v.github.io/tags/ldap/</guid>
+        <guid>https://g4nd1v.github.io/tags/reverse-shell/</guid>
         <description></description>
         
         <dc:creator>g4nd1v</dc:creator>
