@@ -57,12 +57,48 @@
       </item>
       
       <item>
+        <title>gpp-password</title>
+        <link>https://g4nd1v.github.io/tags/gpp-password/</link>
+        <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        
+        <guid>https://g4nd1v.github.io/tags/gpp-password/</guid>
+        <description></description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
         <title>HackTheBox</title>
         <link>https://g4nd1v.github.io/tags/hackthebox/</link>
         <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
         <author>krishnannavadia@gmail.com (g4nd1v)</author>
         
         <guid>https://g4nd1v.github.io/tags/hackthebox/</guid>
+        <description></description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>htb-active</title>
+        <link>https://g4nd1v.github.io/tags/htb-active/</link>
+        <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        
+        <guid>https://g4nd1v.github.io/tags/htb-active/</guid>
         <description></description>
         
         <dc:creator>g4nd1v</dc:creator>
@@ -93,12 +129,12 @@
       </item>
       
       <item>
-        <title>nmap</title>
-        <link>https://g4nd1v.github.io/tags/nmap/</link>
+        <title>impacket</title>
+        <link>https://g4nd1v.github.io/tags/impacket/</link>
         <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
         <author>krishnannavadia@gmail.com (g4nd1v)</author>
         
-        <guid>https://g4nd1v.github.io/tags/nmap/</guid>
+        <guid>https://g4nd1v.github.io/tags/impacket/</guid>
         <description></description>
         
         <dc:creator>g4nd1v</dc:creator>
@@ -111,12 +147,12 @@
       </item>
       
       <item>
-        <title>php</title>
-        <link>https://g4nd1v.github.io/tags/php/</link>
+        <title>kerberoasting</title>
+        <link>https://g4nd1v.github.io/tags/kerberoasting/</link>
         <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
         <author>krishnannavadia@gmail.com (g4nd1v)</author>
         
-        <guid>https://g4nd1v.github.io/tags/php/</guid>
+        <guid>https://g4nd1v.github.io/tags/kerberoasting/</guid>
         <description></description>
         
         <dc:creator>g4nd1v</dc:creator>
@@ -129,12 +165,12 @@
       </item>
       
       <item>
-        <title>privilege-escalation</title>
-        <link>https://g4nd1v.github.io/tags/privilege-escalation/</link>
+        <title>kerberos</title>
+        <link>https://g4nd1v.github.io/tags/kerberos/</link>
         <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
         <author>krishnannavadia@gmail.com (g4nd1v)</author>
         
-        <guid>https://g4nd1v.github.io/tags/privilege-escalation/</guid>
+        <guid>https://g4nd1v.github.io/tags/kerberos/</guid>
         <description></description>
         
         <dc:creator>g4nd1v</dc:creator>
@@ -147,48 +183,12 @@
       </item>
       
       <item>
-        <title>reverse-shell</title>
-        <link>https://g4nd1v.github.io/tags/reverse-shell/</link>
+        <title>ldap</title>
+        <link>https://g4nd1v.github.io/tags/ldap/</link>
         <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
         <author>krishnannavadia@gmail.com (g4nd1v)</author>
         
-        <guid>https://g4nd1v.github.io/tags/reverse-shell/</guid>
-        <description></description>
-        
-        <dc:creator>g4nd1v</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>ssh</title>
-        <link>https://g4nd1v.github.io/tags/ssh/</link>
-        <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
-        <author>krishnannavadia@gmail.com (g4nd1v)</author>
-        
-        <guid>https://g4nd1v.github.io/tags/ssh/</guid>
-        <description></description>
-        
-        <dc:creator>g4nd1v</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>winbox</title>
-        <link>https://g4nd1v.github.io/tags/winbox/</link>
-        <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
-        <author>krishnannavadia@gmail.com (g4nd1v)</author>
-        
-        <guid>https://g4nd1v.github.io/tags/winbox/</guid>
+        <guid>https://g4nd1v.github.io/tags/ldap/</guid>
         <description></description>
         
         <dc:creator>g4nd1v</dc:creator>
