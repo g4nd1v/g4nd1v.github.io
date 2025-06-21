@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>HackTheBox htb-jerry ctf tomcat bruteforce war-file reverse-shell metasploit windows privilege-escalation on g4nd1v</title>
-    <link>https://g4nd1v.github.io/tags/hackthebox-htb-jerry-ctf-tomcat-bruteforce-war-file-reverse-shell-metasploit-windows-privilege-escalation/</link>
-    <description>Recent content in HackTheBox htb-jerry ctf tomcat bruteforce war-file reverse-shell metasploit windows privilege-escalation on g4nd1v</description>
+    <title>war-file on g4nd1v</title>
+    <link>https://g4nd1v.github.io/tags/war-file/</link>
+    <description>Recent content in war-file on g4nd1v</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>krishnannavadia@gmail.com (g4nd1v)</managingEditor>
@@ -16,7 +16,7 @@
     <copyright>©2025, All Rights Reserved</copyright>
     <lastBuildDate>Wed, 21 May 2025 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://g4nd1v.github.io/tags/hackthebox-htb-jerry-ctf-tomcat-bruteforce-war-file-reverse-shell-metasploit-windows-privilege-escalation/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://g4nd1v.github.io/tags/war-file/index.xml" rel="self" type="application/rss+xml" />
     
 
       
@@ -36,7 +36,43 @@
         
           
             
-              <category>HackTheBox htb-jerry ctf tomcat bruteforce war-file reverse-shell metasploit windows privilege-escalation</category>
+              <category>HackTheBox</category>
+            
+          
+            
+              <category>HTB-jerry</category>
+            
+          
+            
+              <category>ctf</category>
+            
+          
+            
+              <category>tomcat</category>
+            
+          
+            
+              <category>bruteforce</category>
+            
+          
+            
+              <category>war-file</category>
+            
+          
+            
+              <category>reverse-shell</category>
+            
+          
+            
+              <category>metasploit</category>
+            
+          
+            
+              <category>windows</category>
+            
+          
+            
+              <category>privilege-escalation</category>
             
           
         
