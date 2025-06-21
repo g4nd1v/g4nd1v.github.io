@@ -14,11 +14,29 @@
     <managingEditor>krishnannavadia@gmail.com (g4nd1v)</managingEditor>
     <webMaster>krishnannavadia@gmail.com (g4nd1v)</webMaster>
     <copyright>©2025, All Rights Reserved</copyright>
-    <lastBuildDate>Wed, 21 May 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Jun 2025 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://g4nd1v.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>HackTheBox htb-titanic ctf lfi gitea pbkdf2 sqlite hashcat ssh imagick cve-2024-41817 privilege-escalation</title>
+        <link>https://g4nd1v.github.io/tags/hackthebox-htb-titanic-ctf-lfi-gitea-pbkdf2-sqlite-hashcat-ssh-imagick-cve-2024-41817-privilege-escalation/</link>
+        <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        
+        <guid>https://g4nd1v.github.io/tags/hackthebox-htb-titanic-ctf-lfi-gitea-pbkdf2-sqlite-hashcat-ssh-imagick-cve-2024-41817-privilege-escalation/</guid>
+        <description></description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>bash-script</title>
@@ -171,24 +189,6 @@
         <author>krishnannavadia@gmail.com (g4nd1v)</author>
         
         <guid>https://g4nd1v.github.io/tags/nibbleblog/</guid>
-        <description></description>
-        
-        <dc:creator>g4nd1v</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>privilege-escalation</title>
-        <link>https://g4nd1v.github.io/tags/privilege-escalation/</link>
-        <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-        <author>krishnannavadia@gmail.com (g4nd1v)</author>
-        
-        <guid>https://g4nd1v.github.io/tags/privilege-escalation/</guid>
         <description></description>
         
         <dc:creator>g4nd1v</dc:creator>

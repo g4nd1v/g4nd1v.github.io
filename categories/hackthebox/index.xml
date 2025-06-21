@@ -14,11 +14,45 @@
     <managingEditor>krishnannavadia@gmail.com (g4nd1v)</managingEditor>
     <webMaster>krishnannavadia@gmail.com (g4nd1v)</webMaster>
     <copyright>©2025, All Rights Reserved</copyright>
-    <lastBuildDate>Wed, 21 May 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Jun 2025 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://g4nd1v.github.io/categories/hackthebox/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>HackTheBox Writeup - Titanic Room</title>
+        <link>https://g4nd1v.github.io/posts/hackthebox-titanic/</link>
+        <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        <atom:modified>Fri, 27 Jun 2025 00:00:00 +0000</atom:modified>
+        <guid>https://g4nd1v.github.io/posts/hackthebox-titanic/</guid>
+        <description>Titanic Title Titanic Description Writeup for the &amp;ldquo;Titanic&amp;rdquo; machine on HackTheBox. It involves exploiting LFI to discover sensitive Gitea configuration and database files, cracking PBKDF2 hashes for SSH access, and escalating privileges via a shared library injection in ImageMagick (CVE-2024-41817). Difficulty Easy Maker ruycr4ft Enumeration Nmap 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 # Nmap 7.95 scan initiated Thu Jun 19 16:00:52 2025 as: /usr/lib/nmap/nmap -sCV -T4 --min-rate 10000 -p- -v -oA nmap/tcp_default 10.</description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        <media:content url="https://g4nd1v.github.ioimages/Titanic/banner.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>HackTheBox htb-titanic ctf lfi gitea pbkdf2 sqlite hashcat ssh imagick cve-2024-41817 privilege-escalation</category>
+            
+          
+        
+        
+          
+            
+              <category>HackTheBox</category>
+            
+          
+            
+              <category>HackTheBox/Linux</category>
+            
+          
+        
+        
+      </item>
       
       <item>
         <title>HackTheBox Writeup - Jerry Room</title>
@@ -585,49 +619,6 @@
           
             
               <category>HackTheBox/Linux</category>
-            
-          
-        
-        
-      </item>
-      
-      <item>
-        <title>HackTheBox Writeup - Monitored Box</title>
-        <link>https://g4nd1v.github.io/posts/hackthebox-monitored/</link>
-        <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
-        <author>krishnannavadia@gmail.com (g4nd1v)</author>
-        <atom:modified>Tue, 21 May 2024 00:00:00 +0000</atom:modified>
-        <guid>https://g4nd1v.github.io/posts/hackthebox-monitored/</guid>
-        <description>Title Monitored Description Monitored is HackTheBox Medium Linux Based Machine. Difficulty Medium Maker TheCyberGeek and ruycr4ft Nmap TCP Scan
-1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 └─$ nmap -sC -sV -oA nmap/monitered 10.129.239.185 [1/76] # Nmap 7.94SVN scan initiated Sun Jan 14 19:57:43 2024 as: nmap -sC -sV -oA nmap/monitered 10.</description>
-        
-        <dc:creator>g4nd1v</dc:creator>
-        <media:content url="https://g4nd1v.github.ioimages/Monitored/banner.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>HackTheBox</category>
-            
-          
-            
-              <category>SNMP</category>
-            
-          
-            
-              <category>nagios</category>
-            
-          
-        
-        
-          
-            
-              <category>HackTheBox</category>
-            
-          
-            
-              <category>Linux</category>
             
           
         

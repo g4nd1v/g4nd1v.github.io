@@ -20,6 +20,74 @@
 
       
       <item>
+        <title>HackTheBox Writeup - Titanic Room</title>
+        <link>https://g4nd1v.github.io/posts/hackthebox-titanic/</link>
+        <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        <atom:modified>Fri, 27 Jun 2025 00:00:00 +0000</atom:modified>
+        <guid>https://g4nd1v.github.io/posts/hackthebox-titanic/</guid>
+        <description>Titanic Title Titanic Description Writeup for the &amp;ldquo;Titanic&amp;rdquo; machine on HackTheBox. It involves exploiting LFI to discover sensitive Gitea configuration and database files, cracking PBKDF2 hashes for SSH access, and escalating privileges via a shared library injection in ImageMagick (CVE-2024-41817). Difficulty Easy Maker ruycr4ft Enumeration Nmap 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 # Nmap 7.95 scan initiated Thu Jun 19 16:00:52 2025 as: /usr/lib/nmap/nmap -sCV -T4 --min-rate 10000 -p- -v -oA nmap/tcp_default 10.</description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        <media:content url="https://g4nd1v.github.ioimages/Titanic/banner.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>HackTheBox htb-titanic ctf lfi gitea pbkdf2 sqlite hashcat ssh imagick cve-2024-41817 privilege-escalation</category>
+            
+          
+        
+        
+          
+            
+              <category>HackTheBox</category>
+            
+          
+            
+              <category>HackTheBox/Linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>HackTheBox Writeup - Titanic Room</title>
+        <link>https://g4nd1v.github.io/posts/hackthebox-titanic/</link>
+        <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        <atom:modified>Fri, 27 Jun 2025 00:00:00 +0000</atom:modified>
+        <guid>https://g4nd1v.github.io/posts/hackthebox-titanic/</guid>
+        <description>Titanic Title Titanic Description Writeup for the &amp;ldquo;Titanic&amp;rdquo; machine on HackTheBox. It involves exploiting LFI to discover sensitive Gitea configuration and database files, cracking PBKDF2 hashes for SSH access, and escalating privileges via a shared library injection in ImageMagick (CVE-2024-41817). Difficulty Easy Maker ruycr4ft Enumeration Nmap 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 # Nmap 7.95 scan initiated Thu Jun 19 16:00:52 2025 as: /usr/lib/nmap/nmap -sCV -T4 --min-rate 10000 -p- -v -oA nmap/tcp_default 10.</description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        <media:content url="https://g4nd1v.github.ioimages/Titanic/banner.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>HackTheBox htb-titanic ctf lfi gitea pbkdf2 sqlite hashcat ssh imagick cve-2024-41817 privilege-escalation</category>
+            
+          
+        
+        
+          
+            
+              <category>HackTheBox</category>
+            
+          
+            
+              <category>HackTheBox/Linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
         <title>HackTheBox Writeup - Nibbles Room</title>
         <link>https://g4nd1v.github.io/posts/hackthebox-nibbles/</link>
         <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
@@ -522,92 +590,6 @@
           
             
               <category>mysql</category>
-            
-          
-        
-        
-          
-            
-              <category>HackTheBox</category>
-            
-          
-            
-              <category>HackTheBox/Linux</category>
-            
-          
-        
-        
-      </item>
-      
-      <item>
-        <title>HackTheBox Writeup - Crafty Room</title>
-        <link>https://g4nd1v.github.io/posts/hackthebox-crafty/</link>
-        <pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate>
-        <author>krishnannavadia@gmail.com (g4nd1v)</author>
-        <atom:modified>Sun, 23 Jun 2024 00:00:00 +0000</atom:modified>
-        <guid>https://g4nd1v.github.io/posts/hackthebox-crafty/</guid>
-        <description>Crafty Title Crafty Description HTB Windows Easy Machine Difficulty Easy Maker TheCyberGeek &amp;amp; felamos Enumeration Starting with Nmap,
-└─$ nmap -sC -sV -oA nmap/crafty 10.10.11.249Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-06-21 07:28 EDTNmap scan report for 10.10.11.249Host is up (0.11s latency).Not shown: 999 filtered tcp ports (no-response)PORT STATE SERVICE VERSION80/tcp open http Microsoft IIS httpd 10.0|_http-server-header: Microsoft-IIS/10.0|_http-title: Did not follow redirect to http://crafty.</description>
-        
-        <dc:creator>g4nd1v</dc:creator>
-        <media:content url="https://g4nd1v.github.ioimages/Crafty/banner.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>HackTheBox</category>
-            
-          
-            
-              <category>Log4j</category>
-            
-          
-            
-              <category>CVE-2021-44228</category>
-            
-          
-        
-        
-          
-            
-              <category>HackTheBox</category>
-            
-          
-            
-              <category>HackTheBox/Linux</category>
-            
-          
-        
-        
-      </item>
-      
-      <item>
-        <title>HackTheBox Writeup - Crafty Room</title>
-        <link>https://g4nd1v.github.io/posts/hackthebox-crafty/</link>
-        <pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate>
-        <author>krishnannavadia@gmail.com (g4nd1v)</author>
-        <atom:modified>Sun, 23 Jun 2024 00:00:00 +0000</atom:modified>
-        <guid>https://g4nd1v.github.io/posts/hackthebox-crafty/</guid>
-        <description>Crafty Title Crafty Description HTB Windows Easy Machine Difficulty Easy Maker TheCyberGeek &amp;amp; felamos Enumeration Starting with Nmap,
-└─$ nmap -sC -sV -oA nmap/crafty 10.10.11.249Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-06-21 07:28 EDTNmap scan report for 10.10.11.249Host is up (0.11s latency).Not shown: 999 filtered tcp ports (no-response)PORT STATE SERVICE VERSION80/tcp open http Microsoft IIS httpd 10.0|_http-server-header: Microsoft-IIS/10.0|_http-title: Did not follow redirect to http://crafty.</description>
-        
-        <dc:creator>g4nd1v</dc:creator>
-        <media:content url="https://g4nd1v.github.ioimages/Crafty/banner.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>HackTheBox</category>
-            
-          
-            
-              <category>Log4j</category>
-            
-          
-            
-              <category>CVE-2021-44228</category>
             
           
         

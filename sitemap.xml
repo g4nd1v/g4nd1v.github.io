@@ -3,12 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://g4nd1v.github.io/</loc>
-    <lastmod>2025-05-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://g4nd1v.github.io/tags/bash-script/</loc>
-    <lastmod>2025-05-21T00:00:00+00:00</lastmod>
+    <lastmod>2025-06-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://g4nd1v.github.io/categories/</loc>
+    <lastmod>2025-06-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/categories/hackthebox/</loc>
+    <lastmod>2025-06-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/hackthebox-htb-titanic-ctf-lfi-gitea-pbkdf2-sqlite-hashcat-ssh-imagick-cve-2024-41817-privilege-escalation/</loc>
+    <lastmod>2025-06-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/posts/hackthebox-titanic/</loc>
+    <lastmod>2025-06-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/posts/</loc>
+    <lastmod>2025-06-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/</loc>
+    <lastmod>2025-06-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/bash-script/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://g4nd1v.github.io/tags/cms/</loc>
@@ -21,9 +36,6 @@
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://g4nd1v.github.io/tags/hackthebox/</loc>
-    <lastmod>2025-05-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://g4nd1v.github.io/categories/hackthebox/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://g4nd1v.github.io/tags/hackthebox-htb-jerry-ctf-tomcat-bruteforce-war-file-reverse-shell-metasploit-windows-privilege-escalation/</loc>
@@ -44,9 +56,6 @@
     <loc>https://g4nd1v.github.io/tags/nibbleblog/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://g4nd1v.github.io/posts/</loc>
-    <lastmod>2025-05-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://g4nd1v.github.io/tags/privilege-escalation/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
@@ -54,9 +63,6 @@
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://g4nd1v.github.io/tags/sudo/</loc>
-    <lastmod>2025-05-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://g4nd1v.github.io/tags/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://g4nd1v.github.io/tags/apache/</loc>

@@ -14,11 +14,45 @@
     <managingEditor>krishnannavadia@gmail.com (g4nd1v)</managingEditor>
     <webMaster>krishnannavadia@gmail.com (g4nd1v)</webMaster>
     <copyright>©2025, All Rights Reserved</copyright>
-    <lastBuildDate>Wed, 21 May 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Jun 2025 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://g4nd1v.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>HackTheBox Writeup - Titanic Room</title>
+        <link>https://g4nd1v.github.io/posts/hackthebox-titanic/</link>
+        <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        <atom:modified>Fri, 27 Jun 2025 00:00:00 +0000</atom:modified>
+        <guid>https://g4nd1v.github.io/posts/hackthebox-titanic/</guid>
+        <description>Titanic Title Titanic Description Writeup for the &amp;ldquo;Titanic&amp;rdquo; machine on HackTheBox. It involves exploiting LFI to discover sensitive Gitea configuration and database files, cracking PBKDF2 hashes for SSH access, and escalating privileges via a shared library injection in ImageMagick (CVE-2024-41817). Difficulty Easy Maker ruycr4ft Enumeration Nmap 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 # Nmap 7.95 scan initiated Thu Jun 19 16:00:52 2025 as: /usr/lib/nmap/nmap -sCV -T4 --min-rate 10000 -p- -v -oA nmap/tcp_default 10.</description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        <media:content url="https://g4nd1v.github.ioimages/Titanic/banner.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>HackTheBox htb-titanic ctf lfi gitea pbkdf2 sqlite hashcat ssh imagick cve-2024-41817 privilege-escalation</category>
+            
+          
+        
+        
+          
+            
+              <category>HackTheBox</category>
+            
+          
+            
+              <category>HackTheBox/Linux</category>
+            
+          
+        
+        
+      </item>
       
       <item>
         <title>HackTheBox Writeup - Jerry Room</title>
@@ -492,42 +526,6 @@ To solve this lab, submit a comment that calls the alert function when the blog 
           
             
               <category>XSS</category>
-            
-          
-        
-        
-          
-            
-              <category>Portswigger</category>
-            
-          
-        
-        
-      </item>
-      
-      <item>
-        <title>Portswigger SQL Injection Writeups</title>
-        <link>https://g4nd1v.github.io/posts/portswigger-sql-injection/</link>
-        <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-        <author>krishnannavadia@gmail.com (g4nd1v)</author>
-        <atom:modified>Thu, 06 Feb 2025 00:00:00 +0000</atom:modified>
-        <guid>https://g4nd1v.github.io/posts/portswigger-sql-injection/</guid>
-        <description>1. Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data This lab contains a SQL injection vulnerability in the product category filter. When the user selects a category, the application carries out a SQL query like the following:
-SELECT * FROM products WHERE category = &#39;Gifts&#39; AND released = 1
-To solve the lab, perform a SQL injection attack that causes the application to display one or more unreleased products.</description>
-        
-        <dc:creator>g4nd1v</dc:creator>
-        <media:content url="https://g4nd1v.github.ioimages/Portswigger-SQL-Injection/banner.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>Portswigger</category>
-            
-          
-            
-              <category>SQL</category>
             
           
         
