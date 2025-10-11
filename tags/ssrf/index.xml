@@ -56,42 +56,6 @@ It is using external API in order to check the stock. So we will change the URL 
         
       </item>
       
-      <item>
-        <title>Portswigger SSRF Writeups</title>
-        <link>https://g4nd1v.github.io/posts/portswigger-ssrf/</link>
-        <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
-        <author>krishnannavadia@gmail.com (g4nd1v)</author>
-        <atom:modified>Sat, 11 Oct 2025 00:00:00 +0000</atom:modified>
-        <guid>https://g4nd1v.github.io/posts/portswigger-ssrf/</guid>
-        <description>1. Lab: Basic SSRF against the local server This lab has a stock check feature which fetches data from an internal system.
-To solve the lab, change the stock check URL to access the admin interface at http://localhost/admin and delete the user carlos.
-It is using external API in order to check the stock. So we will change the URL to http://localhost/admin to see, what it renders. In the source code, we will see it is requesting /admin/delete?</description>
-        
-        <dc:creator>g4nd1v</dc:creator>
-        <media:content url="https://g4nd1v.github.io/images/Portswigger/Portswigger-SSRF/Pasted_image_20250730185309.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>Portswigger</category>
-            
-          
-            
-              <category>SSRF</category>
-            
-          
-        
-        
-          
-            
-              <category>portswigger</category>
-            
-          
-        
-        
-      </item>
-      
 
     
   </channel>

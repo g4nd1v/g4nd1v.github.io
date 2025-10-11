@@ -56,42 +56,6 @@ In this application, the cookie is based on serialization. So if we change the v
         
       </item>
       
-      <item>
-        <title>Portswigger Deserialization Writeups</title>
-        <link>https://g4nd1v.github.io/posts/portswigger-deserialization/</link>
-        <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
-        <author>krishnannavadia@gmail.com (g4nd1v)</author>
-        <atom:modified>Sat, 11 Oct 2025 00:00:00 +0000</atom:modified>
-        <guid>https://g4nd1v.github.io/posts/portswigger-deserialization/</guid>
-        <description>1. Lab: Modifying serialized objects This lab uses a serialization-based session mechanism and is vulnerable to privilege escalation as a result. To solve the lab, edit the serialized object in the session cookie to exploit this vulnerability and gain administrative privileges. Then, delete the user carlos.
-You can log in to your own account using the following credentials: wiener:peter
-In this application, the cookie is based on serialization. So if we change the value for admin from 0 to 1 and change that cookie in browser, we can able to access admin panel.</description>
-        
-        <dc:creator>g4nd1v</dc:creator>
-        <media:content url="https://g4nd1v.github.io/images/Portswigger/Portswigger-Deserialization/Pasted_image_20250831200142.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>Portswigger</category>
-            
-          
-            
-              <category>DESERIALIZATION</category>
-            
-          
-        
-        
-          
-            
-              <category>portswigger</category>
-            
-          
-        
-        
-      </item>
-      
 
     
   </channel>

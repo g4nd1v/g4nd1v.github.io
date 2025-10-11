@@ -56,42 +56,6 @@ If I use quote &#39;, the application will give me this error, so that means quo
         
       </item>
       
-      <item>
-        <title>Portswigget NoSQL Writeups</title>
-        <link>https://g4nd1v.github.io/posts/portswigget-nosql/</link>
-        <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
-        <author>krishnannavadia@gmail.com (g4nd1v)</author>
-        <atom:modified>Sat, 11 Oct 2025 00:00:00 +0000</atom:modified>
-        <guid>https://g4nd1v.github.io/posts/portswigget-nosql/</guid>
-        <description>1. Lab: Detecting NoSQL injection The product category filter for this lab is powered by a MongoDB NoSQL database. It is vulnerable to NoSQL injection.
-To solve the lab, perform a NoSQL injection attack that causes the application to display unreleased products.
-If I use quote &#39;, the application will give me this error, so that means quote is breaking the query. Simply using boolean query will solve the lab.</description>
-        
-        <dc:creator>g4nd1v</dc:creator>
-        <media:content url="https://g4nd1v.github.io/images/Portswigger/Portswigget-NoSQL/Pasted_image_20250810161819.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>Portswigger</category>
-            
-          
-            
-              <category>NOSQL</category>
-            
-          
-        
-        
-          
-            
-              <category>portswigger</category>
-            
-          
-        
-        
-      </item>
-      
 
     
   </channel>

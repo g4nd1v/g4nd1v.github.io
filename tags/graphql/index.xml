@@ -57,43 +57,6 @@ If we change the ID to 3 we can able to see the password.</description>
         
       </item>
       
-      <item>
-        <title>Portswigger GraphQL Writeups</title>
-        <link>https://g4nd1v.github.io/posts/portswigger-graphql/</link>
-        <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
-        <author>krishnannavadia@gmail.com (g4nd1v)</author>
-        <atom:modified>Sat, 11 Oct 2025 00:00:00 +0000</atom:modified>
-        <guid>https://g4nd1v.github.io/posts/portswigger-graphql/</guid>
-        <description>1. Lab: Accessing private GraphQL posts The blog page for this lab contains a hidden blog post that has a secret password. To solve the lab, find the hidden blog post and enter the password.
-Learn more about Working with GraphQL in Burp Suite.
-If right click and open in graphql voyager, we can see we have other parameters which is isPrivate and postPassword.
-If we change the ID to 3 we can able to see the password.</description>
-        
-        <dc:creator>g4nd1v</dc:creator>
-        <media:content url="https://g4nd1v.github.io/images/Portswigger/Portswigger-GraphQL/Pasted_image_20250901155338.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>Portswigger</category>
-            
-          
-            
-              <category>GRAPHQL</category>
-            
-          
-        
-        
-          
-            
-              <category>portswigger</category>
-            
-          
-        
-        
-      </item>
-      
 
     
   </channel>

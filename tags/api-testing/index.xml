@@ -57,43 +57,6 @@ Solution: Finding API endpoint using change email</description>
         
       </item>
       
-      <item>
-        <title>Portswigger API Testing Writeups</title>
-        <link>https://g4nd1v.github.io/posts/portswigger-api-testing/</link>
-        <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
-        <author>krishnannavadia@gmail.com (g4nd1v)</author>
-        <atom:modified>Sat, 11 Oct 2025 00:00:00 +0000</atom:modified>
-        <guid>https://g4nd1v.github.io/posts/portswigger-api-testing/</guid>
-        <description>1. Lab: Exploiting an API endpoint using documentation To solve the lab, find the exposed API documentation and delete carlos. You can log in to your own account using the following credentials: wiener:peter.
-When we update the email it requests PATCH /api/user/wiener, so the base endpoint must be /api.
-Click on DELETE and toolkit will popup, an entering username carlos and sending request will solve the lab.
-Solution: Finding API endpoint using change email</description>
-        
-        <dc:creator>g4nd1v</dc:creator>
-        <media:content url="https://g4nd1v.github.io/images/Portswigger/Portswigger-API-Testing/Pasted_image_20250816183025.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>Portswigger</category>
-            
-          
-            
-              <category>API-TESTING</category>
-            
-          
-        
-        
-          
-            
-              <category>portswigger</category>
-            
-          
-        
-        
-      </item>
-      
 
     
   </channel>

@@ -58,44 +58,6 @@ Solution: ../../../etc/passwd
         
       </item>
       
-      <item>
-        <title>Portswigger Path Traversal Writeups</title>
-        <link>https://g4nd1v.github.io/posts/portswigger-path-traversal/</link>
-        <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
-        <author>krishnannavadia@gmail.com (g4nd1v)</author>
-        <atom:modified>Sat, 11 Oct 2025 00:00:00 +0000</atom:modified>
-        <guid>https://g4nd1v.github.io/posts/portswigger-path-traversal/</guid>
-        <description>1. Lab: File path traversal, simple case This lab contains a path traversal vulnerability in the display of product images.
-To solve the lab, retrieve the contents of the /etc/passwd file.
-As we can see it in the burpsuite response, images are getting retrieved using /image?filename=26.jpg, so instead of 26.jpg we will use ../../../etc/passwd to solve the lab.
-Solution: ../../../etc/passwd
-2. Lab: File path traversal, traversal sequences blocked with absolute path bypass This lab contains a path traversal vulnerability in the display of product images.</description>
-        
-        <dc:creator>g4nd1v</dc:creator>
-        <media:content url="https://g4nd1v.github.io/images/Portswigger/Portswigger-Path-Traversal/Pasted_image_20250729182719.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>Portswigger</category>
-            
-          
-            
-              <category>PATH-TRAVERSAL</category>
-            
-          
-        
-        
-          
-            
-              <category>portswigger</category>
-            
-          
-        
-        
-      </item>
-      
 
     
   </channel>

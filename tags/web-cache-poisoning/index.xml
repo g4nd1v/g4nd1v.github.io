@@ -55,41 +55,6 @@ We will check with param miner extension if there is any unkeyed headers, and we
         
       </item>
       
-      <item>
-        <title>Portswigger Web Cache Poisoning Writeups</title>
-        <link>https://g4nd1v.github.io/posts/portswigger-web-cache-poisoning/</link>
-        <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
-        <author>krishnannavadia@gmail.com (g4nd1v)</author>
-        <atom:modified>Sat, 11 Oct 2025 00:00:00 +0000</atom:modified>
-        <guid>https://g4nd1v.github.io/posts/portswigger-web-cache-poisoning/</guid>
-        <description>1. Lab: Web cache poisoning with an unkeyed header This lab is vulnerable to web cache poisoning because it handles input from an unkeyed header in an unsafe way. An unsuspecting user regularly visits the site&amp;rsquo;s home page. To solve this lab, poison the cache with a response that executes alert(document.cookie) in the visitor&amp;rsquo;s browser.
-We will check with param miner extension if there is any unkeyed headers, and we got X-Forwarded-For header, so I have tried to enter example.</description>
-        
-        <dc:creator>g4nd1v</dc:creator>
-        <media:content url="https://g4nd1v.github.io/images/Portswigger/Portswigger-Web-Cache-Poisoning/Pasted_image_20250909163230.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>Portswigger</category>
-            
-          
-            
-              <category>WEB-CACHE-POISONING</category>
-            
-          
-        
-        
-          
-            
-              <category>portswigger</category>
-            
-          
-        
-        
-      </item>
-      
 
     
   </channel>

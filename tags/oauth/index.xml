@@ -56,42 +56,6 @@ You can log in with your own social media account using the following credential
         
       </item>
       
-      <item>
-        <title>Portswigger OAuth Writeups</title>
-        <link>https://g4nd1v.github.io/posts/portswigger-oauth/</link>
-        <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
-        <author>krishnannavadia@gmail.com (g4nd1v)</author>
-        <atom:modified>Sat, 11 Oct 2025 00:00:00 +0000</atom:modified>
-        <guid>https://g4nd1v.github.io/posts/portswigger-oauth/</guid>
-        <description>1. Lab: Authentication bypass via OAuth implicit flow This lab uses an OAuth service to allow users to log in with their social media account. Flawed validation by the client application makes it possible for an attacker to log in to other users&amp;rsquo; accounts without knowing their password.
-To solve the lab, log in to Carlos&amp;rsquo;s account. His email address is carlos@carlos-montoya.net.
-You can log in with your own social media account using the following credentials: wiener:peter.</description>
-        
-        <dc:creator>g4nd1v</dc:creator>
-        <media:content url="https://g4nd1v.github.io/images/Portswigger/Portswigger-OAuth/Pasted_image_20250904202703.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>Portswigger</category>
-            
-          
-            
-              <category>OAUTH</category>
-            
-          
-        
-        
-          
-            
-              <category>portswigger</category>
-            
-          
-        
-        
-      </item>
-      
 
     
   </channel>

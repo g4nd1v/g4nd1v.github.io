@@ -22,48 +22,6 @@
       
       <item>
         <title>TryHackMe Writeup - 0day Room</title>
-        <link>https://g4nd1v.github.io/posts/tryhackme-0day/</link>
-        <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
-        <author>krishnannavadia@gmail.com (g4nd1v)</author>
-        <atom:modified>Fri, 16 Feb 2024 00:00:00 +0000</atom:modified>
-        <guid>https://g4nd1v.github.io/posts/tryhackme-0day/</guid>
-        <description>0day Title 0day Description Exploit Ubuntu, like a Turtle in a Hurricane Difficulty Medium Maker 0day Foothold 1 2 3 4 5 6 7 8 9 10 11 PORT STATE SERVICE VERSION 22/tcp open ssh OpenSSH 6.6.1p1 Ubuntu 2ubuntu2.13 (Ubuntu Linux; protocol 2.0) | ssh-hostkey: | 1024 5720823c62aa8f4223c0b893996f499c (DSA) | 2048 4c40db32640d110cef4fb85b739bc76b (RSA) | 256 f76f78d58352a64dda213c5547b72d6d (ECDSA) |_ 256 a5b4f084b6a78deb0a9d3e7437336516 (ED25519) 80/tcp open http Apache httpd 2.4.7 ((Ubuntu)) |_http-title: 0day |_http-server-header: Apache/2.</description>
-        
-        <dc:creator>g4nd1v</dc:creator>
-        <media:content url="https://g4nd1v.github.ioimages/0day/banner.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>TryHackMe</category>
-            
-          
-            
-              <category>Shellshock</category>
-            
-          
-            
-              <category>HashCracking</category>
-            
-          
-        
-        
-          
-            
-              <category>TryHackMe</category>
-            
-          
-            
-              <category>Linux</category>
-            
-          
-        
-        
-      </item>
-      
-      <item>
-        <title>TryHackMe Writeup - 0day Room</title>
         <link>https://g4nd1v.github.io/tryhackme/tryhackme-0day/</link>
         <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
         <author>krishnannavadia@gmail.com (g4nd1v)</author>

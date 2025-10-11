@@ -59,45 +59,6 @@ Solution: check robots.txt file
         
       </item>
       
-      <item>
-        <title>Portswigger Access Control Writeups</title>
-        <link>https://g4nd1v.github.io/posts/portswigger-access-control/</link>
-        <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
-        <author>krishnannavadia@gmail.com (g4nd1v)</author>
-        <atom:modified>Sat, 11 Oct 2025 00:00:00 +0000</atom:modified>
-        <guid>https://g4nd1v.github.io/posts/portswigger-access-control/</guid>
-        <description>1. Lab: Unprotected admin functionality This lab has an unprotected admin panel.
-Solve the lab by deleting the user carlos.
-On /robots.txt we got the admin portal
-On deleting the carlos user from admin portal will solve the lab
-Solution: check robots.txt file
-2. Lab: Unprotected admin functionality with unpredictable URL This lab has an unprotected admin panel. It&amp;rsquo;s located at an unpredictable location, but the location is disclosed somewhere in the application.</description>
-        
-        <dc:creator>g4nd1v</dc:creator>
-        <media:content url="https://g4nd1v.github.io/images/Portswigger/Portswigger-Access-Control/Pasted_image_20250807074024.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>Portswigger</category>
-            
-          
-            
-              <category>ACCESS-CONTROL</category>
-            
-          
-        
-        
-          
-            
-              <category>portswigger</category>
-            
-          
-        
-        
-      </item>
-      
 
     
   </channel>

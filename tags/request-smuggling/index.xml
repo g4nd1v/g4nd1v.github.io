@@ -56,42 +56,6 @@ In order to go GPOST request, we will use the last character G and will send POS
         
       </item>
       
-      <item>
-        <title>Portswigger Request Smuggling Writeups</title>
-        <link>https://g4nd1v.github.io/posts/portswigger-request-smuggling/</link>
-        <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
-        <author>krishnannavadia@gmail.com (g4nd1v)</author>
-        <atom:modified>Sat, 11 Oct 2025 00:00:00 +0000</atom:modified>
-        <guid>https://g4nd1v.github.io/posts/portswigger-request-smuggling/</guid>
-        <description>1. Lab: HTTP request smuggling, basic CL.TE vulnerability This lab involves a front-end and back-end server, and the front-end server doesn&amp;rsquo;t support chunked encoding. The front-end server rejects requests that aren&amp;rsquo;t using the GET or POST method.
-To solve the lab, smuggle a request to the back-end server, so that the next request processed by the back-end server appears to use the method GPOST.
-In order to go GPOST request, we will use the last character G and will send POST request again.</description>
-        
-        <dc:creator>g4nd1v</dc:creator>
-        <media:content url="https://g4nd1v.github.io/images/Portswigger/Portswigger-Request-Smuggling/Pasted_image_20250915161953.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>Portswigger</category>
-            
-          
-            
-              <category>REQUEST-SMUGGLING</category>
-            
-          
-        
-        
-          
-            
-              <category>portswigger</category>
-            
-          
-        
-        
-      </item>
-      
 
     
   </channel>

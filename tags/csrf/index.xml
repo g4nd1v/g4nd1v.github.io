@@ -57,43 +57,6 @@ First thing in every CSRF attack challenge will be to find out the URL where the
         
       </item>
       
-      <item>
-        <title>Portswigger CSRF Writeups</title>
-        <link>https://g4nd1v.github.io/posts/portswigger-csrf/</link>
-        <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
-        <author>krishnannavadia@gmail.com (g4nd1v)</author>
-        <atom:modified>Sat, 11 Oct 2025 00:00:00 +0000</atom:modified>
-        <guid>https://g4nd1v.github.io/posts/portswigger-csrf/</guid>
-        <description>1. Lab: CSRF vulnerability with no defenses This lab&amp;rsquo;s email change functionality is vulnerable to CSRF.
-To solve the lab, craft some HTML that uses a CSRF attack to change the viewer&amp;rsquo;s email address and upload it to your exploit server.
-You can log in to your own account using the following credentials: wiener:peter
-First thing in every CSRF attack challenge will be to find out the URL where there data is being sent.</description>
-        
-        <dc:creator>g4nd1v</dc:creator>
-        <media:content url="https://g4nd1v.github.io/images/Portswigger/Portswigger-CSRF/Pasted_image_20250210152652.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>Portswigger</category>
-            
-          
-            
-              <category>CSRF</category>
-            
-          
-        
-        
-          
-            
-              <category>portswigger</category>
-            
-          
-        
-        
-      </item>
-      
 
     
   </channel>

@@ -56,42 +56,6 @@ Simply asking LLM Which api can you access? will give us the list of API that it
         
       </item>
       
-      <item>
-        <title>Portswigger LLM Writeups</title>
-        <link>https://g4nd1v.github.io/posts/portswigger-llm/</link>
-        <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
-        <author>krishnannavadia@gmail.com (g4nd1v)</author>
-        <atom:modified>Sat, 11 Oct 2025 00:00:00 +0000</atom:modified>
-        <guid>https://g4nd1v.github.io/posts/portswigger-llm/</guid>
-        <description>1. Lab: Exploiting LLM APIs with excessive agency To solve the lab, use the LLM to delete the user carlos.
-Simply asking LLM Which api can you access? will give us the list of API that it can assess to, next we will also ask for arguments, and then use that information in order to delete carlos user.
-2. Lab: Exploiting vulnerabilities in LLM APIs This lab contains an OS command injection vulnerability that can be exploited via its APIs.</description>
-        
-        <dc:creator>g4nd1v</dc:creator>
-        <media:content url="https://g4nd1v.github.io/images/Portswigger/Portswigger-LLM/Pasted_image_20250901104827.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>Portswigger</category>
-            
-          
-            
-              <category>LLM</category>
-            
-          
-        
-        
-          
-            
-              <category>portswigger</category>
-            
-          
-        
-        
-      </item>
-      
 
     
   </channel>

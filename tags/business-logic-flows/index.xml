@@ -56,42 +56,6 @@ In this application, when we add items to cart, it is also sending the price as 
         
       </item>
       
-      <item>
-        <title>Portswigger Business Logic Flows Writeups</title>
-        <link>https://g4nd1v.github.io/posts/portswigger-business-logic-flows/</link>
-        <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
-        <author>krishnannavadia@gmail.com (g4nd1v)</author>
-        <atom:modified>Sat, 11 Oct 2025 00:00:00 +0000</atom:modified>
-        <guid>https://g4nd1v.github.io/posts/portswigger-business-logic-flows/</guid>
-        <description>1. Lab: Excessive trust in client-side controls This lab doesn&amp;rsquo;t adequately validate user input. You can exploit a logic flaw in its purchasing workflow to buy items for an unintended price. To solve the lab, buy a &amp;ldquo;Lightweight l33t leather jacket&amp;rdquo;.
-You can log in to your own account using the following credentials: wiener:peter
-In this application, when we add items to cart, it is also sending the price as a parameter and consider that as the actual price instead of original price.</description>
-        
-        <dc:creator>g4nd1v</dc:creator>
-        <media:content url="https://g4nd1v.github.io/images/Portswigger/Portswigger-Business-Logic-Flows/Pasted_image_20250731111424.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>Portswigger</category>
-            
-          
-            
-              <category>BUSINESS-LOGIC-FLOWS</category>
-            
-          
-        
-        
-          
-            
-              <category>portswigger</category>
-            
-          
-        
-        
-      </item>
-      
 
     
   </channel>

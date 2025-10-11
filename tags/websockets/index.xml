@@ -57,43 +57,6 @@ In this application, there is a chat message section where user will send messag
         
       </item>
       
-      <item>
-        <title>Portswigger WebSockets Writeups</title>
-        <link>https://g4nd1v.github.io/posts/portswigger-websockets/</link>
-        <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
-        <author>krishnannavadia@gmail.com (g4nd1v)</author>
-        <atom:modified>Sat, 11 Oct 2025 00:00:00 +0000</atom:modified>
-        <guid>https://g4nd1v.github.io/posts/portswigger-websockets/</guid>
-        <description>1. Lab: Manipulating WebSocket messages to exploit vulnerabilities This online shop has a live chat feature implemented using WebSockets.
-Chat messages that you submit are viewed by a support agent in real time.
-To solve the lab, use a WebSocket message to trigger an alert() popup in the support agent&amp;rsquo;s browser.
-In this application, there is a chat message section where user will send message and it will be set to UI using innerHTML.</description>
-        
-        <dc:creator>g4nd1v</dc:creator>
-        <media:content url="https://g4nd1v.github.io/images/Portswigger/Portswigger-WebSockets/Pasted_image_20250831124749.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>Portswigger</category>
-            
-          
-            
-              <category>WEBSOCKETS</category>
-            
-          
-        
-        
-          
-            
-              <category>portswigger</category>
-            
-          
-        
-        
-      </item>
-      
 
     
   </channel>
