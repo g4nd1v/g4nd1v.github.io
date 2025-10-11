@@ -14,19 +14,19 @@
     <managingEditor>krishnannavadia@gmail.com (g4nd1v)</managingEditor>
     <webMaster>krishnannavadia@gmail.com (g4nd1v)</webMaster>
     <copyright>©2025, All Rights Reserved</copyright>
-    <lastBuildDate>Sat, 21 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Oct 2025 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://g4nd1v.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
-        <title>CTF</title>
-        <link>https://g4nd1v.github.io/tags/ctf/</link>
-        <pubDate>Sat, 21 Jun 2025 00:00:00 +0000</pubDate>
+        <title>ACCESS-CONTROL</title>
+        <link>https://g4nd1v.github.io/tags/access-control/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
         <author>krishnannavadia@gmail.com (g4nd1v)</author>
         
-        <guid>https://g4nd1v.github.io/tags/ctf/</guid>
+        <guid>https://g4nd1v.github.io/tags/access-control/</guid>
         <description></description>
         
         <dc:creator>g4nd1v</dc:creator>
@@ -39,12 +39,12 @@
       </item>
       
       <item>
-        <title>cve-2024-41817</title>
-        <link>https://g4nd1v.github.io/tags/cve-2024-41817/</link>
-        <pubDate>Sat, 21 Jun 2025 00:00:00 +0000</pubDate>
+        <title>API-TESTING</title>
+        <link>https://g4nd1v.github.io/tags/api-testing/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
         <author>krishnannavadia@gmail.com (g4nd1v)</author>
         
-        <guid>https://g4nd1v.github.io/tags/cve-2024-41817/</guid>
+        <guid>https://g4nd1v.github.io/tags/api-testing/</guid>
         <description></description>
         
         <dc:creator>g4nd1v</dc:creator>
@@ -57,12 +57,12 @@
       </item>
       
       <item>
-        <title>gitea</title>
-        <link>https://g4nd1v.github.io/tags/gitea/</link>
-        <pubDate>Sat, 21 Jun 2025 00:00:00 +0000</pubDate>
+        <title>AUTHENTICATION-VULNERABILITIES</title>
+        <link>https://g4nd1v.github.io/tags/authentication-vulnerabilities/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
         <author>krishnannavadia@gmail.com (g4nd1v)</author>
         
-        <guid>https://g4nd1v.github.io/tags/gitea/</guid>
+        <guid>https://g4nd1v.github.io/tags/authentication-vulnerabilities/</guid>
         <description></description>
         
         <dc:creator>g4nd1v</dc:creator>
@@ -75,12 +75,12 @@
       </item>
       
       <item>
-        <title>HackTheBox</title>
-        <link>https://g4nd1v.github.io/tags/hackthebox/</link>
-        <pubDate>Sat, 21 Jun 2025 00:00:00 +0000</pubDate>
+        <title>BUSINESS-LOGIC-FLOWS</title>
+        <link>https://g4nd1v.github.io/tags/business-logic-flows/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
         <author>krishnannavadia@gmail.com (g4nd1v)</author>
         
-        <guid>https://g4nd1v.github.io/tags/hackthebox/</guid>
+        <guid>https://g4nd1v.github.io/tags/business-logic-flows/</guid>
         <description></description>
         
         <dc:creator>g4nd1v</dc:creator>
@@ -93,12 +93,12 @@
       </item>
       
       <item>
-        <title>hashcat</title>
-        <link>https://g4nd1v.github.io/tags/hashcat/</link>
-        <pubDate>Sat, 21 Jun 2025 00:00:00 +0000</pubDate>
+        <title>CLICKJACKING</title>
+        <link>https://g4nd1v.github.io/tags/clickjacking/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
         <author>krishnannavadia@gmail.com (g4nd1v)</author>
         
-        <guid>https://g4nd1v.github.io/tags/hashcat/</guid>
+        <guid>https://g4nd1v.github.io/tags/clickjacking/</guid>
         <description></description>
         
         <dc:creator>g4nd1v</dc:creator>
@@ -111,12 +111,12 @@
       </item>
       
       <item>
-        <title>HTB-titanic</title>
-        <link>https://g4nd1v.github.io/tags/htb-titanic/</link>
-        <pubDate>Sat, 21 Jun 2025 00:00:00 +0000</pubDate>
+        <title>CORS</title>
+        <link>https://g4nd1v.github.io/tags/cors/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
         <author>krishnannavadia@gmail.com (g4nd1v)</author>
         
-        <guid>https://g4nd1v.github.io/tags/htb-titanic/</guid>
+        <guid>https://g4nd1v.github.io/tags/cors/</guid>
         <description></description>
         
         <dc:creator>g4nd1v</dc:creator>
@@ -129,12 +129,12 @@
       </item>
       
       <item>
-        <title>imagick</title>
-        <link>https://g4nd1v.github.io/tags/imagick/</link>
-        <pubDate>Sat, 21 Jun 2025 00:00:00 +0000</pubDate>
+        <title>CSRF</title>
+        <link>https://g4nd1v.github.io/tags/csrf/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
         <author>krishnannavadia@gmail.com (g4nd1v)</author>
         
-        <guid>https://g4nd1v.github.io/tags/imagick/</guid>
+        <guid>https://g4nd1v.github.io/tags/csrf/</guid>
         <description></description>
         
         <dc:creator>g4nd1v</dc:creator>
@@ -147,12 +147,12 @@
       </item>
       
       <item>
-        <title>lfi</title>
-        <link>https://g4nd1v.github.io/tags/lfi/</link>
-        <pubDate>Sat, 21 Jun 2025 00:00:00 +0000</pubDate>
+        <title>DESERIALIZATION</title>
+        <link>https://g4nd1v.github.io/tags/deserialization/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
         <author>krishnannavadia@gmail.com (g4nd1v)</author>
         
-        <guid>https://g4nd1v.github.io/tags/lfi/</guid>
+        <guid>https://g4nd1v.github.io/tags/deserialization/</guid>
         <description></description>
         
         <dc:creator>g4nd1v</dc:creator>
@@ -165,12 +165,12 @@
       </item>
       
       <item>
-        <title>pbkdf2</title>
-        <link>https://g4nd1v.github.io/tags/pbkdf2/</link>
-        <pubDate>Sat, 21 Jun 2025 00:00:00 +0000</pubDate>
+        <title>DOM-BASED</title>
+        <link>https://g4nd1v.github.io/tags/dom-based/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
         <author>krishnannavadia@gmail.com (g4nd1v)</author>
         
-        <guid>https://g4nd1v.github.io/tags/pbkdf2/</guid>
+        <guid>https://g4nd1v.github.io/tags/dom-based/</guid>
         <description></description>
         
         <dc:creator>g4nd1v</dc:creator>
@@ -183,12 +183,12 @@
       </item>
       
       <item>
-        <title>privilege-escalation</title>
-        <link>https://g4nd1v.github.io/tags/privilege-escalation/</link>
-        <pubDate>Sat, 21 Jun 2025 00:00:00 +0000</pubDate>
+        <title>file-upload</title>
+        <link>https://g4nd1v.github.io/tags/file-upload/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
         <author>krishnannavadia@gmail.com (g4nd1v)</author>
         
-        <guid>https://g4nd1v.github.io/tags/privilege-escalation/</guid>
+        <guid>https://g4nd1v.github.io/tags/file-upload/</guid>
         <description></description>
         
         <dc:creator>g4nd1v</dc:creator>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>CORS on g4nd1v</title>
+    <link>https://g4nd1v.github.io/tags/cors/</link>
+    <description>Recent content in CORS on g4nd1v</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>krishnannavadia@gmail.com (g4nd1v)</managingEditor>
+    <webMaster>krishnannavadia@gmail.com (g4nd1v)</webMaster>
+    <copyright>©2025, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 11 Oct 2025 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://g4nd1v.github.io/tags/cors/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Portswigger CORS Writeups</title>
+        <link>https://g4nd1v.github.io/portswigger/portswigger-cors/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        <atom:modified>Sat, 11 Oct 2025 00:00:00 +0000</atom:modified>
+        <guid>https://g4nd1v.github.io/portswigger/portswigger-cors/</guid>
+        <description>1. Lab: CORS vulnerability with basic origin reflection This website has an insecure CORS configuration in that it trusts all origins.
+To solve the lab, craft some JavaScript that uses CORS to retrieve the administrator&amp;rsquo;s API key and upload the code to your exploit server. The lab is solved when you successfully submit the administrator&amp;rsquo;s API key.
+You can log in to your own account using the following credentials: wiener:peter</description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        <media:content url="https://g4nd1v.github.io/images/Portswigger/Portswigger-CORS/Pasted_image_20250214071745.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Portswigger</category>
+            
+          
+            
+              <category>CORS</category>
+            
+          
+        
+        
+          
+            
+              <category>portswigger</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Portswigger CORS Writeups</title>
+        <link>https://g4nd1v.github.io/posts/portswigger-cors/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        <atom:modified>Sat, 11 Oct 2025 00:00:00 +0000</atom:modified>
+        <guid>https://g4nd1v.github.io/posts/portswigger-cors/</guid>
+        <description>1. Lab: CORS vulnerability with basic origin reflection This website has an insecure CORS configuration in that it trusts all origins.
+To solve the lab, craft some JavaScript that uses CORS to retrieve the administrator&amp;rsquo;s API key and upload the code to your exploit server. The lab is solved when you successfully submit the administrator&amp;rsquo;s API key.
+You can log in to your own account using the following credentials: wiener:peter</description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        <media:content url="https://g4nd1v.github.io/images/Portswigger/Portswigger-CORS/Pasted_image_20250214071745.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Portswigger</category>
+            
+          
+            
+              <category>CORS</category>
+            
+          
+        
+        
+          
+            
+              <category>portswigger</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

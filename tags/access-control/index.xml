@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>ACCESS-CONTROL on g4nd1v</title>
+    <link>https://g4nd1v.github.io/tags/access-control/</link>
+    <description>Recent content in ACCESS-CONTROL on g4nd1v</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>krishnannavadia@gmail.com (g4nd1v)</managingEditor>
+    <webMaster>krishnannavadia@gmail.com (g4nd1v)</webMaster>
+    <copyright>©2025, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 11 Oct 2025 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://g4nd1v.github.io/tags/access-control/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Portswigger Access Control Writeups</title>
+        <link>https://g4nd1v.github.io/portswigger/portswigger-access-control/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        <atom:modified>Sat, 11 Oct 2025 00:00:00 +0000</atom:modified>
+        <guid>https://g4nd1v.github.io/portswigger/portswigger-access-control/</guid>
+        <description>1. Lab: Unprotected admin functionality This lab has an unprotected admin panel.
+Solve the lab by deleting the user carlos.
+On /robots.txt we got the admin portal
+On deleting the carlos user from admin portal will solve the lab
+Solution: check robots.txt file
+2. Lab: Unprotected admin functionality with unpredictable URL This lab has an unprotected admin panel. It&amp;rsquo;s located at an unpredictable location, but the location is disclosed somewhere in the application.</description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        <media:content url="https://g4nd1v.github.io/images/Portswigger/Portswigger-Access-Control/Pasted_image_20250807074024.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Portswigger</category>
+            
+          
+            
+              <category>ACCESS-CONTROL</category>
+            
+          
+        
+        
+          
+            
+              <category>portswigger</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Portswigger Access Control Writeups</title>
+        <link>https://g4nd1v.github.io/posts/portswigger-access-control/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        <atom:modified>Sat, 11 Oct 2025 00:00:00 +0000</atom:modified>
+        <guid>https://g4nd1v.github.io/posts/portswigger-access-control/</guid>
+        <description>1. Lab: Unprotected admin functionality This lab has an unprotected admin panel.
+Solve the lab by deleting the user carlos.
+On /robots.txt we got the admin portal
+On deleting the carlos user from admin portal will solve the lab
+Solution: check robots.txt file
+2. Lab: Unprotected admin functionality with unpredictable URL This lab has an unprotected admin panel. It&amp;rsquo;s located at an unpredictable location, but the location is disclosed somewhere in the application.</description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        <media:content url="https://g4nd1v.github.io/images/Portswigger/Portswigger-Access-Control/Pasted_image_20250807074024.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Portswigger</category>
+            
+          
+            
+              <category>ACCESS-CONTROL</category>
+            
+          
+        
+        
+          
+            
+              <category>portswigger</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

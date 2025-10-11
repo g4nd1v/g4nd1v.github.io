@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>DOM-BASED on g4nd1v</title>
+    <link>https://g4nd1v.github.io/tags/dom-based/</link>
+    <description>Recent content in DOM-BASED on g4nd1v</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>krishnannavadia@gmail.com (g4nd1v)</managingEditor>
+    <webMaster>krishnannavadia@gmail.com (g4nd1v)</webMaster>
+    <copyright>©2025, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 11 Oct 2025 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://g4nd1v.github.io/tags/dom-based/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Portswigger DOM Based Writeups</title>
+        <link>https://g4nd1v.github.io/portswigger/portswigger-dom-based/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        <atom:modified>Sat, 11 Oct 2025 00:00:00 +0000</atom:modified>
+        <guid>https://g4nd1v.github.io/portswigger/portswigger-dom-based/</guid>
+        <description>1. Lab: DOM-based open redirection This lab contains a DOM-based open-redirection vulnerability. To solve this lab, exploit this vulnerability and redirect the victim to the exploit server.
+1 &amp;lt;a href=&amp;#39;[#](https://0a33003303c599418093035b009700cf.web-security-academy.net/post?postId=1&amp;amp;returnUrl=https://exploit-0a2000e10389995d8063027a0131000d.exploit-server.net/exploit#)&amp;#39; onclick=&amp;#39;returnUrl = /url=(https?:\/\/.+)/.exec(location); location.href = returnUrl ? returnUrl[1] : &amp;#34;/&amp;#34;&amp;#39;&amp;gt;Back to Blog&amp;lt;/a&amp;gt; The url parameter contains an open redirection vulnerability. So if we enter the exploit server&amp;rsquo;s URL into the parameter then we can able to solve the lab.
+Solution: https://LAB_ID.</description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        <media:content url="https://g4nd1v.github.io/images/Portswigger/Portswigger-DOM-Based/Pasted_image_20250827204551.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Portswigger</category>
+            
+          
+            
+              <category>DOM-BASED</category>
+            
+          
+        
+        
+          
+            
+              <category>portswigger</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Portswigger DOM Based Writeups</title>
+        <link>https://g4nd1v.github.io/posts/portswigger-dom-based/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        <atom:modified>Sat, 11 Oct 2025 00:00:00 +0000</atom:modified>
+        <guid>https://g4nd1v.github.io/posts/portswigger-dom-based/</guid>
+        <description>1. Lab: DOM-based open redirection This lab contains a DOM-based open-redirection vulnerability. To solve this lab, exploit this vulnerability and redirect the victim to the exploit server.
+1 &amp;lt;a href=&amp;#39;[#](https://0a33003303c599418093035b009700cf.web-security-academy.net/post?postId=1&amp;amp;returnUrl=https://exploit-0a2000e10389995d8063027a0131000d.exploit-server.net/exploit#)&amp;#39; onclick=&amp;#39;returnUrl = /url=(https?:\/\/.+)/.exec(location); location.href = returnUrl ? returnUrl[1] : &amp;#34;/&amp;#34;&amp;#39;&amp;gt;Back to Blog&amp;lt;/a&amp;gt; The url parameter contains an open redirection vulnerability. So if we enter the exploit server&amp;rsquo;s URL into the parameter then we can able to solve the lab.
+Solution: https://LAB_ID.</description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        <media:content url="https://g4nd1v.github.io/images/Portswigger/Portswigger-DOM-Based/Pasted_image_20250827204551.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Portswigger</category>
+            
+          
+            
+              <category>DOM-BASED</category>
+            
+          
+        
+        
+          
+            
+              <category>portswigger</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

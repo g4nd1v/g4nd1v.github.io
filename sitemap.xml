@@ -3,10 +3,304 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://g4nd1v.github.io/</loc>
-    <lastmod>2025-06-21T00:00:00+00:00</lastmod>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/access-control/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/api-testing/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/authentication-vulnerabilities/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/business-logic-flows/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://g4nd1v.github.io/categories/</loc>
-    <lastmod>2025-06-21T00:00:00+00:00</lastmod>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/clickjacking/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/cors/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/csrf/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/deserialization/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/dom-based/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/file-upload/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/graphql/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/host-header/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/information-disclosure/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/jwt/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/llm/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/nosql/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/oauth/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/os-injection/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/path-traversal/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/categories/portswigger/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/portswigger/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/portswigger/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/portswigger/portswigger-access-control/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/posts/portswigger-access-control/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/portswigger/portswigger-api-testing/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/posts/portswigger-api-testing/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/portswigger/portswigger-authentication-vulnerabilities/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/posts/portswigger-authentication-vulnerabilities/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/portswigger/portswigger-business-logic-flows/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/posts/portswigger-business-logic-flows/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/portswigger/portswigger-clickjacking/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/posts/portswigger-clickjacking/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/portswigger/portswigger-cors/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/posts/portswigger-cors/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/portswigger/portswigger-csrf/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/posts/portswigger-csrf/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/portswigger/portswigger-deserialization/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/posts/portswigger-deserialization/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/portswigger/portswigger-dom-based/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/posts/portswigger-dom-based/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/portswigger/portswigger-file-upload/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/posts/portswigger-file-upload/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/portswigger/portswigger-graphql/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/posts/portswigger-graphql/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/portswigger/portswigger-host-header/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/posts/portswigger-host-header/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/portswigger/portswigger-information-disclosure/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/posts/portswigger-information-disclosure/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/portswigger/portswigger-jwt/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/posts/portswigger-jwt/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/portswigger/portswigger-llm/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/posts/portswigger-llm/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/portswigger/portswigger-oauth/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/posts/portswigger-oauth/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/portswigger/portswigger-os-injection/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/posts/portswigger-os-injection/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/portswigger/portswigger-path-traversal/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/posts/portswigger-path-traversal/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/portswigger/portswigger-prototype-pollution/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/posts/portswigger-prototype-pollution/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/portswigger/portswigger-race-condition/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/posts/portswigger-race-condition/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/portswigger/portswigger-rate-condition/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/posts/portswigger-rate-condition/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/portswigger/portswigger-request-smuggling/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/posts/portswigger-request-smuggling/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/portswigger/portswigger-sql-injection/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/posts/portswigger-sql-injection/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/portswigger/portswigger-ssrf/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/posts/portswigger-ssrf/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/portswigger/portswigger-ssti/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/posts/portswigger-ssti/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/portswigger/portswigger-web-cache-deception/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/posts/portswigger-web-cache-deception/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/portswigger/portswigger-web-cache-poisoning/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/posts/portswigger-web-cache-poisoning/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/portswigger/portswigger-websockets/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/posts/portswigger-websockets/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/portswigger/portswigger-xss/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/posts/portswigger-xss/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/portswigger/portswigger-xxe-injection/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/posts/portswigger-xxe-injection/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/portswigger/portswigget-nosql/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/posts/portswigget-nosql/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/posts/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/prototype-pollution/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/race-condition/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/rate-condition/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/request-smuggling/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/sql-injection/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/ssrf/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/ssti/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/web-cache-deception/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/web-cache-poisoning/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/websockets/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/xss/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tags/xxe-injection/</loc>
+    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://g4nd1v.github.io/tags/ctf/</loc>
     <lastmod>2025-06-21T00:00:00+00:00</lastmod>
@@ -21,6 +315,12 @@
     <lastmod>2025-06-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://g4nd1v.github.io/categories/hackthebox/</loc>
+    <lastmod>2025-06-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/hackthebox/</loc>
+    <lastmod>2025-06-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/hackthebox/hackthebox-titanic/</loc>
     <lastmod>2025-06-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://g4nd1v.github.io/posts/hackthebox-titanic/</loc>
@@ -41,9 +341,6 @@
     <loc>https://g4nd1v.github.io/tags/pbkdf2/</loc>
     <lastmod>2025-06-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://g4nd1v.github.io/posts/</loc>
-    <lastmod>2025-06-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://g4nd1v.github.io/tags/privilege-escalation/</loc>
     <lastmod>2025-06-21T00:00:00+00:00</lastmod>
   </url><url>
@@ -51,9 +348,6 @@
     <lastmod>2025-06-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://g4nd1v.github.io/tags/ssh/</loc>
-    <lastmod>2025-06-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://g4nd1v.github.io/tags/</loc>
     <lastmod>2025-06-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://g4nd1v.github.io/tags/bash-script/</loc>
@@ -65,10 +359,13 @@
     <loc>https://g4nd1v.github.io/tags/cms/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://g4nd1v.github.io/tags/file-upload/</loc>
+    <loc>https://g4nd1v.github.io/hackthebox/hackthebox-jerry/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://g4nd1v.github.io/posts/hackthebox-jerry/</loc>
+    <lastmod>2025-05-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/hackthebox/hackthebox-nibbles/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://g4nd1v.github.io/posts/hackthebox-nibbles/</loc>
@@ -110,7 +407,13 @@
     <loc>https://g4nd1v.github.io/tags/gpp-password/</loc>
     <lastmod>2025-05-20T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://g4nd1v.github.io/hackthebox/hackthebox-active/</loc>
+    <lastmod>2025-05-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://g4nd1v.github.io/posts/hackthebox-active/</loc>
+    <lastmod>2025-05-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/hackthebox/hackthebox-markup/</loc>
     <lastmod>2025-05-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://g4nd1v.github.io/posts/hackthebox-markup/</loc>
@@ -170,6 +473,9 @@
     <loc>https://g4nd1v.github.io/tags/file-read/</loc>
     <lastmod>2025-05-18T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://g4nd1v.github.io/hackthebox/hackthebox-sea/</loc>
+    <lastmod>2025-05-18T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://g4nd1v.github.io/posts/hackthebox-sea/</loc>
     <lastmod>2025-05-18T00:00:00+00:00</lastmod>
   </url><url>
@@ -185,9 +491,6 @@
     <loc>https://g4nd1v.github.io/tags/wondercms/</loc>
     <lastmod>2025-05-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://g4nd1v.github.io/tags/xss/</loc>
-    <lastmod>2025-05-18T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://g4nd1v.github.io/posts/ctf-b01lersc-2025/</loc>
     <lastmod>2025-04-20T00:00:00+00:00</lastmod>
   </url><url>
@@ -200,25 +503,13 @@
     <loc>https://g4nd1v.github.io/posts/ctf-metactf-25/</loc>
     <lastmod>2025-02-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://g4nd1v.github.io/tags/portswigger/</loc>
-    <lastmod>2025-02-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://g4nd1v.github.io/categories/portswigger/</loc>
-    <lastmod>2025-02-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://g4nd1v.github.io/posts/portswigger-xss/</loc>
-    <lastmod>2025-02-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://g4nd1v.github.io/posts/portswigger-sql-injection/</loc>
-    <lastmod>2025-02-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://g4nd1v.github.io/tags/sql/</loc>
-    <lastmod>2025-02-06T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://g4nd1v.github.io/tags/cve-2023-43364/</loc>
     <lastmod>2024-12-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://g4nd1v.github.io/tags/docker/</loc>
+    <lastmod>2024-12-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/hackthebox/hackthebox-busqueda/</loc>
     <lastmod>2024-12-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://g4nd1v.github.io/posts/hackthebox-busqueda/</loc>
@@ -233,16 +524,22 @@
     <loc>https://g4nd1v.github.io/categories/tryhackme/</loc>
     <lastmod>2024-10-26T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://g4nd1v.github.io/tryhackme/</loc>
+    <lastmod>2024-10-26T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://g4nd1v.github.io/posts/tryhackme-the-lay-of-the-land/</loc>
+    <lastmod>2024-10-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tryhackme/tryhackme-the-lay-of-the-land/</loc>
     <lastmod>2024-10-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://g4nd1v.github.io/tags/gobuster/</loc>
     <lastmod>2024-08-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://g4nd1v.github.io/posts/hackthebox-iclean/</loc>
+    <loc>https://g4nd1v.github.io/hackthebox/hackthebox-iclean/</loc>
     <lastmod>2024-08-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://g4nd1v.github.io/tags/ssti/</loc>
+    <loc>https://g4nd1v.github.io/posts/hackthebox-iclean/</loc>
     <lastmod>2024-08-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://g4nd1v.github.io/tags/chisel/</loc>
@@ -258,6 +555,9 @@
     <lastmod>2024-07-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://g4nd1v.github.io/tags/gpo/</loc>
+    <lastmod>2024-07-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/hackthebox/hackthebox-office/</loc>
     <lastmod>2024-07-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://g4nd1v.github.io/posts/hackthebox-office/</loc>
@@ -281,6 +581,9 @@
     <loc>https://g4nd1v.github.io/tags/cve-2021-44228/</loc>
     <lastmod>2024-06-23T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://g4nd1v.github.io/hackthebox/hackthebox-crafty/</loc>
+    <lastmod>2024-06-23T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://g4nd1v.github.io/posts/hackthebox-crafty/</loc>
     <lastmod>2024-06-23T00:00:00+00:00</lastmod>
   </url><url>
@@ -292,6 +595,12 @@
   </url><url>
     <loc>https://g4nd1v.github.io/posts/tryhackme-cyberlens/</loc>
     <lastmod>2024-06-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tryhackme/tryhackme-cyberlens/</loc>
+    <lastmod>2024-06-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/hackthebox/hackthebox-monitored/</loc>
+    <lastmod>2024-05-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://g4nd1v.github.io/posts/hackthebox-monitored/</loc>
     <lastmod>2024-05-21T00:00:00+00:00</lastmod>
@@ -308,11 +617,17 @@
     <loc>https://g4nd1v.github.io/tags/cve/</loc>
     <lastmod>2024-05-19T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://g4nd1v.github.io/hackthebox/hackthebox-builder/</loc>
+    <lastmod>2024-05-19T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://g4nd1v.github.io/posts/hackthebox-builder/</loc>
     <lastmod>2024-05-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://g4nd1v.github.io/tags/jenkins/</loc>
     <lastmod>2024-05-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/hackthebox/hackthebox-analytics/</loc>
+    <lastmod>2024-03-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://g4nd1v.github.io/posts/hackthebox-analytics/</loc>
     <lastmod>2024-03-26T00:00:00+00:00</lastmod>
@@ -329,10 +644,16 @@
     <loc>https://g4nd1v.github.io/posts/tryhackme-agentsudo/</loc>
     <lastmod>2024-02-29T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://g4nd1v.github.io/tryhackme/tryhackme-agentsudo/</loc>
+    <lastmod>2024-02-29T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://g4nd1v.github.io/tags/meterpreter/</loc>
     <lastmod>2024-02-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://g4nd1v.github.io/posts/tryhackme-blueprint/</loc>
+    <lastmod>2024-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tryhackme/tryhackme-blueprint/</loc>
     <lastmod>2024-02-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://g4nd1v.github.io/categories/windows/</loc>
@@ -344,6 +665,9 @@
     <loc>https://g4nd1v.github.io/posts/tryhackme-library/</loc>
     <lastmod>2024-02-27T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://g4nd1v.github.io/tryhackme/tryhackme-library/</loc>
+    <lastmod>2024-02-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://g4nd1v.github.io/tags/cronjob/</loc>
     <lastmod>2024-02-25T00:00:00+00:00</lastmod>
   </url><url>
@@ -353,7 +677,13 @@
     <loc>https://g4nd1v.github.io/posts/tryhackme-develpy/</loc>
     <lastmod>2024-02-25T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://g4nd1v.github.io/tryhackme/tryhackme-develpy/</loc>
+    <lastmod>2024-02-25T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://g4nd1v.github.io/posts/tryhackme-dav/</loc>
+    <lastmod>2024-02-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tryhackme/tryhackme-dav/</loc>
     <lastmod>2024-02-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://g4nd1v.github.io/tags/webdav/</loc>
@@ -374,7 +704,13 @@
     <loc>https://g4nd1v.github.io/posts/tryhackme-0day/</loc>
     <lastmod>2024-02-16T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://g4nd1v.github.io/tryhackme/tryhackme-0day/</loc>
+    <lastmod>2024-02-16T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://g4nd1v.github.io/posts/tryhackme-anonforce/</loc>
+    <lastmod>2024-02-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://g4nd1v.github.io/tryhackme/tryhackme-anonforce/</loc>
     <lastmod>2024-02-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://g4nd1v.github.io/categories/hackthebox/linux/</loc>

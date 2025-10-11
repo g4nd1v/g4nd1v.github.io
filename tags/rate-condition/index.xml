@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>RATE-CONDITION on g4nd1v</title>
+    <link>https://g4nd1v.github.io/tags/rate-condition/</link>
+    <description>Recent content in RATE-CONDITION on g4nd1v</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>krishnannavadia@gmail.com (g4nd1v)</managingEditor>
+    <webMaster>krishnannavadia@gmail.com (g4nd1v)</webMaster>
+    <copyright>©2025, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 11 Oct 2025 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://g4nd1v.github.io/tags/rate-condition/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Portswigger Rate Condition Writeups</title>
+        <link>https://g4nd1v.github.io/portswigger/portswigger-rate-condition/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        <atom:modified>Sat, 11 Oct 2025 00:00:00 +0000</atom:modified>
+        <guid>https://g4nd1v.github.io/portswigger/portswigger-rate-condition/</guid>
+        <description>1. Lab: Limit overrun race conditions This lab&amp;rsquo;s purchasing flow contains a race condition that enables you to purchase items for an unintended price.
+To solve the lab, successfully purchase a Lightweight L33t Leather Jacket.
+You can log in to your account with the following credentials: wiener:peter.
+For a faster and more convenient way to trigger the race condition, we recommend that you solve this lab using the Trigger race conditions custom action.</description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Portswigger</category>
+            
+          
+            
+              <category>RATE-CONDITION</category>
+            
+          
+        
+        
+          
+            
+              <category>portswigger</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Portswigger Rate Condition Writeups</title>
+        <link>https://g4nd1v.github.io/posts/portswigger-rate-condition/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        <atom:modified>Sat, 11 Oct 2025 00:00:00 +0000</atom:modified>
+        <guid>https://g4nd1v.github.io/posts/portswigger-rate-condition/</guid>
+        <description>1. Lab: Limit overrun race conditions This lab&amp;rsquo;s purchasing flow contains a race condition that enables you to purchase items for an unintended price.
+To solve the lab, successfully purchase a Lightweight L33t Leather Jacket.
+You can log in to your account with the following credentials: wiener:peter.
+For a faster and more convenient way to trigger the race condition, we recommend that you solve this lab using the Trigger race conditions custom action.</description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Portswigger</category>
+            
+          
+            
+              <category>RATE-CONDITION</category>
+            
+          
+        
+        
+          
+            
+              <category>portswigger</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
