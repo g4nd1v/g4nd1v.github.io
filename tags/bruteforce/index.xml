@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>bruteforce on g4nd1v</title>
+    <link>https://g4nd1v.github.io/tags/bruteforce/</link>
+    <description>Recent content in bruteforce on g4nd1v</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>krishnannavadia@gmail.com (g4nd1v)</managingEditor>
+    <webMaster>krishnannavadia@gmail.com (g4nd1v)</webMaster>
+    <copyright>©2025, All Rights Reserved</copyright>
+    <lastBuildDate>Wed, 21 May 2025 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://g4nd1v.github.io/tags/bruteforce/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>HackTheBox Writeup - Jerry Room</title>
+        <link>https://g4nd1v.github.io/hackthebox/hackthebox-jerry/</link>
+        <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        <atom:modified>Wed, 21 May 2025 00:00:00 +0000</atom:modified>
+        <guid>https://g4nd1v.github.io/hackthebox/hackthebox-jerry/</guid>
+        <description>Jerry Title Jerry Description Walkthrough of the &amp;ldquo;Jerry&amp;rdquo; machine on HackTheBox. It involves brute-forcing Tomcat Manager credentials, deploying a WAR reverse shell, and retrieving both user and root flags from a Windows system. Difficulty Easy Maker mrh4sh Enumeration Nmap 1 2 3 4 5 6 7 8 9 10 11 12 13 └─$ cat nmap/tcp_default.nmap # Nmap 7.95 scan initiated Wed May 21 17:52:06 2025 as: /usr/lib/nmap/nmap -sCV -T4 --min-rate 10000 -p- -v -oA nmap/tcp_default 10.</description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        <media:content url="https://g4nd1v.github.ioimages/Jerry/banner.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>HackTheBox</category>
+            
+          
+            
+              <category>HTB-jerry</category>
+            
+          
+            
+              <category>ctf</category>
+            
+          
+            
+              <category>tomcat</category>
+            
+          
+            
+              <category>bruteforce</category>
+            
+          
+            
+              <category>war-file</category>
+            
+          
+            
+              <category>reverse-shell</category>
+            
+          
+            
+              <category>metasploit</category>
+            
+          
+            
+              <category>windows</category>
+            
+          
+            
+              <category>privilege-escalation</category>
+            
+          
+        
+        
+          
+            
+              <category>HackTheBox</category>
+            
+          
+            
+              <category>HackTheBox/Windows</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>TryHackMe Writeup - Agent Sudo Room</title>
+        <link>https://g4nd1v.github.io/tryhackme/tryhackme-agentsudo/</link>
+        <pubDate>Thu, 29 Feb 2024 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        <atom:modified>Thu, 29 Feb 2024 00:00:00 +0000</atom:modified>
+        <guid>https://g4nd1v.github.io/tryhackme/tryhackme-agentsudo/</guid>
+        <description>Title https://tryhackme.com/room/agentsudoctf Description You found a secret server located under the deep sea. Your task is to hack inside the server and reveal the truth. Difficulty Easy Maker https://tryhackme.com/p/DesKel Nmap 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 └─$ nmap -sC -sV -oA nmap/agentsudo 10.10.235.44 Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-02-29 15:57 EST Nmap scan report for 10.10.235.44 Host is up (0.</description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        <media:content url="https://g4nd1v.github.ioimages/AgentSudo/banner.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>TryHackMe</category>
+            
+          
+            
+              <category>Bruteforce</category>
+            
+          
+            
+              <category>FTP</category>
+            
+          
+            
+              <category>Hydra</category>
+            
+          
+            
+              <category>CVE</category>
+            
+          
+            
+              <category>Steganography</category>
+            
+          
+        
+        
+          
+            
+              <category>TryHackMe</category>
+            
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

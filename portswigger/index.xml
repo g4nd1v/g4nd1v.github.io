@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>portswigger on g4nd1v</title>
+    <link>https://g4nd1v.github.io/portswigger/</link>
+    <description>Recent content in portswigger on g4nd1v</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>krishnannavadia@gmail.com (g4nd1v)</managingEditor>
+    <webMaster>krishnannavadia@gmail.com (g4nd1v)</webMaster>
+    <copyright>©2025, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 11 Oct 2025 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://g4nd1v.github.io/portswigger/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Portswigger Access Control Writeups</title>
+        <link>https://g4nd1v.github.io/portswigger/portswigger-access-control/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        <atom:modified>Sat, 11 Oct 2025 00:00:00 +0000</atom:modified>
+        <guid>https://g4nd1v.github.io/portswigger/portswigger-access-control/</guid>
+        <description>1. Lab: Unprotected admin functionality This lab has an unprotected admin panel.
+Solve the lab by deleting the user carlos.
+On /robots.txt we got the admin portal
+On deleting the carlos user from admin portal will solve the lab
+Solution: check robots.txt file
+2. Lab: Unprotected admin functionality with unpredictable URL This lab has an unprotected admin panel. It&amp;rsquo;s located at an unpredictable location, but the location is disclosed somewhere in the application.</description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        <media:content url="https://g4nd1v.github.io/images/Portswigger/Portswigger-Access-Control/Pasted_image_20250807074024.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Portswigger</category>
+            
+          
+            
+              <category>ACCESS-CONTROL</category>
+            
+          
+        
+        
+          
+            
+              <category>portswigger</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Portswigger API Testing Writeups</title>
+        <link>https://g4nd1v.github.io/portswigger/portswigger-api-testing/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        <atom:modified>Sat, 11 Oct 2025 00:00:00 +0000</atom:modified>
+        <guid>https://g4nd1v.github.io/portswigger/portswigger-api-testing/</guid>
+        <description>1. Lab: Exploiting an API endpoint using documentation To solve the lab, find the exposed API documentation and delete carlos. You can log in to your own account using the following credentials: wiener:peter.
+When we update the email it requests PATCH /api/user/wiener, so the base endpoint must be /api.
+Click on DELETE and toolkit will popup, an entering username carlos and sending request will solve the lab.
+Solution: Finding API endpoint using change email</description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        <media:content url="https://g4nd1v.github.io/images/Portswigger/Portswigger-API-Testing/Pasted_image_20250816183025.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Portswigger</category>
+            
+          
+            
+              <category>API-TESTING</category>
+            
+          
+        
+        
+          
+            
+              <category>portswigger</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Portswigger Authentication Vulnerabilities Writeups</title>
+        <link>https://g4nd1v.github.io/portswigger/portswigger-authentication-vulnerabilities/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        <atom:modified>Sat, 11 Oct 2025 00:00:00 +0000</atom:modified>
+        <guid>https://g4nd1v.github.io/portswigger/portswigger-authentication-vulnerabilities/</guid>
+        <description>1. Lab: Username enumeration via different responses This lab is vulnerable to username enumeration and password brute-force attacks. It has an account with a predictable username and password, which can be found in the following wordlists:
+Candidate usernames
+Candidate passwords
+To solve the lab, enumerate a valid username, brute-force this user&amp;rsquo;s password, then access their account page.
+This website returns different error messages for invalid username and invalid password.
+We will use intruder in order to bruteforce username and then check by content length, after we got the correct username (acid) we will do same thing with password (letmein).</description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        <media:content url="https://g4nd1v.github.io/images/Portswigger/Portswigger-Authentication-Vulnerabilities/Pasted_image_20250729102434.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Portswigger</category>
+            
+          
+            
+              <category>AUTHENTICATION-VULNERABILITIES</category>
+            
+          
+        
+        
+          
+            
+              <category>portswigger</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Portswigger Business Logic Flows Writeups</title>
+        <link>https://g4nd1v.github.io/portswigger/portswigger-business-logic-flows/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        <atom:modified>Sat, 11 Oct 2025 00:00:00 +0000</atom:modified>
+        <guid>https://g4nd1v.github.io/portswigger/portswigger-business-logic-flows/</guid>
+        <description>1. Lab: Excessive trust in client-side controls This lab doesn&amp;rsquo;t adequately validate user input. You can exploit a logic flaw in its purchasing workflow to buy items for an unintended price. To solve the lab, buy a &amp;ldquo;Lightweight l33t leather jacket&amp;rdquo;.
+You can log in to your own account using the following credentials: wiener:peter
+In this application, when we add items to cart, it is also sending the price as a parameter and consider that as the actual price instead of original price.</description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        <media:content url="https://g4nd1v.github.io/images/Portswigger/Portswigger-Business-Logic-Flows/Pasted_image_20250731111424.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Portswigger</category>
+            
+          
+            
+              <category>BUSINESS-LOGIC-FLOWS</category>
+            
+          
+        
+        
+          
+            
+              <category>portswigger</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Portswigger Clickjacking Writeups</title>
+        <link>https://g4nd1v.github.io/portswigger/portswigger-clickjacking/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        <atom:modified>Sat, 11 Oct 2025 00:00:00 +0000</atom:modified>
+        <guid>https://g4nd1v.github.io/portswigger/portswigger-clickjacking/</guid>
+        <description>1. Lab: Basic clickjacking with CSRF token protection This lab contains login functionality and a delete account button that is protected by a CSRF token. A user will click on elements that display the word &amp;ldquo;click&amp;rdquo; on a decoy website.
+To solve the lab, craft some HTML that frames the account page and fools the user into deleting their account. The lab is solved when the account is deleted.
+You can log in to your own account using the following credentials: wiener:peter</description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        <media:content url="https://g4nd1v.github.io/images/Portswigger/Portswigger-Clickjacking/Pasted_image_20250826221406.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Portswigger</category>
+            
+          
+            
+              <category>CLICKJACKING</category>
+            
+          
+        
+        
+          
+            
+              <category>portswigger</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Portswigger CORS Writeups</title>
+        <link>https://g4nd1v.github.io/portswigger/portswigger-cors/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        <atom:modified>Sat, 11 Oct 2025 00:00:00 +0000</atom:modified>
+        <guid>https://g4nd1v.github.io/portswigger/portswigger-cors/</guid>
+        <description>1. Lab: CORS vulnerability with basic origin reflection This website has an insecure CORS configuration in that it trusts all origins.
+To solve the lab, craft some JavaScript that uses CORS to retrieve the administrator&amp;rsquo;s API key and upload the code to your exploit server. The lab is solved when you successfully submit the administrator&amp;rsquo;s API key.
+You can log in to your own account using the following credentials: wiener:peter</description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        <media:content url="https://g4nd1v.github.io/images/Portswigger/Portswigger-CORS/Pasted_image_20250214071745.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Portswigger</category>
+            
+          
+            
+              <category>CORS</category>
+            
+          
+        
+        
+          
+            
+              <category>portswigger</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Portswigger CSRF Writeups</title>
+        <link>https://g4nd1v.github.io/portswigger/portswigger-csrf/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        <atom:modified>Sat, 11 Oct 2025 00:00:00 +0000</atom:modified>
+        <guid>https://g4nd1v.github.io/portswigger/portswigger-csrf/</guid>
+        <description>1. Lab: CSRF vulnerability with no defenses This lab&amp;rsquo;s email change functionality is vulnerable to CSRF.
+To solve the lab, craft some HTML that uses a CSRF attack to change the viewer&amp;rsquo;s email address and upload it to your exploit server.
+You can log in to your own account using the following credentials: wiener:peter
+First thing in every CSRF attack challenge will be to find out the URL where there data is being sent.</description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        <media:content url="https://g4nd1v.github.io/images/Portswigger/Portswigger-CSRF/Pasted_image_20250210152652.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Portswigger</category>
+            
+          
+            
+              <category>CSRF</category>
+            
+          
+        
+        
+          
+            
+              <category>portswigger</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Portswigger Deserialization Writeups</title>
+        <link>https://g4nd1v.github.io/portswigger/portswigger-deserialization/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        <atom:modified>Sat, 11 Oct 2025 00:00:00 +0000</atom:modified>
+        <guid>https://g4nd1v.github.io/portswigger/portswigger-deserialization/</guid>
+        <description>1. Lab: Modifying serialized objects This lab uses a serialization-based session mechanism and is vulnerable to privilege escalation as a result. To solve the lab, edit the serialized object in the session cookie to exploit this vulnerability and gain administrative privileges. Then, delete the user carlos.
+You can log in to your own account using the following credentials: wiener:peter
+In this application, the cookie is based on serialization. So if we change the value for admin from 0 to 1 and change that cookie in browser, we can able to access admin panel.</description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        <media:content url="https://g4nd1v.github.io/images/Portswigger/Portswigger-Deserialization/Pasted_image_20250831200142.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Portswigger</category>
+            
+          
+            
+              <category>DESERIALIZATION</category>
+            
+          
+        
+        
+          
+            
+              <category>portswigger</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Portswigger DOM Based Writeups</title>
+        <link>https://g4nd1v.github.io/portswigger/portswigger-dom-based/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        <atom:modified>Sat, 11 Oct 2025 00:00:00 +0000</atom:modified>
+        <guid>https://g4nd1v.github.io/portswigger/portswigger-dom-based/</guid>
+        <description>1. Lab: DOM-based open redirection This lab contains a DOM-based open-redirection vulnerability. To solve this lab, exploit this vulnerability and redirect the victim to the exploit server.
+1 &amp;lt;a href=&amp;#39;[#](https://0a33003303c599418093035b009700cf.web-security-academy.net/post?postId=1&amp;amp;returnUrl=https://exploit-0a2000e10389995d8063027a0131000d.exploit-server.net/exploit#)&amp;#39; onclick=&amp;#39;returnUrl = /url=(https?:\/\/.+)/.exec(location); location.href = returnUrl ? returnUrl[1] : &amp;#34;/&amp;#34;&amp;#39;&amp;gt;Back to Blog&amp;lt;/a&amp;gt; The url parameter contains an open redirection vulnerability. So if we enter the exploit server&amp;rsquo;s URL into the parameter then we can able to solve the lab.
+Solution: https://LAB_ID.</description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        <media:content url="https://g4nd1v.github.io/images/Portswigger/Portswigger-DOM-Based/Pasted_image_20250827204551.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Portswigger</category>
+            
+          
+            
+              <category>DOM-BASED</category>
+            
+          
+        
+        
+          
+            
+              <category>portswigger</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Portswigger File Upload Writeups</title>
+        <link>https://g4nd1v.github.io/portswigger/portswigger-file-upload/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        <atom:modified>Sat, 11 Oct 2025 00:00:00 +0000</atom:modified>
+        <guid>https://g4nd1v.github.io/portswigger/portswigger-file-upload/</guid>
+        <description>1. Lab: Remote code execution via web shell upload This lab contains a vulnerable image upload function. It doesn&amp;rsquo;t perform any validation on the files users upload before storing them on the server&amp;rsquo;s filesystem.
+To solve the lab, upload a basic PHP web shell and use it to exfiltrate the contents of the file /home/carlos/secret. Submit this secret using the button provided in the lab banner.
+You can log in to your own account using the following credentials: wiener:peter</description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        <media:content url="https://g4nd1v.github.io/images/Portswigger/Portswigger-File-Upload/Pasted_image_20250818202413.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Portswigger</category>
+            
+          
+            
+              <category>FILE-UPLOAD</category>
+            
+          
+        
+        
+          
+            
+              <category>portswigger</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

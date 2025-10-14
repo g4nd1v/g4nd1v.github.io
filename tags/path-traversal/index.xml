@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>PATH-TRAVERSAL on g4nd1v</title>
+    <link>https://g4nd1v.github.io/tags/path-traversal/</link>
+    <description>Recent content in PATH-TRAVERSAL on g4nd1v</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>krishnannavadia@gmail.com (g4nd1v)</managingEditor>
+    <webMaster>krishnannavadia@gmail.com (g4nd1v)</webMaster>
+    <copyright>©2025, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 11 Oct 2025 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://g4nd1v.github.io/tags/path-traversal/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Portswigger Path Traversal Writeups</title>
+        <link>https://g4nd1v.github.io/portswigger/portswigger-path-traversal/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        <atom:modified>Sat, 11 Oct 2025 00:00:00 +0000</atom:modified>
+        <guid>https://g4nd1v.github.io/portswigger/portswigger-path-traversal/</guid>
+        <description>1. Lab: File path traversal, simple case This lab contains a path traversal vulnerability in the display of product images.
+To solve the lab, retrieve the contents of the /etc/passwd file.
+As we can see it in the burpsuite response, images are getting retrieved using /image?filename=26.jpg, so instead of 26.jpg we will use ../../../etc/passwd to solve the lab.
+Solution: ../../../etc/passwd
+2. Lab: File path traversal, traversal sequences blocked with absolute path bypass This lab contains a path traversal vulnerability in the display of product images.</description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        <media:content url="https://g4nd1v.github.io/images/Portswigger/Portswigger-Path-Traversal/Pasted_image_20250729182719.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Portswigger</category>
+            
+          
+            
+              <category>PATH-TRAVERSAL</category>
+            
+          
+        
+        
+          
+            
+              <category>portswigger</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

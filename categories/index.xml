@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Categories on g4nd1v</title>
+    <link>https://g4nd1v.github.io/categories/</link>
+    <description>Recent content in Categories on g4nd1v</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>krishnannavadia@gmail.com (g4nd1v)</managingEditor>
+    <webMaster>krishnannavadia@gmail.com (g4nd1v)</webMaster>
+    <copyright>©2025, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 11 Oct 2025 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://g4nd1v.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>portswigger</title>
+        <link>https://g4nd1v.github.io/categories/portswigger/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        
+        <guid>https://g4nd1v.github.io/categories/portswigger/</guid>
+        <description></description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>HackTheBox</title>
+        <link>https://g4nd1v.github.io/categories/hackthebox/</link>
+        <pubDate>Sat, 21 Jun 2025 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        
+        <guid>https://g4nd1v.github.io/categories/hackthebox/</guid>
+        <description></description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>TryHackMe</title>
+        <link>https://g4nd1v.github.io/categories/tryhackme/</link>
+        <pubDate>Sat, 26 Oct 2024 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        
+        <guid>https://g4nd1v.github.io/categories/tryhackme/</guid>
+        <description></description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Linux</title>
+        <link>https://g4nd1v.github.io/categories/linux/</link>
+        <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        
+        <guid>https://g4nd1v.github.io/categories/linux/</guid>
+        <description></description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Windows</title>
+        <link>https://g4nd1v.github.io/categories/windows/</link>
+        <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        
+        <guid>https://g4nd1v.github.io/categories/windows/</guid>
+        <description></description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>HackTheBox/Linux</title>
+        <link>https://g4nd1v.github.io/categories/hackthebox/linux/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        
+        <guid>https://g4nd1v.github.io/categories/hackthebox/linux/</guid>
+        <description></description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>HackTheBox/Windows</title>
+        <link>https://g4nd1v.github.io/categories/hackthebox/windows/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        
+        <guid>https://g4nd1v.github.io/categories/hackthebox/windows/</guid>
+        <description></description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>HackTheBox/Windows/AD</title>
+        <link>https://g4nd1v.github.io/categories/hackthebox/windows/ad/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        
+        <guid>https://g4nd1v.github.io/categories/hackthebox/windows/ad/</guid>
+        <description></description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>TryHackMe/Linux</title>
+        <link>https://g4nd1v.github.io/categories/tryhackme/linux/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>krishnannavadia@gmail.com (g4nd1v)</author>
+        
+        <guid>https://g4nd1v.github.io/categories/tryhackme/linux/</guid>
+        <description></description>
+        
+        <dc:creator>g4nd1v</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
