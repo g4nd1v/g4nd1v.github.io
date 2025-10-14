@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>HackTheBox on g4nd1v</title>
+    <title>hackthebox on g4nd1v</title>
     <link>https://g4nd1v.github.io/hackthebox/</link>
-    <description>Recent content in HackTheBox on g4nd1v</description>
+    <description>Recent content in hackthebox on g4nd1v</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>krishnannavadia@gmail.com (g4nd1v)</managingEditor>
